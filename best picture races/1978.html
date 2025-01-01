@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>50th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BNjZlOWE5N2UtMTdhZC00NjU5LTg2MjYtOGU4NDhhNWNlMmRlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Annie Hall Poster" with="400" height="400">
+            <br>
+            <p id="showAnnie" style="display:none">Alvy Singer, a divorced Jewish comedian, reflects on his relationship with ex-lover Annie Hall, an aspiring nightclub singer, which ended abruptly just like his previous marriages.
+            </p>
+            <p id="annieInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Woody Allen <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>			
+            ~ Woody Allen ~<br>
+            ~ Diane Keaton ~<br>
+            ~ Tony Roberts ~</p>
+            Annie Hall
+            <br>
+            <button type="button"onclick="toggleText('showAnnie')">Synopsis</button>
+            <button type="button"onclick="toggleText('annieInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BN2RkNDJmNDYtZWRlYi00YWI5LTlkZTAtZDllZWE3YzhlNzliXkEyXkFqcGc@._V1_.jpg" alt="The Goodbye Girl Poster" with="400" height="400">
+            <br>
+            <p id="showGoodbye" style="display:none">After being dumped by her live-in boyfriend, unemployed dancer Paula McFadden and her ten-year-old daughter Lucy are forced to live with struggling off-Broadway actor Elliot Garfield, who is subletting their apartment.
+            </p>
+            <p id="goodbyeInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Herbert Ross <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>			
+            ~ Richard Dreyfuss ~<br>
+            ~ Marsha Mason ~<br>
+            ~ Quinn Cummings ~</p>
+            The Goodbye Girl
+            <br>
+            <button type="button"onclick="toggleText('showGoodbye')">Synopsis</button>
+            <button type="button"onclick="toggleText('goodbyeInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BYzY4ZDhhMmQtNWMyOC00MGUzLThiNzMtZTMzN2FmYjFmYTA0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Julia Poster" with="400" height="400">
+            <br>
+            <p id="showJulia" style="display:none">At the behest of an old and dear friend, playwright Lillian Hellman undertakes a dangerous mission to smuggle funds into Nazi Germany.
+            </p>
+            <p id="juliaInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Fred Zinnemann <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>			
+            ~ Jane Fonda ~<br>
+            ~ Vanessa Redgrave ~<br>
+            ~ Jason Robards ~<br>
+            ~ Hal Holbrook ~<br>
+            ~ Rosemary Murphy ~<br>
+            ~ Maximilian Schell ~<br>
+            ~ Meryl Streep ~</p>
+            Julia
+            <br>
+            <button type="button"onclick="toggleText('showJulia')">Synopsis</button>
+            <button type="button"onclick="toggleText('juliaInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BOGUwMDk0Y2MtNjBlNi00NmRiLTk2MWYtMGMyMDlhYmI4ZDBjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Star Wars Poster" with="400" height="400">
+            <br>
+            <p id="showStarWars" style="display:none">Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth Vader.
+            </p>
+            <p id="starWarsInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> George Lucas <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>				
+            ~ Mark Hamill ~<br>
+            ~ Harrison Ford ~<br>
+            ~ Carrie Fisher ~<br>
+            ~ Peter Cushing ~<br>
+            ~ Alec Guinness ~</p>
+            Star Wars
+            <br>
+            <button type="button"onclick="toggleText('showStarWars')">Synopsis</button>
+            <button type="button"onclick="toggleText('starWarsInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BYjdkMjZlYzgtZWYwZS00ZWJhLTg4YjQtYzYwNTE2ZTk2YWE1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="The Turning Point Poster" with="400" height="400">
+            <br>
+            <p id="showTurning" style="display:none">When her daughter joins a ballet company, a former dancer is forced to confront her long-ago decision to give up the stage to have a family.
+            </p>
+            <p id="turningInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Herbert Ross <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>				
+            ~ Anne Bancroft ~<br>
+            ~ Shirley MacLaine ~<br>
+            ~ Tom Skerritt ~<br>
+            ~ Mikhail Baryshnikov ~</p>
+            The Turning Point
+            <br>
+            <button type="button"onclick="toggleText('showTurning')">Synopsis</button>
+            <button type="button"onclick="toggleText('turningInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

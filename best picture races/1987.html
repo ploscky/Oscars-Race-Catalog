@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>59th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://cdn11.bigcommerce.com/s-yzgoj/images/stencil/1280x1280/products/2862528/5937846/MOVED8917__77709.1679584340.jpg?c=2" alt="Platoon Poster" with="400" height="400">
+            <br>
+            <p id="showPlatoon" style="display:none">Chris Taylor, a neophyte recruit in Vietnam, finds himself caught in a battle of wills between two sergeants, one good and the other evil.
+            </p>
+            <p id="platoonInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Oliver Stone <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																												
+            ~ Tom Berenger ~<br>
+            ~ Willem Dafoe ~<br>
+            ~ Charlie Sheen ~</p>
+            Platoon
+            <br>
+            <button type="button"onclick="toggleText('showPlatoon')">Synopsis</button>
+            <button type="button"onclick="toggleText('platoonInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjY3YjQyMjAtOGI2ZC00NDljLWJlN2QtYjNiYTMxZjIxMzQ0XkEyXkFqcGc@._V1_.jpg" alt="Children of a Lesser God Poster" with="400" height="400">
+            <br>
+            <p id="showLesser" style="display:none">A new speech teacher at a school for the deaf falls in love with the janitor, a deaf woman speechless by choice.
+            </p>
+            <p id="lesserInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Randa Haines <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																													
+            ~ William Hurt ~<br>
+            ~ Marlee Matlin ~<br>
+            ~ Piper Laurie ~<br>
+            ~ Philip Bosco ~</p>
+            Children of a Lesser God
+            <br>
+            <button type="button"onclick="toggleText('showLesser')">Synopsis</button>
+            <button type="button"onclick="toggleText('lesserInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BNTdmOWViYWMtMjVjNC00MDI5LTk3ZmEtM2MxMzFkMzQ5NzNjXkEyXkFqcGc@._V1_.jpg" alt="Hannah and Her Sisters Poster" with="400" height="400">
+            <br>
+            <p id="showHannah" style="display:none">Between two Thanksgivings two years apart, Hannah's husband falls in love with her sister Lee, while her hypochondriac ex-husband rekindles his relationship with her sister Holly.
+            </p>
+            <p id="hannahInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Woody Allen <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																														
+            ~ Woody Allen ~<br>
+            ~ Michael Caine ~<br>
+            ~ Mia Farrow ~<br>
+            ~ Carrie Fisher ~<br>
+            ~ Barbara Hershey ~<br>
+            ~ Dianne Wiest ~</p>
+            Hannah and Her Sisters
+            <br>
+            <button type="button"onclick="toggleText('showHannah')">Synopsis</button>
+            <button type="button"onclick="toggleText('hannahInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/I/81MFdYBJpvL._AC_UF1000,1000_QL80_.jpg" alt="The Mission Poster" with="400" height="400">
+            <br>
+            <p id="showMission" style="display:none">Eighteenth-century Spanish Jesuits try to protect a remote South American tribe in danger of falling under the rule of pro-slavery Portugal.
+            </p>
+            <p id="missionInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Roland Joffé <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																															
+            ~ Robert De Niro ~<br>
+            ~ Jeremy Irons ~<br>
+            ~ Ray McAnally ~<br>
+            ~ Aidan Quinn ~<br>
+            ~ Cherie Lunghi ~<br>
+            ~ Liam Neeson ~</p>
+            The Mission
+            <br>
+            <button type="button"onclick="toggleText('showMission')">Synopsis</button>
+            <button type="button"onclick="toggleText('missionInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BOTkwNTZhMWUtOTNmZC00NmE0LWExOGItMzJiNzEyNWNmODI1XkEyXkFqcGc@._V1_.jpg" alt="A Room with a View Poster" with="400" height="400">
+            <br>
+            <p id="showRoomView" style="display:none">Lucy Honeychurch shares a brief romance with George Emerson in Florence. Yet as she tries to move on with her life and look for marriage elsewhere, can she truly forget the events of that summer?
+            </p>
+            <p id="roomViewInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> James Ivory <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																															
+            ~ Maggie Smith ~<br>
+            ~ Helena Bonham Carter ~<br>
+            ~ Julian Sands ~<br>
+            ~ Denholm Elliott ~</p>
+            A Room with a View
+            <br>
+            <button type="button"onclick="toggleText('showRoomView')">Synopsis</button>
+            <button type="button"onclick="toggleText('roomViewInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

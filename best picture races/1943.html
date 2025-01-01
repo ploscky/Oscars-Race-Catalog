@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;380;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>15th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Mrs._Miniver_%281942_poster_-_Style_C%29.jpg" alt="Mrs. Miniver Poster" with="380" height="380">
+            <br>
+            <p id="showMiniver" style="display:none">A British family struggles to survive the first months of World War II.
+            </p>
+            <p id="miniverInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> William Wyler <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Greer Garson ~<br>
+            ~ Walter Pidgeon ~<br>
+            ~ Teresa Wright ~</p>
+            Mrs. Miniver
+            <br>
+            <button type="button"onclick="toggleText('showMiniver')">Synopsis</button>
+            <button type="button"onclick="toggleText('miniverInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p5300_p_v8_aa.jpg" alt="The Invaders Poster" with="380" height="380">
+            <br>
+            <p id="showInvaders" style="display:none">A World War II U-boat crew are stranded in northern Canada. To avoid internment, they must make their way to the border and get into the still-neutral U.S.
+            </p>
+            <p id="invadersInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Michael Powell <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Leslie Howard ~<br>
+            ~ Laurence Olivier ~<br>
+            ~ Anton Walbrook ~<br>
+            ~ Raymond Massey ~</p>
+            The Invaders
+            <br>
+            <button type="button"onclick="toggleText('showInvaders')">Synopsis</button>
+            <button type="button"onclick="toggleText('invadersInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/en/8/83/Kingsrow_movieposter.jpg" alt="Kings Row Poster" with="380" height="380">
+            <br>
+            <p id="showKings" style="display:none">The dark side and hypocrisy of provincial American life is seen through the eyes of five children as they grow to adulthood at the turn of the century.
+            </p>
+            <p id="kingsInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Sam Wood <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Ann Sheridan ~<br>
+            ~ Robert Cummings ~<br>
+            ~ Ronald Reagan ~<br>
+            ~ Betty Field ~</p>
+            Kings Row
+            <br>
+            <button type="button"onclick="toggleText('showKings')">Synopsis</button>
+            <button type="button"onclick="toggleText('kingsInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/50/The_Magnificent_Ambersons_%281942_film_poster%29.jpg" alt="The Magnificent Ambersons Poster" with="380" height="380">
+            <br>
+            <p id="showAmbersons" style="display:none">The spoiled young heir to the decaying Amberson fortune comes between his widowed mother and the man she has always loved. 
+            </p>
+            <p id="ambersonsInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Orson Welles <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Joseph Cotten ~<br>
+            ~ Dolores Costello ~<br>
+            ~ Anne Baxter ~</p>
+            The Magnificent Ambersons
+            <br>
+            <button type="button"onclick="toggleText('showAmbersons')">Synopsis</button>
+            <button type="button"onclick="toggleText('ambersonsInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BYzc2MGJkN2EtYTMxZS00MDViLTlkOGUtMjFiYmEzMTNiYWZiXkEyXkFqcGc@._V1_.jpg" alt="The Pied Piper Poster" with="380" height="380">
+            <br>
+            <p id="showPiper" style="display:none">While traveling in France during the Nazi invasion of 1940, an Englishman is entrusted with the care of a group of refugee children. 
+            </p>
+            <p id="piperInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Irving Pichel <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Monty Woolley ~<br>
+            ~ Anne Baxter ~<br>
+            ~ Roddy McDowall ~</p>
+            The Pied Piper
+            <br>
+            <button type="button"onclick="toggleText('showPiper')">Synopsis</button>
+            <button type="button"onclick="toggleText('piperInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+<table class = "center">
+    <tr>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BNWE1OWM4MTgtNjk5MS00ZGVjLWE2N2MtYjM0ZDFhMzM0MWZjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="The Pride of the Yankees Poster" with="380" height="380">
+            <br>
+            <p id="showYankees" style="display:none">The story of the life and career of famed baseball player Lou Gehrig. 
+            </p>
+            <p id="yankeesInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Sam Wood <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Gary Cooper ~<br>
+            ~ Teresa Wright ~<br>
+            ~ Babe Ruth ~<br>
+            ~ Walter Brennan ~</p>
+            The Pride of the Yankees
+            <br>
+            <button type="button"onclick="toggleText('showYankees')">Synopsis</button>
+            <button type="button"onclick="toggleText('yankeesInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Random_Harvest_%281942%29_Poster.jpg" alt="Random Harvest Poster" with="380" height="380">
+            <br>
+            <p id="showHarvest" style="display:none">An amnesiac World War I veteran falls in love with a music hall star, only to suffer an accident which restores his original memories but erases his post-war life. 
+            </p>
+            <p id="harvestInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Mervyn LeRoy <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Ronald Colman ~<br>
+            ~ Greer Garson ~<br>
+            ~ Philip Dorn ~<br>
+            ~ Susan Peters ~</p>
+            Random Harvest
+            <br>
+            <button type="button"onclick="toggleText('showHarvest')">Synopsis</button>
+            <button type="button"onclick="toggleText('harvestInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BOWY2NmUyNTctYmE2OC00NTcxLTg4ZmEtOTA4NDNiY2UxZmU4XkEyXkFqcGc@._V1_.jpg" alt="The Talk of the Town Poster" with="380" height="380">
+            <br>
+            <p id="showTalkTown" style="display:none">An escaped prisoner must prove his innocence to a stuffy law professor with help from a spirited schoolteacher. 
+            </p>
+            <p id="talkTownInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> George Stevens <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Cary Grant ~<br>
+            ~ Jean Arthur ~<br>
+            ~ Ronald Colman ~</p>
+            The Talk of the Town
+            <br>
+            <button type="button"onclick="toggleText('showTalkTown')">Synopsis</button>
+            <button type="button"onclick="toggleText('talkTownInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/en/4/45/WakeIsland_%281942_movie%29_cover.jpg" alt="Wake Island Poster" with="380" height="380">
+            <br>
+            <p id="showWake" style="display:none">December, 1941. With no hope of relief or re-supply, a small band of United States Marines tries to keep the Japanese Navy from capturing their island base. 
+            </p>
+            <p id="wakeInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> John Farrow <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Brian Donlevy ~<br>
+            ~ Macdonald Carey ~<br>
+            ~ Robert Preston ~<br>
+            ~ Albert Dekker ~<br>
+            ~ William Bendix ~<br>
+            ~ Walter Abel ~</p>
+            Wake Island
+            <br>
+            <button type="button"onclick="toggleText('showWake')">Synopsis</button>
+            <button type="button"onclick="toggleText('wakeInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/92/Yankee_Doodle_Dandy_%281942_poster%29.jpg" alt="Yankee Doodle Dandy Poster" with="380" height="380">
+            <br>
+            <p id="showDoodle" style="display:none">The life of the renowned musical composer, playwright, actor, dancer, and singer George M. Cohan. 
+            </p>
+            <p id="doodleInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Michael Curtiz <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ James Cagney ~<br>
+            ~ Joan Leslie ~<br>
+            ~ Walter Huston ~<br>
+            ~ Richard Whorf ~</p>
+            Yankee Doodle Dandy
+            <br>
+            <button type="button"onclick="toggleText('showDoodle')">Synopsis</button>
+            <button type="button"onclick="toggleText('doodleInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

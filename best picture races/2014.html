@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;380;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>86th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BMjExMTEzODkyN15BMl5BanBnXkFtZTcwNTU4NTc4OQ@@._V1_FMjpg_UX1000_.jpg" alt="12 Years a Slave Poster" with="380" height="380">
+            <br>
+            <p id="showSlave" style="display:none">In the antebellum United States, Solomon Northup, a free black man from upstate New York, is abducted and sold into slavery.
+            </p>
+            12 Years a Slave
+            <br>
+            <button type="button"onclick="toggleText('showSlave')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMGQ2NzEwZGEtYjk1MC00NWFmLTgyYTgtZmRhMTRmOTBlN2U5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="American Hustle Poster" with="380" height="380">
+            <br>
+            <p id="showHustle" style="display:none">A con man, Irving Rosenfeld, along with his seductive partner Sydney Prosser, is forced to work for a wild F.B.I. Agent, Richie DiMaso, who pushes them into a world of Jersey powerbrokers and the Mafia.
+            </p>
+            American Hustle
+            <br>
+            <button type="button"onclick="toggleText('showHustle')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMWYyNjI3ZjEtNGE5ZS00MDgxLWIzNGEtZTgzNDVlZjZjYWU5XkEyXkFqcGc@._V1_.jpg" alt="Captain Phillips Poster" with="380" height="380">
+            <br>
+            <p id="showPhillips" style="display:none">The true story of Captain Richard Phillips and the 2009 hijacking by Somali pirates of the U.S.-flagged MV Maersk Alabama, the first American cargo ship to be hijacked in two hundred years.
+            </p>
+            Captain Phillips
+            <br>
+            <button type="button"onclick="toggleText('showPhillips')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTYwMTA4MzgyNF5BMl5BanBnXkFtZTgwMjEyMjE0MDE@._V1_FMjpg_UX1000_.jpg" alt="Dallas Buyers Club Poster" with="380" height="380">
+            <br>
+            <p id="showDallas" style="display:none">In 1985 Dallas, electrician and hustler Ron Woodroof works around the system to help AIDS patients get the medication they need after he is diagnosed with the disease.
+            </p>
+            Dallas Buyers Club
+            <br>
+            <button type="button"onclick="toggleText('showDallas')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BNjE5MzYwMzYxMF5BMl5BanBnXkFtZTcwOTk4MTk0OQ@@._V1_FMjpg_UX1000_.jpg" alt="Gravity Poster" with="380" height="380">
+            <br>
+            <p id="showGravity" style="display:none">A medical engineer and an astronaut work together to survive after an accident leaves them adrift in space.
+            </p>
+            Gravity
+            <br>
+            <button type="button"onclick="toggleText('showGravity')">Synopsis</button>
+        </th>
+    </tr>
+</table>
+
+<table class = "center">
+    <tr>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjA1Nzk0OTM2OF5BMl5BanBnXkFtZTgwNjU2NjEwMDE@._V1_FMjpg_UX1000_.jpg" alt="Her Poster" with="380" height="380">
+            <br>
+            <p id="showHer" style="display:none">A lonely writer develops an unlikely relationship with his newly purchased operating system that's designed to meet his every need.
+            </p>
+            Her
+            <br>
+            <button type="button"onclick="toggleText('showHer')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/en/7/76/Nebraska_Poster.jpg" alt="Nebraska Poster" with="380" height="380">
+            <br>
+            <p id="showNebraska" style="display:none">An aging, booze-addled father makes the trip from Montana to Nebraska with his estranged son in order to claim a million-dollar Mega Sweepstakes Marketing prize.
+            </p>
+            Nebraska
+            <br>
+            <button type="button"onclick="toggleText('showNebraska')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjA5ODgyNzcxMV5BMl5BanBnXkFtZTgwMzkzOTYzMDE@._V1_.jpg" alt="Philomena Poster" with="380" height="380">
+            <br>
+            <p id="showPhilomena" style="display:none">A world-weary political journalist picks up the story of a woman's search for her son, who was taken away from her decades ago after she became pregnant and was forced to live in a convent.
+            </p>
+            Philomena
+            <br>
+            <button type="button"onclick="toggleText('showPhilomena')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjIxMjgxNTk0MF5BMl5BanBnXkFtZTgwNjIyOTg2MDE@._V1_FMjpg_UX1000_.jpg" alt="The Wolf of Wall Street Poster" with="380" height="380">
+            <br>
+            <p id="showWolf" style="display:none">Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.
+            </p>
+            The Wolf of Wall Street
+            <br>
+            <button type="button"onclick="toggleText('showWolf')">Synopsis</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

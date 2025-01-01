@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>46th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/aa/The_Sting_%281973_alt_poster%29.jpeg" alt="The Sting Poster" with="400" height="400">
+            <br>
+            <p id="showSting" style="display:none">Two grifters team up to pull off the ultimate con.
+            </p>
+            <p id="stingInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span>	George Roy Hill <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Paul Newman ~<br>
+            ~ Robert Redford ~<br>
+            ~ Robert Shaw ~</p>
+            The Sting
+            <br>
+            <button type="button"onclick="toggleText('showSting')">Synopsis</button>
+            <button type="button"onclick="toggleText('stingInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BNzc5MjUyMWYtMDkyMi00YTc2LTg3ZDMtMjI3MmU3Nzg2YTExXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="American Graffiti Poster" with="400" height="400">
+            <br>
+            <p id="showGraffiti" style="display:none">A group of teenagers in California's central valley spend one final night after their 1962 high school graduation cruising the strip with their buddies.
+            </p>
+            <p id="graffitiInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> George Lucas <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Richard Dreyfuss ~<br>
+            ~ Ron Howard ~<br>
+            ~ Paul Le Mat ~</p>
+            American Graffiti
+            <br>
+            <button type="button"onclick="toggleText('showGraffiti')">Synopsis</button>
+            <button type="button"onclick="toggleText('graffitiInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/I/71UeLVFF9qL._AC_UF1000,1000_QL80_.jpg" alt="Cries and Whispers Poster" with="400" height="400">
+            <br>
+            <p id="showCries" style="display:none">When a woman dying of cancer in early twentieth-century Sweden is visited by her two sisters, long-repressed feelings between the siblings rise to the surface.
+            </p>
+            <p id="criesInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Ingmar Bergman <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Harriet Andersson ~<br>
+            ~ Kari Sylwan ~<br>
+            ~ Ingrid Thulin ~<br>
+            ~ Liv Ullmann ~<br>
+            ~ Inga Gill ~<br>
+            ~ Erland Josephson ~</p>
+            Cries and Whispers
+            <br>
+            <button type="button"onclick="toggleText('showCries')">Synopsis</button>
+            <button type="button"onclick="toggleText('criesInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BZjg3YjE4ZjAtYTdmYS00ZTBkLWE1ZjgtNzAzODUwNzRiYjlmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="The Exorcist Poster" with="400" height="400">
+            <br>
+            <p id="showExorcist" style="display:none">When a mysterious entity possesses a young girl, her mother seeks the help of two Catholic priests to save her life.
+            </p>
+            <p id="exorcistInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> William Friedkin <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Ellen Burstyn ~<br>
+            ~ Max von Sydow ~<br>
+            ~ Lee J. Cobb ~<br>
+            ~ Kitty Winn ~<br>
+            ~ Jack MacGowran ~<br>
+            ~ Jason Miller ~<br>
+            ~ Linda Blair ~</p>
+            The Exorcist
+            <br>
+            <button type="button"onclick="toggleText('showExorcist')">Synopsis</button>
+            <button type="button"onclick="toggleText('exorcistInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BZmE5NWZlNzAtZTBjNy00MmM1LWIzOTYtYmEyMjVhNDQzMDk3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="A Touch of Class Poster" with="400" height="400">
+            <br>
+            <p id="showClass" style="display:none">An insurance man and a recently divorced female fashion designer become clandestine lovers in a London-Spain tryst.
+            </p>
+            <p id="classInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Melvin Frank <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ George Segal ~<br>
+            ~ Glenda Jackson ~<br>
+            ~ Paul Sorvino ~<br>
+            ~Hildegard Neil ~</p>
+            A Touch of Class
+            <br>
+            <button type="button"onclick="toggleText('showClass')">Synopsis</button>
+            <button type="button"onclick="toggleText('classInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

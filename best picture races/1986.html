@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>58th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BOWQ5MGI3NWYtMmVjNS00OWIzLWEzMGQtMGZhMzY3NjI2YjhiXkEyXkFqcGc@._V1_.jpg" alt="Out of Africa Poster" with="400" height="400">
+            <br>
+            <p id="showAfrica" style="display:none">In 20th-century colonial Kenya, a Danish baroness/plantation owner has a passionate love affair with a free-spirited big-game hunter.
+            </p>
+            <p id="africaInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Sydney Pollack <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																								
+            ~ Robert Redford ~<br>
+            ~ Meryl Streep ~<br>
+            ~ Klaus Maria Brandauer ~</p>
+            Out of Africa
+            <br>
+            <button type="button"onclick="toggleText('showAfrica')">Synopsis</button>
+            <button type="button"onclick="toggleText('africaInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/en/b/be/The_Color_Purple_poster.jpg" alt="The Color Purple Poster" with="400" height="400">
+            <br>
+            <p id="showPurple" style="display:none">A tale spanning forty years in the life of Celie, an African-American woman living in the South who survives incredible abuse and bigotry.
+            </p>
+            <p id="purpleInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Steven Spielberg <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																									
+            ~ Whoopi Goldberg ~<br>
+            ~ Oprah Winfrey ~<br>
+            ~ Danny Glover ~<br>
+            ~ Adolph Caesar ~<br>
+            ~ Margaret Avery ~<br>
+            ~ Rae Dawn Chong ~</p>
+            The Color Purple
+            <br>
+            <button type="button"onclick="toggleText('showPurple')">Synopsis</button>
+            <button type="button"onclick="toggleText('purpleInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/en/8/8b/Kiss_Of_The_Spiderwoman.jpg" alt="Kiss of the Spider Woman Poster" with="400" height="400">
+            <br>
+            <p id="showSpider" style="display:none">A gay man and a political prisoner are together in a prison. The gay man narrates the stories of two fake movies and his own life.
+            </p>
+            <p id="spiderInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Héctor Babenco <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																										
+            ~ William Hurt ~<br>
+            ~ Raul Julia ~<br>
+            ~ Sônia Braga ~<br>
+            ~ José Lewgoy ~<br>
+            ~ Milton Gonçalves ~<br>
+            ~ Denise Dumont ~</p>
+            Kiss of the Spider Woman
+            <br>
+            <button type="button"onclick="toggleText('showSpider')">Synopsis</button>
+            <button type="button"onclick="toggleText('spiderInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjFiYjUzZWEtZmQxMy00NzI1LWJiZjUtNjA4MTczOTY2MjM0XkEyXkFqcGc@._V1_.jpg" alt="Prizzi's Honor Poster" with="400" height="400">
+            <br>
+            <p id="showPrizzi" style="display:none">Two professional assassins fall in love.
+            </p>
+            <p id="prizziInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> John Huston <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																											
+            ~ Jack Nicholson ~<br>
+            ~ Kathleen Turner ~</p>
+            Prizzi's Honor
+            <br>
+            <button type="button"onclick="toggleText('showPrizzi')">Synopsis</button>
+            <button type="button"onclick="toggleText('prizziInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://image.tmdb.org/t/p/original/lDnC1Woa9nEnrwlKDxdFvHx2gDc.jpg" alt="Witness Poster" with="400" height="400">
+            <br>
+            <p id="showWitness" style="display:none">While protecting an Amish boy - who is the sole witness to a brutal murder - and his mother, a detective is forced to seek refuge within their community.
+            </p>
+            <p id="witnessInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Peter Weir <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																											
+            ~ Harrison Ford ~<br>
+            ~ Kelly McGillis ~<br>
+            ~ Lukas Haas ~</p>
+            Witness
+            <br>
+            <button type="button"onclick="toggleText('showWitness')">Synopsis</button>
+            <button type="button"onclick="toggleText('witnessInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

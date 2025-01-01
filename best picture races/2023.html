@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;380;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>95th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BOWNmMzAzZmQtNDQ1NC00Nzk5LTkyMmUtNGI2N2NkOWM4MzEyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Everything Everywhere All at Once Poster" with="380" height="380">
+            <br>
+            <p id="showEvery" style="display:none">A middle-aged Chinese immigrant is swept up into an insane adventure in which she alone can save existence by exploring other universes and connecting with the lives she could have led.
+            </p>
+            Everything Everywhere All at Once
+            <br>
+            <button type="button"onclick="toggleText('showEvery')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BOWJiYWMyYTktZThhOS00ZjgxLWE0YTQtZDMyNTQxMjMyYjI2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="All Quiet on the Western Front Poster" with="380" height="380">
+            <br>
+            <p id="showFront" style="display:none">A young German soldier's terrifying experiences and distress on the western front during World War I.
+            </p>
+            All Quiet on the Western Front
+            <br>
+            <button type="button"onclick="toggleText('showFront')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BNmQxNjZlZTctMWJiMC00NGMxLWJjNTctNTFiNjA1Njk3ZDQ5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Avatar: The Way of Water Poster" with="380" height="380">
+            <br>
+            <p id="showAvatar2" style="display:none">Jake Sully lives with his newfound family formed on the extrasolar moon Pandora. Once a familiar threat returns to finish what was previously started, Jake must work with Neytiri and the army of the Na'vi race to protect their home.
+            </p>
+            Avatar: The Way of Water
+            <br>
+            <button type="button"onclick="toggleText('showAvatar2')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BOTkzMWI4OTEtMTk0MS00MTUxLWI4NTYtYmRiNWM4Zjc1MGRhXkEyXkFqcGc@._V1_.jpg" alt="The Banshees of Inisherin Poster" with="380" height="380">
+            <br>
+            <p id="showBanshees" style="display:none">Two lifelong friends find themselves at an impasse when one abruptly ends their relationship, with alarming consequences for both of them.
+            </p>
+            The Banshees of Inisherin
+            <br>
+            <button type="button"onclick="toggleText('showBanshees')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BNTVhZmUyMDQtY2I5Ny00OWNiLTgzNjUtMTg4YTQwMTc0OTQxXkEyXkFqcGc@._V1_.jpg" alt="Elvis Poster" with="380" height="380">
+            <br>
+            <p id="showElvis" style="display:none">The life of American music icon Elvis Presley, from his childhood to becoming a rock and movie star in the 1950s while maintaining a complex relationship with his manager, Colonel Tom Parker.
+            </p>
+            Elvis
+            <br>
+            <button type="button"onclick="toggleText('showElvis')">Synopsis</button>
+        </th>
+    </tr>
+</table>
+
+<table class = "center">
+    <tr>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BNDY5OWY4ZWYtYTM3OC00Zjg5LWFlYzYtYWI5ZGM1MDcxYzY4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="The Fabelmans Poster" with="380" height="380">
+            <br>
+            <p id="showFabel" style="display:none">Growing up in post-World War II era Arizona, young Sammy Fabelman aspires to become a filmmaker as he reaches adolescence, but soon discovers a shattering family secret and explores how the power of films can help him see the truth.
+            </p>
+            The Fabelmans
+            <br>
+            <button type="button"onclick="toggleText('showFabel')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BODY0MzM0NmItMTE1ZS00Y2QyLTliZDYtZGVlMTc4YTEyOWZiXkEyXkFqcGc@._V1_.jpg" alt="Tár Poster" with="380" height="380">
+            <br>
+            <p id="showTar" style="display:none">Set in the international world of Western classical music, the film centers on Lydia Tár, widely considered one of the greatest living composer-conductors and the very first female director of a major German orchestra.
+            </p>
+            Tar
+            <br>
+            <button type="button"onclick="toggleText('showTar')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMDBkZDNjMWEtOTdmMi00NmExLTg5MmMtNTFlYTJlNWY5YTdmXkEyXkFqcGc@._V1_.jpg" alt="Top Gun: Maverick Poster" with="380" height="380">
+            <br>
+            <p id="showTopGun" style="display:none">The story involves Maverick confronting his past while training a group of younger Top Gun graduates, including the son of his deceased best friend, for a dangerous mission.
+            </p>
+            Top Gun: Maverick
+            <br>
+            <button type="button"onclick="toggleText('showTopGun')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BYTViNzUyNDUtZTg3Yy00OTY4LWEyMTYtMmUzYjE3ZmZjYzUwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Triangle of Sadness Poster" with="380" height="380">
+            <br>
+            <p id="showTriangle" style="display:none">A fashion model celebrity couple join an eventful cruise for the super-rich.
+            </p>
+            Triangle of Sadness
+            <br>
+            <button type="button"onclick="toggleText('showTriangle')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BYThlOTEyMGYtYzk0Yy00OGMwLThjMzItY2NlZTE2MmRlNWQ5XkEyXkFqcGc@._V1_.jpg" alt="Women Talking Poster" with="380" height="380">
+            <br>
+            <p id="showWomen" style="display:none">Do nothing, stay and fight, or leave. In 2010, the women of an isolated religious community grapple with reconciling a brutal reality with their faith.
+            </p>
+            Women Talking
+            <br>
+            <button type="button"onclick="toggleText('showWomen')">Synopsis</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

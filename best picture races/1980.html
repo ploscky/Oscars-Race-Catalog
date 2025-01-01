@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>52nd Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BNTJmYjYwZDMtYmU5MS00OWM0LWIxZTctZTcxODJkOTU4ZDMxXkEyXkFqcGc@._V1_.jpg" alt="Kramer vs. Kramer Poster" with="400" height="400">
+            <br>
+            <p id="showKramer" style="display:none">A just-divorced man must learn to care for his son on his own, and then must fight in court to keep custody of him.
+            </p>
+            <p id="kramerInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Robert Benton <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>									
+            ~ Dustin Hoffman ~<br>
+            ~ Meryl Streep ~<br>
+            ~ Jane Alexander ~</p>
+            Kramer vs. Kramer
+            <br>
+            <button type="button"onclick="toggleText('showKramer')">Synopsis</button>
+            <button type="button"onclick="toggleText('kramerInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/I/51soP2dVk+L._AC_UF894,1000_QL80_.jpg" alt="All That Jazz Poster" with="400" height="400">
+            <br>
+            <p id="showJazz" style="display:none">Director/choreographer Bob Fosse tells his own life story as he details the sordid career of Joe Gideon, a womanizing, drug-using dancer.
+            </p>
+            <p id="jazzInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Bob Fosse <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>									
+            ~ Roy Scheider ~<br>
+            ~ Jessica Lange ~<br>
+            ~ Ann Reinking ~<br>
+            ~ Leland Palmer ~<br>
+            ~ Cliff Gorman ~<br>
+            ~ Ben Vereen ~</p>
+            All That Jazz
+            <br>
+            <button type="button"onclick="toggleText('showJazz')">Synopsis</button>
+            <button type="button"onclick="toggleText('jazzInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/en/c/c2/Apocalypse_Now_poster.jpg" alt="Apocalypse Now Poster" with="400" height="400">
+            <br>
+            <p id="showApocalypse" style="display:none">A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god.
+            </p>
+            <p id="apocalypseInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Francis Ford Coppola <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>										
+            ~ Marlon Brando ~<br>
+            ~ Robert Duvall ~<br>
+            ~ Martin Sheen ~<br>
+            ~ Frederic Forrest ~<br>
+            ~ Albert Hall ~<br>
+            ~ Sam Bottoms ~<br>
+            ~ Larry Fishburne ~<br>
+            ~ Dennis Hopper ~</p>
+            Apocalypse Now
+            <br>
+            <button type="button"onclick="toggleText('showApocalypse')">Synopsis</button>
+            <button type="button"onclick="toggleText('apocalypseInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMzI3MDc4MzgwM15BMl5BanBnXkFtZTgwMzc1NzkzMTE@._V1_.jpg" alt="Breaking Away Poster" with="400" height="400">
+            <br>
+            <p id="showBreaking" style="display:none">A working-class Indiana teen obsessed with the Italian cycling team vies for the affections of a college girl while searching for life goals with his friends.
+            </p>
+            <p id="breakingInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Peter Yates <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>										
+            ~ Dennis Christopher ~<br>
+            ~ Dennis Quaid ~<br>
+            ~ Daniel Stern ~<br>
+            ~ Jackie Earle Haley ~<br>
+            ~ Barbara Barrie ~<br>
+            ~ Paul Dooley ~<br>
+            ~ Robyn Douglass ~</p>
+            Breaking Away
+            <br>
+            <button type="button"onclick="toggleText('showBreaking')">Synopsis</button>
+            <button type="button"onclick="toggleText('breakingInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/I/41D2eG93wTL.jpg" alt="Norma Rae Poster" with="400" height="400">
+            <br>
+            <p id="showNorma" style="display:none">A young single mother and textile worker agrees to help unionize her mill despite the problems and dangers involved.
+            </p>
+            <p id="normaInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Martin Ritt <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>										
+            ~ Sally Field ~<br>
+            ~ Ron Leibman ~<br>
+            ~ Beau Bridges ~<br>
+            ~ Pat Hingle ~<br>
+            ~ Barbara Baxley ~</p>
+            Norma Rae
+            <br>
+            <button type="button"onclick="toggleText('showNorma')">Synopsis</button>
+            <button type="button"onclick="toggleText('normaInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

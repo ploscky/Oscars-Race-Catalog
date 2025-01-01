@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>88th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/I/51vXuYdnU9L._AC_UF894,1000_QL80_.jpg" alt="Spotlight Poster" with="400" height="400">
+            <br>
+            <p id="showSpotlight" style="display:none">The true story of how the Boston Globe uncovered the massive scandal of child molestation and cover-up within the local Catholic Archdiocese, shaking the entire Catholic Church to its core.
+            </p>
+            Spotlight
+            <br>
+            <button type="button"onclick="toggleText('showSpotlight')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12157971_p_v13_al.jpg" alt="The Big Short Poster" with="400" height="400">
+            <br>
+            <p id="showBig" style="display:none">A group of investors bet against the United States mortgage market. In their research, they discover how flawed and corrupt the market is.
+            </p>
+            The Big Short
+            <br>
+            <button type="button"onclick="toggleText('showBig')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjIxOTI0MjU5NV5BMl5BanBnXkFtZTgwNzM4OTk4NTE@._V1_FMjpg_UX1000_.jpg" alt="Bridge of Spies Poster" with="400" height="400">
+            <br>
+            <p id="showBridge" style="display:none">During the Cold War, an American lawyer is recruited to defend an arrested Soviet spy in court, and then help the CIA facilitate an exchange of the spy for the Soviet captured American U2 spy plane pilot, Francis Gary Powers.
+            </p>
+            Bridge of Spies
+            <br>
+            <button type="button"onclick="toggleText('showBridge')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMzE4MDk5NzEyOV5BMl5BanBnXkFtZTgwNDM4NDA3NjE@._V1_.jpg" alt="Brooklyn Poster" with="400" height="400">
+            <br>
+            <p id="showBrooklyn" style="display:none">An Irish immigrant lands in 1950s Brooklyn, where she quickly falls into a romance with a local. When her past catches up with her, however, she must choose between two countries and the lives that exist within.
+            </p>
+            Brooklyn
+            <br>
+            <button type="button"onclick="toggleText('showBrooklyn')">Synopsis</button>
+        </th>
+    </tr>
+</table>
+
+<table class = "center">
+    <tr>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BZDRkODJhOTgtOTc1OC00NTgzLTk4NjItNDgxZDY4YjlmNDY2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Mad Max: Fury Road Poster" with="400" height="400">
+            <br>
+            <p id="showMad" style="display:none">In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshipper and a drifter named Max.
+            </p>
+            Mad Max: Fury Road
+            <br>
+            <button type="button"onclick="toggleText('showMad')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTc2MTQ3MDA1Nl5BMl5BanBnXkFtZTgwODA3OTI4NjE@._V1_FMjpg_UX1000_.jpg" alt="The Martian Poster" with="400" height="400">
+            <br>
+            <p id="showMartian" style="display:none">An astronaut becomes stranded on Mars after his team assume him dead, and must rely on his ingenuity to find a way to signal to Earth that he is alive and can survive until a potential rescue.
+            </p>
+            The Martian
+            <br>
+            <button type="button"onclick="toggleText('showMartian')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BYTgwNmQzZDctMjNmOS00OTExLTkwM2UtNzJmOTJhODFjOTdlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="The Revenant Poster" with="400" height="400">
+            <br>
+            <p id="showRevenant" style="display:none">A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team.
+            </p>
+            The Revenant
+            <br>
+            <button type="button"onclick="toggleText('showRevenant')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjE4NzgzNzEwMl5BMl5BanBnXkFtZTgwMTMzMDE0NjE@._V1_.jpg" alt="Room Poster" with="400" height="400">
+            <br>
+            <p id="showRoom" style="display:none">A little boy is held captive in a room with his mother since his birth, so he has never known the world outside.
+            </p>
+            Room
+            <br>
+            <button type="button"onclick="toggleText('showRoom')">Synopsis</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

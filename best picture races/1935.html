@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>7th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/dc/It-happened-one-night-poster.jpg" alt="It Happened One Night Poster" with="400" height="400">
+            <br>
+            <p id="showOneNight" style="display:none">A rogue reporter trailing a runaway heiress for a big story joins her on a bus heading from Florida to New York and they end up stuck with each other when the bus leaves them behind at one of the stops along the way.
+            </p>
+            <p id="oneNightInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Frank Capra <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Clark Gable ~<br>
+            ~ Claudette Colbert ~</p>
+            It Happened One Night
+            <br>
+            <button type="button"onclick="toggleText('showOneNight')">Synopsis</button>
+            <button type="button"onclick="toggleText('oneNightInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/The_Barretts_of_Wimpole_Street.jpg" alt="The Barretts of Wimpole Street Poster" with="400" height="400">
+            <br>
+            <p id="showBarretts" style="display:none">Elizabeth Barrett's tyrannical father has forbidden any of his family to marry. Nevertheless, Elizabeth falls in love with the poet Robert Browning.
+            </p>
+            <p id="barrettsInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Sidney Franklin <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Norma Shearer ~<br>
+            ~ Fredric March ~<br>
+            ~ Charles Laughton ~</p>
+            The Barretts of Wimpole Street
+            <br>
+            <button type="button"onclick="toggleText('showBarretts')">Synopsis</button>
+            <button type="button"onclick="toggleText('barrettsInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjgzMTgwNTI1M15BMl5BanBnXkFtZTgwMTgxNjk3MjE@._V1_.jpg" alt="Cleopatra Poster" with="400" height="400">
+            <br>
+            <p id="showCleopatra" style="display:none">The man-hungry Queen of Egypt leads Julius Caesar and Marc Antony astray, amid scenes of DeMillean splendor.
+            </p>
+            <p id="cleopatraInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Cecil B. DeMille <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Claudette Colbert ~<br>
+            ~ Warren William ~<br>
+            ~ Henry Wilcoxon ~</p>
+            Cleopatra
+            <br>
+            <button type="button"onclick="toggleText('showCleopatra')">Synopsis</button>
+            <button type="button"onclick="toggleText('cleopatraInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/en/0/02/FlirtationWalk.jpg" alt="Flirtation Walk Poster" with="400" height="400">
+            <br>
+            <p id="showFlirtation" style="display:none">Musical-romance with Powell as a private in Hawaii involved with general's daughter Keeler. They break up to avoid scandal but reunite years later when he produces a play at West Point starring her.
+            </p>
+            <p id="flirtationInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Frank Borzage <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Dick Powell ~<br>
+            ~ Ruby Keeler ~<br>
+            ~ Pat O'Brien ~</p>
+            Flirtation Walk
+            <br>
+            <button type="button"onclick="toggleText('showFlirtation')">Synopsis</button>
+            <button type="button"onclick="toggleText('flirtationInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+<table class = "center">
+    <tr>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BZGIyNzhjN2UtZjllNS00ZDg5LWFkMTgtMGJjYWYwMDQ4NDI3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="The Gay Divorcee Poster" with="400" height="400">
+            <br>
+            <p id="showGayDivorcee" style="display:none">A woman thinks a flirting man is the co-respondent her lawyer has hired to expedite her divorce.
+            </p>
+            <p id="gayDivorceeInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Mark Sandrich <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Fred Astaire ~<br>
+            ~ Ginger Rogers ~<br>
+            ~ Alice Brady ~<br>
+            ~ Edward Everett Horton ~</p>
+            The Gay Divorcee
+            <br>
+            <button type="button"onclick="toggleText('showGayDivorcee')">Synopsis</button>
+            <button type="button"onclick="toggleText('gayDivorceeInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMGY0NTJhMGUtYTcxYi00MmVkLTg2ZDAtYWM4NWEzMTVjOTk4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Here Comes the Navy Poster" with="400" height="400">
+            <br>
+            <p id="showNavy" style="display:none">A cocky guy joins the Navy for the wrong reason but finds romance and twice is cited for heroism.
+            </p>
+            <p id="navyInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Lloyd Bacon <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ James Cagney ~<br>
+            ~ Pat O'Brien ~<br>
+            ~ Gloria Stuart ~</p>
+            Here Comes the Navy
+            <br>
+            <button type="button"onclick="toggleText('showNavy')">Synopsis</button>
+            <button type="button"onclick="toggleText('navyInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BYWFlNGUyMzEtMjZiOS00YTFmLWFhZDEtYmVhZDhjZTJjNGI2XkEyXkFqcGc@._V1_.jpg" alt="The House of Rothschild Poster" with="400" height="400">
+            <br>
+            <p id="showRothschild" style="display:none">The wealthy Rothschild family undergoes prejudice from the anti-Semitic society they live within.
+            </p>
+            <p id="rothschildInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Alfred L. Werker, Maude T. Howell <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ George Arliss ~<br>
+            ~ Loretta Young ~<br>
+            ~ Boris Karloff ~</p>
+            The House of Rothschild
+            <br>
+            <button type="button"onclick="toggleText('showRothschild')">Synopsis</button>
+            <button type="button"onclick="toggleText('rothschildInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Imitation_of_Life_%281934_poster%29.jpg/1200px-Imitation_of_Life_%281934_poster%29.jpg" alt="Imitation of Life Poster" with="400" height="400">
+            <br>
+            <p id="showImitation" style="display:none">A struggling widow and her daughter take in a black housekeeper and her fair-skinned daughter; the two women start a successful business.
+            </p>
+            <p id="imitationInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> John M. Stahl <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Claudette Colbert ~<br>
+            ~ Warren William ~<br>
+            ~ Rochelle Hudson ~</p>
+            Imitation of Life
+            <br>
+            <button type="button"onclick="toggleText('showImitation')">Synopsis</button>
+            <button type="button"onclick="toggleText('imitationInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+<table class = "center">
+    <tr>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/75/Onenightoflove.JPG/220px-Onenightoflove.JPG" alt="One Night of Love Poster" with="400" height="400">
+            <br>
+            <p id="showLove" style="display:none">Mary, an aspiring opera singer, trains under famed maestro Guilio Monterverdi. Their professional relationship turns romantic amid hard work and clashes, but jealousy and misunderstandings hinder their love's expression.
+            </p>
+            <p id="loveInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Victor Schertzinger <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Grace Moore ~<br>
+            ~ Tullio Carminati ~<br>
+            ~ Lyle Talbot ~</p>
+            One Night of Love
+            <br>
+            <button type="button"onclick="toggleText('showLove')">Synopsis</button>
+            <button type="button"onclick="toggleText('loveInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BOWNhZmQxMzUtZDMxYS00OWFhLWI1MjgtOTYxNmM0NWQ3M2FhXkEyXkFqcGc@._V1_.jpg" alt="The Thin Man Poster" with="400" height="400">
+            <br>
+            <p id="showThinMan" style="display:none">Former detective Nick Charles and his wealthy wife Nora investigate a murder case, mostly for the fun of it.
+            </p>
+            <p id="thinManInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> W.S. Van Dyke <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ William Powell ~<br>
+            ~ Myrna Loy ~<br>
+            ~ Maureen O'Sullivan ~<br>
+            ~ Nat Pendleton ~<br>
+            ~ Minna Gombell ~</p>
+            The Thin Man
+            <br>
+            <button type="button"onclick="toggleText('showThinMan')">Synopsis</button>
+            <button type="button"onclick="toggleText('thinManInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BM2NlMzM3MjUtZjA1OC00OTA1LWJjM2QtMjM1ODMyM2YyNDI3XkEyXkFqcGc@._V1_.jpg" alt="Viva Villa! Poster" with="400" height="400">
+            <br>
+            <p id="showVilla" style="display:none">After enacting revenge on the overseer who murdered his father, Pancho Villa becomes a bandit, earning the respect of the poor by brutally attacking the wealthy.
+            </p>
+            <p id="villaInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Jack Conway <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Wallace Beery ~<br>
+            ~ Fay Wray ~<br>
+            ~ Leo Carrillo ~</p>
+            Viva Villa!
+            <br>
+            <button type="button"onclick="toggleText('showVilla')">Synopsis</button>
+            <button type="button"onclick="toggleText('villaInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BYjZjYjM2YzgtNTM2Ni00NDZmLWI4NTctYzhmZDAzZWZhYjVmXkEyXkFqcGc@._V1_.jpg" alt="The White Parade Poster" with="400" height="400">
+            <br>
+            <p id="showWhiteParade" style="display:none">The hopeful, ambitious students at a hospital training school endure stern discipline and laborious physical and mental toil to become nurses and join the White Parade. 
+            </p>
+            <p id="whiteParadeInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Irving Cummings <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Loretta Young ~<br>
+            ~ John Boles ~</p>
+            The White Parade
+            <br>
+            <button type="button"onclick="toggleText('showWhiteParade')">Synopsis</button>
+            <button type="button"onclick="toggleText('whiteParadeInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>5th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d6/GrandHotelFilmPoster.jpg" alt="Grand Hotel Poster" with="400" height="400">
+            <br>
+            <p id="showGrandHotel" style="display:none">A group of very different individuals staying at a luxurious hotel in Berlin deal with each of their respective dramas.
+            </p>
+            <p id="grandHotelInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Edmund Goulding <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Greta Garbo ~<br>
+            ~ John Barrymore ~<br>
+            ~ Joan Crawford ~<br>
+            ~ Wallace Beery ~<br>
+            ~ Lionel Barrymore ~</p>
+            Grand Hotel
+            <br>
+            <button type="button"onclick="toggleText('showGrandHotel')">Synopsis</button>
+            <button type="button"onclick="toggleText('grandHotelInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRKjhF0Qpf9eLMiaFl9qp4zWh18IDhlwUYUA&s" alt="Arrowsmith Poster" with="400" height="400">
+            <br>
+            <p id="showArrowsmith" style="display:none">A medical researcher is sent to a plague outbreak, where he has to decide priorities for the use of a vaccine.
+            </p>
+            <p id="arrowsmithInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> John Ford <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Ronald Colman ~<br>
+            ~ Helen Hayes ~<br>
+            ~ Richard Bennett ~<br>
+            ~ Myrna Loy ~</p>
+            Arrowsmith
+            <br>
+            <button type="button"onclick="toggleText('showArrowsmith')">Synopsis</button>
+            <button type="button"onclick="toggleText('arrowsmithInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/en/8/86/Badgirl_movieposter.jpg" alt="Bad Girl Poster" with="400" height="400">
+            <br>
+            <p id="showBadGirl" style="display:none">Two adolescents fall in love and are wed, but misunderstandings born from a lack of trust and communication haunt their marriage.
+            </p>
+            <p id="badGirlInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Frank Borzage <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Sally Eilers ~<br>
+            ~ James Dunn ~<br>
+            ~ Minna Gombell ~</p>
+            Bad Girl
+            <br>
+            <button type="button"onclick="toggleText('showBadGirl')">Synopsis</button>
+            <button type="button"onclick="toggleText('badGirlInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BOTY0Y2YyZWEtNGJlZC00NmY0LTkxM2ItNzc2OTQzMzI4MjEyXkEyXkFqcGc@._V1_.jpg" alt="The Champ Poster" with="400" height="400">
+            <br>
+            <p id="showChamp" style="display:none">An alcoholic ex-boxer struggles to provide a good living for his son.
+            </p>
+            <p id="champInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> King Vidor <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Wallace Beery ~<br>
+            ~ Jackie Cooper ~<br>
+            ~ Irene Rich ~<br>
+            ~ Roscoe Ates ~</p>
+            The Champ
+            <br>
+            <button type="button"onclick="toggleText('showChamp')">Synopsis</button>
+            <button type="button"onclick="toggleText('champInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BNDk2YzM3MzEtMDRiOC00ZTY0LTgwZTUtYjNhNzQ1YjlmOWU5XkEyXkFqcGc@._V1_.jpg" alt="Five Star Final Poster" with="400" height="400">
+            <br>
+            <p id="showFiveStar" style="display:none">The City Editor of a sleazy tabloid goes against his own journalistic ethics to resurrect a twenty year old murder case... with tragic results.
+            </p>
+            <p id="fiveStarInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Mervyn LeRoy <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Edward G. Robinson ~<br>
+            ~ Marian Marsh ~<br>
+            ~ Boris Karloff ~</p>
+            Five Star Final
+            <br>
+            <button type="button"onclick="toggleText('showFiveStar')">Synopsis</button>
+            <button type="button"onclick="toggleText('fiveStarInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+<table class = "center">
+    <tr>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/db/One_Hour_With_You.jpg" alt="One Hour With You Poster" with="400" height="400">
+            <br>
+            <p id="showOneHour" style="display:none">An unhappily married couple try to come between a happy one.
+            </p>
+            <p id="oneHourInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> George Cukor, Ernst Lubitsch <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Maurice Chevalier ~<br>
+            ~ Jeanette MacDonald ~<br>
+            ~ Genevieve Tobin ~</p>
+            One Hour With You
+            <br>
+            <button type="button"onclick="toggleText('showOneHour')">Synopsis</button>
+            <button type="button"onclick="toggleText('oneHourInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Shanghai_Express_%281932%29_original_poster.jpg" alt="Shanghai Express Poster" with="400" height="400">
+            <br>
+            <p id="showShanghai" style="display:none">A notorious woman rides a train through a dangerous situation with a British captain she loved.
+            </p>
+            <p id="shanghaiInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Josef von Sternberg <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Marlene Dietrich ~<br>
+            ~ Clive Brook ~<br>
+            ~ Anna May Wong ~<br>
+            ~ Warner Oland ~</p>
+            Shanghai Express
+            <br>
+            <button type="button"onclick="toggleText('showShanghai')">Synopsis</button>
+            <button type="button"onclick="toggleText('shanghaiInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7ljoaFCvOjgEUayCSKVdGSA3pmKkMZ3-CfQ&s" alt="The Smiling Lieutenant Poster" with="400" height="400">
+            <br>
+            <p id="showLieutenant" style="display:none">An amorous lieutenant is forced to marry a socially awkward princess, though he tries to keep his violin-playing girlfriend on the side.
+            </p>
+            <p id="lieutenantInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Ernst Lubitsch <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Maurice Chevalier ~<br>
+            ~ Claudette Colbert ~<br>
+            ~ Miriam Hopkins ~</p>
+            The Smiling Lieutenant
+            <br>
+            <button type="button"onclick="toggleText('showLieutenant')">Synopsis</button>
+            <button type="button"onclick="toggleText('lieutenantInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

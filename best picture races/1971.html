@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>43rd Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://upload.wikimedia.org/wikipedia/en/f/f2/70_patton.jpg" alt="Patton Poster" with="400" height="400">
+            <br>
+            <p id="showPatton" style="display:none">The World War II phase of the career of controversial American general George S. Patton.
+            </p>
+            <p id="pattonInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Franklin J. Schaffner <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ George C. Scott ~<br>
+            ~ Karl Malden ~</p>
+            Patton
+            <br>
+            <button type="button"onclick="toggleText('showPatton')">Synopsis</button>
+            <button type="button"onclick="toggleText('pattonInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BOTg4NWE5NmItOGRhMC00OGU3LWE1ODgtODZmN2MwZDNmZmY3XkEyXkFqcGc@._V1_.jpg" alt="Airport Poster" with="400" height="400">
+            <br>
+            <p id="showAirport" style="display:none">A bomber on board an airplane, an airport almost closed by snow, and various personal problems of the people involved.
+            </p>
+            <p id="airportInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> George Seaton <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Burt Lancaster ~<br>
+            ~ Dean Martin ~<br>
+            ~ George Kennedy ~</p>
+            Airport
+            <br>
+            <button type="button"onclick="toggleText('showAirport')">Synopsis</button>
+            <button type="button"onclick="toggleText('airportInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BNWVmNWEwMDQtZmZiZi00ZTAyLTg4YTAtZTIzMjk1N2U1MTgyXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Five Easy Pieces Poster" with="400" height="400">
+            <br>
+            <p id="showFive" style="display:none">A dropout from upper-class America picks up work along the way on oil rigs when his life isn't spent in a squalid succession of bars, motels, and other points of interest.
+            </p>
+            <p id="fiveInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Bob Rafelson <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Jack Nicholson ~<br>
+            ~ Karen Black ~<br>
+            ~ Susan Anspach ~</p>
+            Five Easy Pieces
+            <br>
+            <button type="button"onclick="toggleText('showFive')">Synopsis</button>
+            <button type="button"onclick="toggleText('fiveInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTc5YjEzZjItOWM2MC00NDA3LWFhMTctMWM0ZTk3NjgwMzc5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Love Story Poster" with="400" height="400">
+            <br>
+            <p id="showLoveStory" style="display:none">A boy and a girl from different backgrounds fall in love regardless of their upbringing - and then tragedy strikes. 
+            </p>
+            <p id="loveStoryInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Arthur Hiller <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Ali MacGraw ~<br>
+            ~ Ryan O'Neal ~<br>
+            ~ John Marley ~<br>
+            ~ Ray Milland ~</p>
+            Love Story
+            <br>
+            <button type="button"onclick="toggleText('showLoveStory')">Synopsis</button>
+            <button type="button"onclick="toggleText('loveStoryInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BZDI0MDNiNWMtYzc5NS00MTc2LWJlMjktM2RkZTEyMzZjOTIwXkEyXkFqcGc@._V1_.jpg" alt="M*A*S*H Poster" with="400" height="400">
+            <br>
+            <p id="showMash" style="display:none">The staff of a Korean War field hospital uses humor and hijinks to keep their sanity in the face of the horror of war. 
+            </p>
+            <p id="mashInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Robert Altman <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Donald Sutherland ~<br>
+            ~ Elliott Gould ~<br>
+            ~ Tom Skerritt ~</p>
+            M*A*S*H
+            <br>
+            <button type="button"onclick="toggleText('showMash')">Synopsis</button>
+            <button type="button"onclick="toggleText('mashInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

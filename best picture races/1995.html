@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>67th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BNDYwNzVjMTItZmU5YS00YjQ5LTljYjgtMjY2NDVmYWMyNWFmXkEyXkFqcGc@._V1_.jpg" alt="Forrest Gump Poster" with="400" height="400">
+            <br>
+            <p id="showGump" style="display:none">The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.
+            </p>
+            <p id="gumpInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Robert Zemeckis <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																															
+            ~ Tom Hanks ~<br>
+            ~ Robin Wright ~<br>
+            ~ Gary Sinise ~<br>
+            ~ Mykelti Williamson ~<br>
+            ~ Sally Field ~</p>
+            Forrest Gump
+            <br>
+            <button type="button"onclick="toggleText('showGump')">Synopsis</button>
+            <button type="button"onclick="toggleText('gumpInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTMyNzg2NzgxNV5BMl5BanBnXkFtZTcwMTcxNzczNA@@._V1_.jpg" alt="Four Weddings and a Funeral Poster" with="400" height="400">
+            <br>
+            <p id="showFour" style="display:none">Over the course of five social occasions, a committed bachelor must consider the notion that he may have discovered love. 
+            </p>
+            <p id="fourInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Mike Newell <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																															
+            ~ Hugh Grant ~<br>
+            ~ Andie MacDowell ~<br>
+            ~ James Fleet ~</p>
+            Four Weddings and a Funeral
+            <br>
+            <button type="button"onclick="toggleText('showFour')">Synopsis</button>
+            <button type="button"onclick="toggleText('fourInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BYTViYTE3ZGQtNDBlMC00ZTAyLTkyODMtZGRiZDg0MjA2YThkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Pulp Fiction Poster" with="400" height="400">
+            <br>
+            <p id="showPulp" style="display:none">The lives of two mob hit men, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption. 
+            </p>
+            <p id="pulpInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Quentin Tarantino <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																															
+            ~ John Travolta ~<br>
+            ~ Samuel L. Jackson ~<br>
+            ~ Bruce Willis ~<br>
+            ~ Tim Roth ~<br>
+            ~ Ving Rhames ~<br>
+            ~ Uma Thurman ~</p>
+            Pulp Fiction
+            <br>
+            <button type="button"onclick="toggleText('showPulp')">Synopsis</button>
+            <button type="button"onclick="toggleText('pulpInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BYzYyMjAzN2YtYTJiNC00MDhhLWE0MmUtZTE0ZmUxODU3MzkyXkEyXkFqcGc@._V1_.jpg" alt="Quiz Show Poster" with="400" height="400">
+            <br>
+            <p id="showQuiz" style="display:none">A young lawyer, Richard Goodwin, investigates a potentially fixed game show. Charles Van Doren, a big time show winner, is under Goodwin's investigation. 
+            </p>
+            <p id="quizInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Robert Redford <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																
+            ~ John Turturro ~<br>
+            ~ Rob Morrow ~<br>
+            ~ Ralph Fiennes ~<br>
+            ~ David Paymer ~<br>
+            ~ Paul Scofield ~</p>
+            Quiz Show
+            <br>
+            <button type="button"onclick="toggleText('showQuiz')">Synopsis</button>
+            <button type="button"onclick="toggleText('quizInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMDAyY2FhYjctNDc5OS00MDNlLThiMGUtY2UxYWVkNGY2ZjljXkEyXkFqcGc@._V1_.jpg" alt="The Shawshank Redemption Poster" with="400" height="400">
+            <br>
+            <p id="showShawshank" style="display:none">A banker convicted of uxoricide forms a friendship over a quarter century with a hardened convict, while maintaining his innocence and trying to remain hopeful through simple compassion. 
+            </p>
+            <p id="shawshankInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Frank Darabont <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																	
+            ~ Tim Robbins ~<br>
+            ~ Morgan Freeman ~<br>
+            ~ Bob Gunton ~<br>
+            ~ William Sadler ~<br>
+            ~ Clancy Brown ~<br>
+            ~ Gil Bellows ~<br>
+            ~ James Whitmore ~</p>
+            The Shawshank Redemption
+            <br>
+            <button type="button"onclick="toggleText('showShawshank')">Synopsis</button>
+            <button type="button"onclick="toggleText('shawshankInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

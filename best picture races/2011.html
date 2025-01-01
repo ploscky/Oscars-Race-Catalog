@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;380;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>83rd Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BMzU5MjEwMTg2Nl5BMl5BanBnXkFtZTcwNzM3MTYxNA@@._V1_.jpg" alt="The King's Speech Poster" with="380" height="380">
+            <br>
+            <p id="showKing" style="display:none">The story of King George VI, his unexpected ascension to the throne of the British Empire in 1936, and the speech therapist who helped the unsure monarch overcome his stammer.
+            </p>
+            The King's Speech
+            <br>
+            <button type="button"onclick="toggleText('showKing')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://assets.isu.pub/document-structure/230427124935-f966215f3a2b9ee65f3c94601b29fda8/v1/b35c0db8aa5e838b9ceefe5eca539d38.jpeg?width=720&quality=85%2C50" alt="Black Swan Poster" with="380" height="380">
+            <br>
+            <p id="showSwan" style="display:none">Nina is a talented but unstable ballerina on the verge of stardom. Pushed to the breaking point by her artistic director and a seductive rival, Nina's grip on reality slips, plunging her into a waking nightmare.
+            </p>
+            Black Swan
+            <br>
+            <button type="button"onclick="toggleText('showSwan')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTM0ODk3MjM1MV5BMl5BanBnXkFtZTcwNzc1MDIwNA@@._V1_FMjpg_UX1000_.jpg" alt="The Fighter Poster" with="380" height="380">
+            <br>
+            <p id="showFighter" style="display:none">Based on the story of Micky Ward, a fledgling boxer who tries to escape the shadow of his more famous but troubled older boxing brother and get his own shot at greatness.
+            </p>
+            The Fighter
+            <br>
+            <button type="button"onclick="toggleText('showFighter')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg" alt="Inception Poster" with="380" height="380">
+            <br>
+            <p id="showInception" style="display:none">A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.
+            </p>
+            Inception
+            <br>
+            <button type="button"onclick="toggleText('showInception')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjE4NTMwNDg5MF5BMl5BanBnXkFtZTcwNDY2ODE0Mw@@._V1_.jpg" alt="The Kids Are All Right Poster" with="380" height="380">
+            <br>
+            <p id="showKids" style="display:none">Two children conceived by artificial insemination bring their biological father into their non-traditional family life.
+            </p>
+            The Kids Are All Right
+            <br>
+            <button type="button"onclick="toggleText('showKids')">Synopsis</button>
+        </th>
+    </tr>
+</table>
+
+<table class = "center">
+    <tr>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTc2NjMzOTE3Ml5BMl5BanBnXkFtZTcwMDE0OTc5Mw@@._V1_.jpg" alt="127 Hours Poster" with="380" height="380">
+            <br>
+            <p id="show127" style="display:none">A mountain climber becomes trapped under a boulder while canyoneering alone near Moab, Utah and resorts to desperate measures in order to survive.
+            </p>
+            127 Hours
+            <br>
+            <button type="button"onclick="toggleText('show127')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjlkNTE5ZTUtNGEwNy00MGVhLThmZjMtZjU1NDE5Zjk1NDZkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="The Social Network Poster" with="380" height="380">
+            <br>
+            <p id="showSocial" style="display:none">As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea and by the co-founder who was later squeezed out of the business.
+            </p>
+            The Social Network
+            <br>
+            <button type="button"onclick="toggleText('showSocial')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTgxOTY4Mjc0MF5BMl5BanBnXkFtZTcwNTA4MDQyMw@@._V1_.jpg" alt="Toy Story 3 Poster" with="380" height="380">
+            <br>
+            <p id="showToy" style="display:none">The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it's up to Woody to convince the other toys that they weren't abandoned and to return home.
+            </p>
+            Toy Story 3
+            <br>
+            <button type="button"onclick="toggleText('showToy')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/I/61RbbdLiorL._AC_UF1000,1000_QL80_.jpg" alt="True Grit Poster" with="380" height="380">
+            <br>
+            <p id="showGrit" style="display:none">A stubborn teenager enlists the help of a tough U.S. Marshal to track down her father's murderer.
+            </p>
+            True Grit
+            <br>
+            <button type="button"onclick="toggleText('showGrit')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjA0OTM3MDMxNF5BMl5BanBnXkFtZTcwMDY1MjI0Mw@@._V1_.jpg" alt="Winter's Bone Poster" with="380" height="380">
+            <br>
+            <p id="showWinter" style="display:none">An unflinching Ozark Mountain girl hacks through dangerous social terrain as she hunts down her drug-dealing father while trying to keep her family intact.
+            </p>
+            Winter's Bone
+            <br>
+            <button type="button"onclick="toggleText('showWinter')">Synopsis</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

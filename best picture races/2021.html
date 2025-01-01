@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>93rd Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BZjU3MGYwZjAtNmIzZC00YzkzLWI1NTAtMDQ3YjQzYmRlNjJlXkEyXkFqcGc@._V1_.jpg" alt="Nomadland Poster" with="400" height="400">
+            <br>
+            <p id="showNomad" style="display:none">A woman in her sixties, after losing everything in the Great Recession, embarks on a journey through the American West, living as a van-dwelling modern-day nomad.
+            </p>
+            Nomadland
+            <br>
+            <button type="button"onclick="toggleText('showNomad')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BYzUxMDAyMDAtNzIyZi00OGQ1LTllMjEtYzRjOThkZTUxNTliXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="The Father Poster" with="400" height="400">
+            <br>
+            <p id="showFather" style="display:none">A man refuses all assistance from his daughter as he ages. As he tries to make sense of his changing circumstances, he begins to doubt his loved ones, his own mind and even the fabric of his reality.
+            </p>
+            The Father
+            <br>
+            <button type="button"onclick="toggleText('showFather')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BOWJkZWY5YTAtMTQwMS00MGUyLWJjM2UtMGM5ZmRkMTc4MjRiXkEyXkFqcGc@._V1_.jpg" alt="Judas and the Black Messiah Poster" with="400" height="400">
+            <br>
+            <p id="showJudas" style="display:none">Offered a plea deal by the FBI, William O'Neal infiltrates the Illinois chapter of the Black Panther Party to gather intelligence on Chairman Fred Hampton.
+            </p>
+            Judas and the Black Messiah
+            <br>
+            <button type="button"onclick="toggleText('showJudas')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BOTA0NTI1ODYtZDVkMy00ZDU5LThiODgtYjEzYmNlZmUyYTg0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Mank Poster" with="400" height="400">
+            <br>
+            <p id="showMank" style="display:none">1930s Hollywood is re-evaluated through the eyes of scathing social critic and alcoholic screenwriter Herman J. Mankiewicz as he races to finish the screenplay of Citizen Kane (1941).
+            </p>
+            Mank
+            <br>
+            <button type="button"onclick="toggleText('showMank')">Synopsis</button>
+        </th>
+    </tr>
+</table>
+
+<table class = "center">
+    <tr>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BNWVmNDE3YzMtZWQ3Ny00YjhkLWEzN2QtZjNhYWNlMGI2N2NkXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Minari Poster" with="400" height="400">
+            <br>
+            <p id="showMinari" style="display:none">A Korean American family moves to an Arkansas farm in search of its own American dream. Amidst the challenges of new life in the strange and rugged Ozarks, they discover the undeniable resilience of family and what really makes a home.
+            </p>
+            Minari
+            <br>
+            <button type="button"onclick="toggleText('showMinari')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BZDMyNTQ5ODYtMjU3YS00MjM3LWFmOGMtZjZlNDA3YWE3YjM0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Promising Young Woman Poster" with="400" height="400">
+            <br>
+            <p id="showPromising" style="display:none">Nothing in Cassie's life is what it appears to be - she's wickedly smart, tantalizingly cunning, and she's living a secret double life. Now, an unexpected encounter is about to give Cassie a chance to right the wrongs from the past.
+            </p>
+            Promising Young Woman
+            <br>
+            <button type="button"onclick="toggleText('showPromising')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://resizing.flixster.com/bPAbuZrpHHJu5zgVDCyAEBkAYj8=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p18048217_v_v9_aj.jpg" alt="Sound of Metal Poster" with="400" height="400">
+            <br>
+            <p id="showMetal" style="display:none">During a series of adrenaline-fueled gigs, itinerant punk-metal drummer Ruben begins to experience hearing loss. When a specialist tells him his condition will rapidly worsen, he thinks his music career - and with it his life - is over.
+            </p>
+            Sound of Metal
+            <br>
+            <button type="button"onclick="toggleText('showMetal')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BZjY2ZGFlOTgtOGQ1MS00YWJhLWIyZjQtNWNmNTQ0YTk0MTZjXkEyXkFqcGc@._V1_.jpg" alt="The Trial of the Chicago 7 Poster" with="400" height="400">
+            <br>
+            <p id="showTrial" style="display:none">The story of 7 people on trial stemming from various charges surrounding the uprising at the 1968 Democratic National Convention in Chicago, Illinois.
+            </p>
+            The Trial of the Chicago 7
+            <br>
+            <button type="button"onclick="toggleText('showTrial')">Synopsis</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

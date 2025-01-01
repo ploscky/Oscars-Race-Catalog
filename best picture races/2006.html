@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>78th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://www.originalfilmart.com/cdn/shop/products/Crash_2004_original_film_art_5000x.jpg?v=1632499666" alt="Crash Poster" with="400" height="400">
+            <br>
+            <p id="showCrash" style="display:none">Los Angeles citizens with vastly separate lives collide in interweaving stories of race, loss and redemption.
+            </p>
+            <p id="crashInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Paul Haggis <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																										
+            ~ Don Cheadle ~<br>
+            ~ Sandra Bullock ~<br>
+            ~ Thandiwe Newton ~</p>
+            Crash
+            <br>
+            <button type="button"onclick="toggleText('showCrash')">Synopsis</button>
+            <button type="button"onclick="toggleText('crashInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMzM4OWFjMTMtZjNjOS00YmU3LTlhY2MtNjFiMTVkN2Y1OTZlXkEyXkFqcGc@._V1_.jpg" alt="Brokeback Mountain Poster" with="400" height="400">
+            <br>
+            <p id="showBrokeback" style="display:none">Two shepherds fall for each other, but their relationship becomes complicated when they both get married to their respective girlfriends.
+            </p>
+            <p id="brokebackInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Ang Lee <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																											
+            ~ Heath Ledger ~<br>
+            ~ Jake Gyllenhaal ~<br>
+            ~ Linda Cardellini ~<br>
+            ~ Anna Faris ~<br>
+            ~ Anne Hathaway ~<br>
+            ~ Michelle Williams ~<br>
+            ~ Randy Quaid ~</p>
+            Brokeback Mountain
+            <br>
+            <button type="button"onclick="toggleText('showBrokeback')">Synopsis</button>
+            <button type="button"onclick="toggleText('brokebackInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTczMzU0MjM1MV5BMl5BanBnXkFtZTcwMjczNzgyNA@@._V1_FMjpg_UX1000_.jpg" alt="Capote Poster" width="300" height="400">
+            <br>
+            <p id="showCapote" style="display:none">In 1959, Truman Capote learns of the murder of a Kansas family and decides to write a book about the case. While researching for his novel In Cold Blood, Capote forms a relationship with one of the killers, Perry Smith, who is on death row.
+            </p>
+            <p id="capoteInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Bennett Miller <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>		
+            ~ Philip Seymour Hoffman ~<br>
+            ~ Catherine Keener ~<br>
+            ~ Clifton Collins Jr. ~<br>
+            ~ Bruce Greenwood ~<br>
+            ~ Mark Pellegrino ~<br>
+            ~ Amy Ryan ~<br>
+            ~ Chris Cooper ~</p>																																																																																																											
+            Capote
+            <br>
+            <button type="button"onclick="toggleText('showCapote')">Synopsis</button>
+            <button type="button"onclick="toggleText('capoteInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BODBkZGQ2OGEtNjU0MC00YjdlLWFmZGEtNTZjZTRiZjhlNGRmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Good Night, and Good Luck. Poster" with="400" height="400">
+            <br>
+            <p id="showGoodNight" style="display:none">Broadcast journalist Edward R. Murrow looks to bring down Senator Joseph McCarthy.
+            </p>     
+            <p id="goodNightInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> George Clooney <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																												
+            ~ David Strathairn ~<br>
+            ~ Patricia Clarkson ~<br>
+            ~ George Clooney ~<br>
+            ~ Jeff Daniels ~<br>
+            ~ Robert Downey Jr. ~<br>
+            ~ Frank Langella ~</p>
+            Good Night, and Good Luck.
+            <br>
+            <button type="button"onclick="toggleText('showGoodNight')">Synopsis</button>
+            <button type="button"onclick="toggleText('goodNightInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/I/41XkwFSRV6L._AC_UF894,1000_QL80_.jpg" alt="Munich Poster" with="400" height="400">
+            <br>
+            <p id="showMunich" style="display:none">After the Black September capture and massacre of Israeli athletes at the 1972 Olympics, five men are chosen to eliminate the people responsible for that fateful day.
+            </p>
+            <p id="munichInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Steven Spielberg <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																													
+            ~ Eric Bana ~<br> 
+            ~ Daniel Craig ~<br>
+            ~ Ciarán Hinds ~<br>
+            ~ Mathieu Kassovitz ~<br>
+            ~ Hanns Zischler ~<br>
+            ~ Geoffrey Rush ~</p>
+            Munich
+            <br>
+            <button type="button"onclick="toggleText('showMunich')">Synopsis</button>
+            <button type="button"onclick="toggleText('munichInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

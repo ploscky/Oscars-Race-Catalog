@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>28th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b7/Marty_%281955_film_poster%29.jpg" alt="Marty Poster" with="400" height="400">
+            <br>
+            <p id="showMarty" style="display:none">A middle-aged butcher and a school teacher who have given up on the idea of love meet at a dance and fall for each other.
+            </p>
+            <p id="martyInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Delbert Mann <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Ernest Borgnine ~<br>
+            ~ Betsy Blair ~</p>
+            Marty
+            <br>
+            <button type="button"onclick="toggleText('showMarty')">Synopsis</button>
+            <button type="button"onclick="toggleText('martyInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BNTM4NzQ1OTktMjI2NC00OGE1LTg3NDEtZDRmMzcxNDA0ZjY3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Love Is a Many-Splendored Thing Poster" with="400" height="400">
+            <br>
+            <p id="showSplendored" style="display:none">A widowed Chinese-English doctor falls in love with a married American correspondent in Hong Kong during China's Communist Revolution.
+            </p>
+            <p id="splendoredInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Henry King <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Jennifer Jones ~<br>
+            ~ William Holden ~</p>
+            Love Is a Many-Splendored Thing
+            <br>
+            <button type="button"onclick="toggleText('showSplendored')">Synopsis</button>
+            <button type="button"onclick="toggleText('splendoredInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e8/Mister_Roberts_%281955_movie_poster%29.jpg" alt="Mister Roberts Poster" with="400" height="400">
+            <br>
+            <p id="showRoberts" style="display:none">In the waning days of World War II, the cargo officer of a Navy supply ship chafes at its role far from the action in the Pacific's backwater areas.
+            </p>
+            <p id="robertsInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> John Ford, Mervyn LeRoy, Joshua Logan  <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Henry Fonda ~<br>
+            ~ James Cagney ~<br>
+            ~ William Powell ~<br>
+            ~ Jack Lemmon ~</p>
+            Mister Roberts
+            <br>
+            <button type="button"onclick="toggleText('showRoberts')">Synopsis</button>
+            <button type="button"onclick="toggleText('robertsInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BY2NhZDViNGQtYzQ2MS00Y2M0LWI5MWMtMDVkYTAxYWI2YThlXkEyXkFqcGc@._V1_.jpg" alt="Picnic Poster" with="400" height="400">
+            <br>
+            <p id="showPicnic" style="display:none">Emotions are ignited among the complacent townsfolk when a handsome drifter arrives in a small Kansas community on the morning of the Labor Day picnic.
+            </p>
+            <p id="picnicInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Joshua Logan <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ William Holden ~<br>
+            ~ Kim Novak ~<br>
+            ~ Betty Field ~<br>
+            ~ Rosalind Russell ~</p>
+            Picnic
+            <br>
+            <button type="button"onclick="toggleText('showPicnic')">Synopsis</button>
+            <button type="button"onclick="toggleText('picnicInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjM5YTBjMzctZjlhNi00YWYwLWE4MWMtY2Q2ODdiODhlMmVjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="The Rose Tattoo Poster" with="400" height="400">
+            <br>
+            <p id="showRoseTat" style="display:none">An Italian-American neighborhood in Louisiana is disturbed when truck driver Rosario Delle Rose is killed by police while smuggling.
+            </p>
+            <p id="roseTatInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Daniel Mann <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Anna Magnani  ~<br>
+            ~ Burt Lancaster ~</p>
+            The Rose Tattoo
+            <br>
+            <button type="button"onclick="toggleText('showRoseTat')">Synopsis</button>
+            <button type="button"onclick="toggleText('roseTatInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

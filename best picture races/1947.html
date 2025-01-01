@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>19th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/The_Best_Years_of_Our_Lives_%281946_poster%29.jpg" alt="The Best Years of Our Lives Poster" with="400" height="400">
+            <br>
+            <p id="showBestYears" style="display:none">Three World War II veterans, two of them traumatized or disabled, return home to the American midwest to discover that they and their families have been irreparably changed.
+            </p>
+            <p id="bestYearsInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> William Wyler <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Myrna Loy ~<br>
+            ~ Fredric March ~<br>
+            ~ Dana Andrews ~<br>
+            ~ Teresa Wright ~<br>
+            ~ Virginia Mayo ~</p>
+            The Best Years of Our Lives
+            <br>
+            <button type="button"onclick="toggleText('showBestYears')">Synopsis</button>
+            <button type="button"onclick="toggleText('bestYearsInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BM2E3OGRjYmQtMDk5Ni00OWUwLWJmY2EtZGQ2ZGMzYjk2YTNiXkEyXkFqcGc@._V1_.jpg" alt="Henry V Poster" with="400" height="400">
+            <br>
+            <p id="showHenryV" style="display:none">In the midst of the Hundred Years' War, the young King Henry V of England embarks on the conquest of France in 1415.
+            </p>
+            <p id="henryVInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Laurence Olivier <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Laurence Olivier ~<br>
+            ~ Renée Asherson ~<br>
+            ~ Robert Newton ~<br>
+            ~ Leslie Banks ~</p>
+            Henry V
+            <br>
+            <button type="button"onclick="toggleText('showHenryV')">Synopsis</button>
+            <button type="button"onclick="toggleText('henryVInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/It%27s_a_Wonderful_Life_%281946_poster%29.jpeg/1200px-It%27s_a_Wonderful_Life_%281946_poster%29.jpeg" alt="It's a Wonderful Life Poster" with="400" height="400">
+            <br>
+            <p id="showWonderful" style="display:none">An angel is sent from Heaven to help a desperately frustrated businessman by showing him what life would have been like if he had never existed.
+            </p>
+            <p id="wonderfulInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Frank Capra <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ James Stewart ~<br>
+            ~ Donna Reed ~<br>
+            ~ Lionel Barrymore ~<br>
+            ~ Thomas Mitchell ~<br>
+            ~ Henry Travers ~</p>
+            It's a Wonderful Life
+            <br>
+            <button type="button"onclick="toggleText('showWonderful')">Synopsis</button>
+            <button type="button"onclick="toggleText('wonderfulInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/The_Razor%27s_Edge_%281946_poster%29.jpg/1200px-The_Razor%27s_Edge_%281946_poster%29.jpg" alt="The Razor's Edge Poster" with="400" height="400">
+            <br>
+            <p id="showRazor" style="display:none">An adventuresome young man goes off to find himself and loses his socialite fiancée in the process. But when he returns 10 years later, she will stop at nothing to get him back, even though she is already married.
+            </p>
+            <p id="razorInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Edmund Goulding <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Tyrone Power ~<br>
+            ~ Gene Tierney ~<br>
+            ~ John Payne ~<br>
+            ~ Herbert Marshall ~<br>
+            ~ Anne Baxter ~<br>
+            ~ Clifton Webb ~</p>
+            The Razor's Edge
+            <br>
+            <button type="button"onclick="toggleText('showRazor')">Synopsis</button>
+            <button type="button"onclick="toggleText('razorInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BNjM1MjVkMmUtNTY5Ny00ZTUwLTg0M2YtOWM1Zjg0NzAyZDFiXkEyXkFqcGc@._V1_.jpg" alt="The Yearling Poster" with="400" height="400">
+            <br>
+            <p id="showYearling" style="display:none">A boy persuades his parents to allow him to adopt a young deer, but what will happen if the deer misbehaves?
+            </p>
+            <p id="yearlingInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Clarence Brown <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Gregory Peck ~<br>
+            ~ Jane Wyman ~<br>
+            ~ Claude Jarman Jr. ~</p>
+            The Yearling
+            <br>
+            <button type="button"onclick="toggleText('showYearling')">Synopsis</button>
+            <button type="button"onclick="toggleText('yearlingInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

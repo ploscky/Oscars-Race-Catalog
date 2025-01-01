@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>70th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BYzYyN2FiZmUtYWYzMy00MzViLWJkZTMtOGY1ZjgzNWMwN2YxXkEyXkFqcGc@._V1_.jpg" alt="Titanic Poster" with="400" height="400">
+            <br>
+            <p id="showTitanic" style="display:none">A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.
+            </p>
+            <p id="titanicInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> James Cameron <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																										
+            ~ Leonardo DiCaprio ~<br>
+            ~ Kate Winslet ~<br>
+            ~ Billy Zane ~</p>
+            Titanic
+            <br>
+            <button type="button"onclick="toggleText('showTitanic')">Synopsis</button>
+            <button type="button"onclick="toggleText('titanicInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://www.rogerebert.com/wp-content/uploads/2024/08/As-Good-as-It-Gets-jpg.webp" alt="As Good as It Gets Poster" with="400" height="400">
+            <br>
+            <p id="showGood" style="display:none">A single mother and waitress, a misanthropic author, and a gay artist form an unlikely friendship after the artist is assaulted in a robbery.
+            </p>
+            <p id="goodInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> James L. Brooks <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																											
+            ~ Jack Nicholson ~<br>
+            ~ Helen Hunt ~<br>
+            ~ Greg Kinnear ~<br>
+            ~ Cuba Gooding Jr. ~<br>
+            ~ Skeet Ulrich ~<br>
+            ~ Shirley Knight ~</p>
+            As Good as It Gets
+            <br>
+            <button type="button"onclick="toggleText('showGood')">Synopsis</button>
+            <button type="button"onclick="toggleText('goodInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BYjZjNjU4YjItM2NhNS00NzIwLWIzMjMtMGMzZjcyMjYwYzE2XkEyXkFqcGc@._V1_.jpg" alt="The Full Monty Poster" with="400" height="400">
+            <br>
+            <p id="showMonty" style="display:none">Six unemployed steel workers form a male striptease act. The women cheer them on to go for "the full monty" - total nudity.
+            </p>
+            <p id="montyInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Peter Cattaneo <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																												
+            ~ Robert Carlyle ~<br>
+            ~ Tom Wilkinson ~<br>
+            ~ Mark Addy ~</p>
+            The Full Monty
+            <br>
+            <button type="button"onclick="toggleText('showMonty')">Synopsis</button>
+            <button type="button"onclick="toggleText('montyInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BNDdjZGQ5YzEtNTc2My00Mjc0LWFlMTctYzkwMzZlNzdiZWYzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Good Will Hunting Poster" with="400" height="400">
+            <br>
+            <p id="showWill" style="display:none">Will Hunting, a janitor at MIT, has a gift for mathematics, but needs help from a psychologist to find direction in his life.
+            </p>
+            <p id="willInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Gus Van Sant <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																													
+            ~ Robin Williams ~<br>
+            ~ Matt Damon ~<br>
+            ~ Ben Affleck ~<br>
+            ~ Stellan Skarsgård ~<br>
+            ~ Minnie Driver ~</p>
+            Good Will Hunting
+            <br>
+            <button type="button"onclick="toggleText('showWill')">Synopsis</button>
+            <button type="button"onclick="toggleText('willInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BODdiMjY1OGYtNDk0NC00NGQ1LWI4MDItOTJhMTM0YjE1YTAzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="L.A. Confidential Poster" with="400" height="400">
+            <br>
+            <p id="showLA" style="display:none">As corruption grows in 1950s Los Angeles, three policemen - one strait-laced, one brutal, and one sleazy - investigate a series of murders with their own brand of justice.
+            </p>
+            <p id="laInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Curtis Hanson <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																														
+            ~ Kevin Spacey ~<br>
+            ~ Russell Crowe ~<br>
+            ~ Guy Pearce ~<br>
+            ~ James Cromwell ~<br>
+            ~ David Strathairn ~<br>
+            ~ Kim Basinger ~<br>
+            ~ Danny DeVito ~</p>
+            L.A. Confidential
+            <br>
+            <button type="button"onclick="toggleText('showLA')">Synopsis</button>
+            <button type="button"onclick="toggleText('laInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>89th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BNzQxNTIyODAxMV5BMl5BanBnXkFtZTgwNzQyMDA3OTE@._V1_FMjpg_UX1000_.jpg" alt="Moonlight Poster" with="400" height="400">
+            <br>
+            <p id="showMoonlight" style="display:none">A young African-American man grapples with his identity and sexuality while experiencing the everyday struggles of childhood, adolescence, and burgeoning adulthood.
+            </p>
+            Moonlight
+            <br>
+            <button type="button"onclick="toggleText('showMoonlight')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTExMzU0ODcxNDheQTJeQWpwZ15BbWU4MDE1OTI4MzAy._V1_FMjpg_UX1000_.jpg" alt="Arrival Poster" with="400" height="400">
+            <br>
+            <p id="showArrival" style="display:none">Linguist Louise Banks leads a team of investigators when gigantic spaceships touch down around the world. As nations teeter on the verge of global war, Banks and her crew must find a way to communicate with the extraterrestrial visitors.
+            </p>
+            Arrival
+            <br>
+            <button type="button"onclick="toggleText('showArrival')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/S/pv-target-images/993193bfa3f45aed29798008797f1071a5f21a00b51478761fa1f44be2083cf3.jpg" alt="Fences Poster" with="400" height="400">
+            <br>
+            <p id="showFences" style="display:none">A working-class African-American father tries to raise his family in the 1950s, while coming to terms with the events of his life.
+            </p>
+            Fences
+            <br>
+            <button type="button"onclick="toggleText('showFences')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjQ1NjM3MTUxNV5BMl5BanBnXkFtZTgwMDc5MTY5OTE@._V1_FMjpg_UX1000_.jpg" alt="Hacksaw Ridge Poster" with="400" height="400">
+            <br>
+            <p id="showRidge" style="display:none">World War II American Army Medic Desmond T. Doss, serving during the Battle of Okinawa, refuses to kill people and becomes the first man in American history to receive the Medal of Honor without firing a shot.
+            </p>
+            Hacksaw Ridge
+            <br>
+            <button type="button"onclick="toggleText('showRidge')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTg4NDA1OTA5NF5BMl5BanBnXkFtZTgwMDQ2MDM5ODE@._V1_.jpg" alt="Hell or High Water Poster" with="400" height="400">
+            <br>
+            <p id="showHell" style="display:none">Toby is a divorced father who's trying to make a better life. His brother is an ex-con with a short temper and a loose trigger finger. Together, they plan a series of heists against the bank that's about to foreclose on their family ranch.
+            </p>
+            Hell or High Water
+            <br>
+            <button type="button"onclick="toggleText('showHell')">Synopsis</button>
+        </th>
+    </tr>
+</table>
+
+<table class = "center">
+    <tr>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BY2RhNDRhNzctZTllMy00NTc2LWJjZmUtMzg3MTNiNjhhODMxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Hidden Figures Poster" with="400" height="400">
+            <br>
+            <p id="showFigures" style="display:none">Three female African-American mathematicians play a pivotal role in astronaut John Glenn's launch into orbit. Meanwhile, they also have to deal with racial and gender discrimination at work.
+            </p>
+            Hidden Figures
+            <br>
+            <button type="button"onclick="toggleText('showFigures')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMzUzNDM2NzM2MV5BMl5BanBnXkFtZTgwNTM3NTg4OTE@._V1_.jpg" alt="La La Land Poster" with="400" height="400">
+            <br>
+            <p id="showLand" style="display:none">When Sebastian, a pianist, and Mia, an actress, follow their passion and achieve success in their respective fields, they find themselves torn between their love for each other and their careers.
+            </p>
+            La La Land
+            <br>
+            <button type="button"onclick="toggleText('showLand')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/I/5192YFZqL7L._AC_UF894,1000_QL80_.jpg" alt="Lion Poster" with="400" height="400">
+            <br>
+            <p id="showLion" style="display:none">A five-year-old Indian boy is adopted by an Australian couple after getting lost hundreds of kilometers from home. 25 years later, he sets out to find his lost family.
+            </p>
+            Lion
+            <br>
+            <button type="button"onclick="toggleText('showLion')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTYxMjk0NDg4Ml5BMl5BanBnXkFtZTgwODcyNjA5OTE@._V1_.jpg" alt="Manchester by the Sea Poster" with="400" height="400">
+            <br>
+            <p id="showManchester" style="display:none">A depressed uncle is asked to take care of his teenage nephew after the boy's father dies.
+            </p>
+            Manchester by the Sea
+            <br>
+            <button type="button"onclick="toggleText('showManchester')">Synopsis</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

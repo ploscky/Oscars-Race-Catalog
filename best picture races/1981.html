@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>53rd Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BNTQwNTc4NzYxNl5BMl5BanBnXkFtZTgwMDEzMjEyMDE@._V1_.jpg" alt="Ordinary People Poster" with="400" height="400">
+            <br>
+            <p id="showOrdinary" style="display:none">The accidental death of the older son of an affluent family deeply strains the relationships among the bitter mother, the good-natured father and the guilt-ridden younger son.
+            </p>
+            <p id="ordinaryInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Robert Redford <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>										
+            ~ Donald Sutherland ~<br>
+            ~ Mary Tyler Moore ~<br>
+            ~ Judd Hirsch ~<br>
+            ~ Timothy Hutton ~</p>
+            Ordinary People
+            <br>
+            <button type="button"onclick="toggleText('showOrdinary')">Synopsis</button>
+            <button type="button"onclick="toggleText('ordinaryInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BYzM4YTY2ZWUtOTAzZS00OWE0LTg3NzctOWMzMTljOTJjMGQ2XkEyXkFqcGc@._V1_.jpg" alt="Coal Miner's Daughter Poster" with="400" height="400">
+            <br>
+            <p id="showCoal" style="display:none">The fictionalized life of singer Loretta Lynn, a girl who rose from humble beginnings to become a country music star in the 1960s/70s.
+            </p>
+            <p id="coalInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Michael Apted <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>										
+            ~ Sissy Spacek ~<br>
+            ~ Tommy Lee Jones ~<br>
+            ~ Beverly D'Angelo ~<br>
+            ~ Levon Helm ~</p>
+            Coal Miner's Daughter
+            <br>
+            <button type="button"onclick="toggleText('showCoal')">Synopsis</button>
+            <button type="button"onclick="toggleText('coalInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMGE3MDZhNmMtMmUxZS00MDJmLTgxYmQtOGU4ODU0Y2JmNDI1XkEyXkFqcGc@._V1_.jpg" alt="The Elephant Man Poster" with="400" height="400">
+            <br>
+            <p id="showElephant" style="display:none">A Victorian surgeon rescues a heavily disfigured man who is mistreated while scraping a living as a side-show freak. Behind his monstrous façade, there is revealed a person of kindness, intelligence and sophistication.
+            </p>
+            <p id="elephantInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> David Lynch <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>											
+            ~ Anthony Hopkins ~<br>
+            ~ John Hurt ~<br>
+            ~ Anne Bancroft ~<br>
+            ~ Freddie Jones ~<br>
+            ~ John Gielgud ~<br>
+            ~ Wendy Hiller ~</p>
+            The Elephant Man
+            <br>
+            <button type="button"onclick="toggleText('showElephant')">Synopsis</button>
+            <button type="button"onclick="toggleText('elephantInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjlkYmYyZWQtNTZkOS00ZjA0LWEwNWUtNzE2ZGNiYjg0MjA2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Raging Bull Poster" with="400" height="400">
+            <br>
+            <p id="showRaging" style="display:none">The life of boxer Jake LaMotta, whose violence and temper that led him to the top in the ring destroyed his life outside of it.
+            </p>
+            <p id="ragingInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Martin Scorsese <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>											
+            ~ Robert De Niro ~<br>
+            ~ Cathy Moriarty ~<br>
+            ~ Joe Pesci ~</p>
+            Raging Bull
+            <br>
+            <button type="button"onclick="toggleText('showRaging')">Synopsis</button>
+            <button type="button"onclick="toggleText('ragingInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BYjEyZDk4MDMtNzZhMy00MDY1LTk3YTEtZmM0NTAwMjMyMmIzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Tess Poster" with="400" height="400">
+            <br>
+            <p id="showTess" style="display:none">A strong-willed young peasant girl attracts the affection of two men.
+            </p>
+            <p id="tessInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Roman Polanski <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>											
+            ~ Nastassja Kinski ~<br>
+            ~ Peter Firth ~<br>
+            ~ Leigh Lawson ~</p>
+            Tess
+            <br>
+            <button type="button"onclick="toggleText('showTess')">Synopsis</button>
+            <button type="button"onclick="toggleText('tessInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

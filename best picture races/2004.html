@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>76th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="The Lord of the Rings: The Return of the King Poster" with="400" height="400">
+            <br>
+            <p id="showLOTR3" style="display:none">Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.
+            </p>
+            <p id="lotr3Info" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Peter Jackson <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																	
+            ~ Elijah Wood ~<br>
+            ~ Viggo Mortensen ~<br>
+            ~ Ian McKellen ~</p>
+            The Lord of the Rings: The Return of the King
+            <br>
+            <button type="button"onclick="toggleText('showLOTR3')">Synopsis</button>
+            <button type="button"onclick="toggleText('lotr3Info')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTUxMzk0NDg1MV5BMl5BanBnXkFtZTgwNDg0NjkxMDI@._V1_.jpg" alt="Lost in Translation Poster" with="400" height="400">
+            <br>
+            <p id="showLost" style="display:none">A fading movie star falls for a lonely young woman in Tokyo.
+            </p>
+            <p id="lostInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Sofia Coppola <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																		
+            ~ Bill Murray ~<br>
+            ~ Scarlett Johansson ~<br>
+            ~ Giovanni Ribisi ~<br>
+            ~ Anna Faris ~<br>
+            ~ Fumihiro Hayashi ~</p>
+            Lost in Translation
+            <br>
+            <button type="button"onclick="toggleText('showLost')">Synopsis</button>
+            <button type="button"onclick="toggleText('lostInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://lumiere-a.akamaihd.net/v1/images/mstrcmndr_tfsotw_584x800_760eb572.jpeg?region=0%2C0%2C584%2C800" alt="Master and Commander Poster" with="400" height="400">
+            <br>
+            <p id="showMaster" style="display:none">During the Napoleonic Wars, a brash British captain pushes his ship and crew to their limits in pursuit of a formidable French war vessel around South America.
+            </p>
+            <p id="masterInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Peter Weir <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																			
+            ~ Russell Crowe ~<br>
+            ~ Paul Bettany ~</p>
+            Master and Commander: The Far Side of the World
+            <br>
+            <button type="button"onclick="toggleText('showMaster')">Synopsis</button>
+            <button type="button"onclick="toggleText('masterInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTIzNDUyMjA4MV5BMl5BanBnXkFtZTYwNDc4ODM3._V1_.jpg" alt="Mystic River Poster" with="400" height="400">
+            <br>
+            <p id="showMystic" style="display:none">The tragic murder of a 19-year-old girl reunites three childhood friends still living in Boston--the victim's gangster father, a detective, and the disturbed man they both suspect of killing her.
+            </p>
+            <p id="mysticInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Clint Eastwood <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																				
+            ~ Sean Penn ~<br>
+            ~ Tim Robbins ~<br>
+            ~ Kevin Bacon ~<br>
+            ~ Laurence Fishburne ~<br>
+            ~ Marcia Gay Harden ~<br>
+            ~ Laura Linney ~</p>
+            Mystic River
+            <br>
+            <button type="button"onclick="toggleText('showMystic')">Synopsis</button>
+            <button type="button"onclick="toggleText('mysticInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMWExOWJjNmEtMjk3Ny00YjM5LWEwYTctY2ViMTgwMTZkNGM4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Seabiscuit Poster" with="400" height="400">
+            <br>
+            <p id="showSeabiscuit" style="display:none">True story of the undersized Depression-era racehorse whose victories lifted not only the spirits of the team behind it but also those of their nation.
+            </p>
+            <p id="seabiscuitInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Gary Ross <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																					
+            ~ Tobey Maguire ~<br>
+            ~ Jeff Bridges ~<br>
+            ~ Chris Cooper ~<br>
+            ~ Elizabeth Banks ~<br>
+            ~ Gary Stevens ~<br>
+            ~ William H. Macy ~</p>
+            Seabiscuit
+            <br>
+            <button type="button"onclick="toggleText('showSeabiscuit')">Synopsis</button>
+            <button type="button"onclick="toggleText('seabiscuitInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

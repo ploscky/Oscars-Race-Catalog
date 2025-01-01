@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;380;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>3rd Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BNTc2NDE0YjEtYmY3Ni00ZDE4LWE2MzEtZWYwOGI4YTYwNjNjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="All Quiet on the Western Front Poster" with="380" height="380">
+            <br>
+            <p id="showAllQuiet1931" style="display:none">A German youth eagerly enters World War I, but his enthusiasm wanes as he gets a firsthand view of the horror.
+            </p>
+            <p id="allQuiet1931Info" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Lewis Milestone <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Lew Ayres ~<br>
+            ~ Louis Wolheim ~<br>
+            ~ John Wray ~</p>
+            All Quiet On The Western Front
+            <br>
+            <button type="button"onclick="toggleText('showAllQuiet1931')">Synopsis</button>
+            <button type="button"onclick="toggleText('allQuiet1931Info')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTIwNDJjMzQtNWIyOS00MWI5LWEzYTgtYjA1Y2FhY2Q5Zjg3XkEyXkFqcGc@._V1_.jpg" alt="The Big House Poster" with="380" height="380">
+            <br>
+            <p id="showBigHouse" style="display:none">A convict falls in love with his new cellmate's sister, only to become embroiled in a planned break-out which is certain to have lethal consequences.
+            </p>
+            <p id="bigHouseInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> George Hill <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Chester Morris ~<br>
+            ~ Wallace Beery ~<br>
+            ~ Lewis Stone ~</p>
+            The Big House
+            <br>
+            <button type="button"onclick="toggleText('showBigHouse')">Synopsis</button>
+            <button type="button"onclick="toggleText('bigHouseInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BOTRmNTcwMGQtMDc2ZC00ZTlhLTgzMjgtZjY4ZTkyZmNkNDM4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Disraeli" with="380" height="380">
+            <br>
+            <p id="showDisraeli" style="display:none">Prime Minister of Great Britain Benjamin Disraeli outwits the subterfuge of the Russians and chicanery at home in order to secure the purchase of the Suez Canal.
+            </p>
+            <p id="disraeliInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Alfred E. Green <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ George Arliss ~<br>
+            ~ Doris Lloyd ~<br>
+            ~ David Torrence ~<br>
+            ~ Joan Bennett ~</p>
+            Disraeli
+            <br>
+            <button type="button"onclick="toggleText('showDisraeli')">Synopsis</button>
+            <button type="button"onclick="toggleText('disraeliInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/The_Divorcee_-_Rotogravure_One_Sheet_27_X_41.jpg/1200px-The_Divorcee_-_Rotogravure_One_Sheet_27_X_41.jpg" alt="The Divorcee" with="380" height="380">
+            <br>
+            <p id="showDivorcee" style="display:none">When a woman discovers that her husband has been unfaithful to her, she decides to respond to his infidelities in kind.
+            </p>
+            <p id="divorceeInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Robert Z. Leonard <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Norma Shearer ~<br>
+            ~ Chester Morris ~<br>
+            ~ Conrad Nagel ~</p>
+            The Divorcee
+            <br>
+            <button type="button"onclick="toggleText('showDivorcee')">Synopsis</button>
+            <button type="button"onclick="toggleText('divorceeInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c7/Love_Parade_poster.jpg" alt="The Love Parade" with="380" height="380">
+            <br>
+            <p id="showLoveParade" style="display:none">The queen of mythical Sylvania marries a courtier, who finds his new life unsatisfying.
+            </p>
+            <p id="loveParadeInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Ernst Lubitsch <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Maurice Chevalier ~<br>
+            ~ Jeanette MacDonald ~<br>
+            ~ Lillian Roth ~<br>
+            ~ Eugene Pallette ~</p>
+            The Love Parade
+            <br>
+            <button type="button"onclick="toggleText('showLoveParade')">Synopsis</button>
+            <button type="button"onclick="toggleText('loveParadeInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+
+</table>
+
+</body>
+
+</html>

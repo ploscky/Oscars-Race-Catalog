@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>21st Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BMGEyNzVjNjktZjY5Zi00NWU4LWE2NDgtYjdhNDdlZDk5NDIyXkEyXkFqcGc@._V1_.jpg" alt="Hamlet Poster" with="400" height="400">
+            <br>
+            <p id="showHamlet" style="display:none">Prince Hamlet struggles over whether or not he should kill his uncle, whom he suspects has murdered his father, the former king.
+            </p>
+            <p id="hamletInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Laurence Olivier <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Laurence Olivier ~<br>
+            ~ Jean Simmons ~<br>
+            ~ John Laurie ~</p>
+            Hamlet
+            <br>
+            <button type="button"onclick="toggleText('showHamlet')">Synopsis</button>
+            <button type="button"onclick="toggleText('hamletInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BOTg2MGZkZTYtY2U3MC00MjI1LWE0ZDItNDlhMjE2ZjcwNDIzXkEyXkFqcGc@._V1_.jpg" alt="Johnny Belinda Poster" with="400" height="400">
+            <br>
+            <p id="showBelinda" style="display:none">A kind doctor volunteers to tutor a deaf-mute woman, but scandal starts to swirl when his pupil is raped and falls pregnant.
+            </p>
+            <p id="belindaInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Jean Negulesco <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Jane Wyman ~<br>
+            ~ Lew Ayres ~<br>
+            ~ Charles Bickford ~<br>
+            ~ Agnes Moorehead ~</p>
+            Johnny Belinda
+            <br>
+            <button type="button"onclick="toggleText('showBelinda')">Synopsis</button>
+            <button type="button"onclick="toggleText('belindaInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjRjMzAxMmMtMTkzNS00ZGIyLTgzM2UtODgyYjI5NGEwZDhjXkEyXkFqcGc@._V1_.jpg" alt="The Red Shoes Poster" with="400" height="400">
+            <br>
+            <p id="showRedShoes" style="display:none">A young ballet dancer is torn between the man she loves and her pursuit to become a prima ballerina.
+            </p>
+            <p id="redShoesInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Michael Powell, Emeric Pressburger <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Anton Walbrook ~<br>
+            ~ Marius Goring ~<br>
+            ~ Moira Shearer ~</p>
+            The Red Shoes
+            <br>
+            <button type="button"onclick="toggleText('showRedShoes')">Synopsis</button>
+            <button type="button"onclick="toggleText('redShoesInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BYTcxYmJhMTctM2Q2Yy00N2ViLTg3MjMtNzU1Zjk3ODczYTg5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="The Snake Pit Poster" with="400" height="400">
+            <br>
+            <p id="showSnake" style="display:none">Virginia Cunningham can't recall how she landed in an asylum. In flashback, her husband Robert relates their courtship, marriage, and her developing symptoms. She remains in misery as Dr. Mark Kik tries to solve her problem.
+            </p>
+            <p id="snakeInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Anatole Litvak <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Olivia de Havilland ~<br>
+            ~ Mark Stevens ~<br>
+            ~ Leo Genn ~<br>
+            ~ Celeste Holm ~</p>
+            The Snake Pit
+            <br>
+            <button type="button"onclick="toggleText('showSnake')">Synopsis</button>
+            <button type="button"onclick="toggleText('snakeInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/The_Treasure_of_the_Sierra_Madre_%281947_poster%29.jpg" alt="The Treasure of the Sierra Madre Poster" with="400" height="400">
+            <br>
+            <p id="showSierra" style="display:none">Two down-on-their-luck Americans searching for work in 1920s Mexico convince an old prospector to help them mine for gold in the Sierra Madre Mountains.
+            </p>
+            <p id="sierraInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> John Huston <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Humphrey Bogart ~<br>
+            ~ Walter Huston ~<br>
+            ~ Tim Holt ~<br>
+            ~ Bruce Bennett ~</p>
+            The Treasure of the Sierra Madre
+            <br>
+            <button type="button"onclick="toggleText('showSierra')">Synopsis</button>
+            <button type="button"onclick="toggleText('sierraInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

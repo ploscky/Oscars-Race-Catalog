@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>56th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BMTk0ODM4NDk0MF5BMl5BanBnXkFtZTgwMTEzMDUxMDE@._V1_.jpg" alt="Terms of Endearment Poster" with="400" height="400">
+            <br>
+            <p id="showTerms" style="display:none">Follows hard-to-please Aurora looking for love and her daughter's family problems.
+            </p>
+            <p id="termsInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> James L. Brooks <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																	
+            ~ Debra Winger ~<br>
+            ~ Shirley MacLaine ~<br>
+            ~ Jack Nicholson ~<br>
+            ~ Danny DeVito ~<br>
+            ~ John Lithgow ~</p>
+            Terms of Endearment
+            <br>
+            <button type="button"onclick="toggleText('showTerms')">Synopsis</button>
+            <button type="button"onclick="toggleText('termsInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BOTg3YWQ1MWItMTcxYy00NTczLWJiMDktYjkxMWExNDY3ZjI4XkEyXkFqcGc@._V1_.jpg" alt="The Big Chill Poster" with="400" height="400">
+            <br>
+            <p id="showBigChill" style="display:none">A group of seven former college friends gather for a weekend reunion at a South Carolina vacation home after the funeral of another of their college friends.
+            </p>
+            <p id="bigChillInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Lawrence Kasdan <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																		
+            ~ Tom Berenger ~<br>
+            ~ Glenn Close ~<br>
+            ~ Jeff Goldblum ~<br>
+            ~ William Hurt ~<br>
+            ~ Kevin Kline ~<br>
+            ~ Mary Kay Place ~<br>
+            ~ Meg Tilly ~<br>
+            ~ JoBeth Williams ~</p>
+            The Big Chill
+            <br>
+            <button type="button"onclick="toggleText('showBigChill')">Synopsis</button>
+            <button type="button"onclick="toggleText('bigChillInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BNmJhMmE3OGUtODJlNS00NWVhLWJiMTgtZmEyOGM2Nzg2MWE4XkEyXkFqcGc@._V1_.jpg" alt="The Dresser Poster" with="400" height="400">
+            <br>
+            <p id="showDresser" style="display:none">Personal assistant Norman struggles to get deteriorating veteran actor Sir through a difficult performance of King Lear.
+            </p>
+            <p id="dresserInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Peter Yates <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																			
+            ~ Albert Finney ~<br>
+            ~ Tom Courtenay ~<br>
+            ~ Edward Fox ~<br>
+            ~ Zena Walker ~<br>
+            ~ Eileen Atkins ~<br>
+            ~ Michael Gough ~<br>
+            ~ Cathryn Harrison ~</p>
+            The Dresser
+            <br>
+            <button type="button"onclick="toggleText('showDresser')">Synopsis</button>
+            <button type="button"onclick="toggleText('dresserInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/en/d/d4/Right_stuff_ver1.jpg" alt="The Right Stuff Poster" with="400" height="400">
+            <br>
+            <p id="showRightStuff" style="display:none">The US space program's development from the breaking of the sound barrier to selection of the Mercury 7 astronauts.
+            </p>
+            <p id="rightStuffInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Philip Kaufman <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																			
+            ~ Sam Shepard ~<br>
+            ~ Scott Glenn ~<br>
+            ~ Ed Harris ~</p>
+            The Right Stuff
+            <br>
+            <button type="button"onclick="toggleText('showRightStuff')">Synopsis</button>
+            <button type="button"onclick="toggleText('rightStuffInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BY2FkNDgyN2MtMDQ2YS00NTM1LWFhNDctNGEyMzBiYmI5NDRhXkEyXkFqcGc@._V1_.jpg" alt="Tender Mercies Poster" with="400" height="400">
+            <br>
+            <p id="showTenderMercies" style="display:none">A broken-down, middle-aged country singer gets a new wife, reaches out to his long-lost daughter, and tries to put his troubled life back together.
+            </p>
+            <p id="tenderMerciesInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Bruce Beresford <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																				
+            ~ Robert Duvall ~<br>
+            ~ Tess Harper ~<br>
+            ~ Betty Buckley ~<br>
+            ~ Wilford Brimley ~<br>
+            ~ Ellen Barkin ~</p>
+            Tender Mercies
+            <br>
+            <button type="button"onclick="toggleText('showTenderMercies')">Synopsis</button>
+            <button type="button"onclick="toggleText('tenderMerciesInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

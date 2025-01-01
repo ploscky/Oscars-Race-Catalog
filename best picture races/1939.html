@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;380;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>11th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/You_Can%27t_Take_it_With_You_film_poster.jpg" alt="You Can't Take It With You Poster" with="380" height="380">
+            <br>
+            <p id="showYouCant" style="display:none">The son of a snobbish Wall Street banker becomes engaged to a woman from a good-natured but decidedly eccentric family. 
+            </p>
+            <p id="youCantInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Frank Capra <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Jean Arthur ~<br>
+            ~ Lionel Barrymore ~<br>
+            ~ James Stewart ~<br>
+            ~ Edward Arnold ~</p>
+            You Can't Take It With You
+            <br>
+            <button type="button"onclick="toggleText('showYouCant')">Synopsis</button>
+            <button type="button"onclick="toggleText('youCantInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BYjA3NzFjNmItYTkwZi00NmMyLWFiMDgtMzY4NjY1ODE0NTg1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="The Adventures of Robin Hood Poster" with="380" height="380">
+            <br>
+            <p id="showRobinHood" style="display:none">When Prince John and the Norman Lords begin oppressing the Saxon masses in King Richard's absence in 1190s England, a Saxon lord fights back as the outlaw leader of a resistance movement. 
+            </p>
+            <p id="robinHoodInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Michael Curtiz, William Keighley <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Errol Flynn ~<br>
+            ~ Olivia de Havilland ~<br>
+            ~ Basil Rathbone ~<br>
+            ~ Claude Rains ~<br>
+            ~ Una O'Connor ~</p>
+            The Adventures of Robin Hood
+            <br>
+            <button type="button"onclick="toggleText('showRobinHood')">Synopsis</button>
+            <button type="button"onclick="toggleText('robinHoodInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Alexander%27s_Ragtime_Band_1.jpeg/1200px-Alexander%27s_Ragtime_Band_1.jpeg" alt="Alexander's Ragtime Band Poster" with="380" height="380">
+            <br>
+            <p id="showRagtime" style="display:none">This send-up of ragtime song and dance begins in 1915 San Francisco when society boy Roger Grant decides to pursue popular rather than serious music. 
+            </p>
+            <p id="ragtimeInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Henry King <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Tyrone Power ~<br>
+            ~ Alice Faye ~<br>
+            ~ Don Ameche ~<br>
+            ~ Ethel Merman ~<br>
+            ~ Jack Haley ~</p>
+            Alexander's Ragtime Band
+            <br>
+            <button type="button"onclick="toggleText('showRagtime')">Synopsis</button>
+            <button type="button"onclick="toggleText('ragtimeInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/en/4/44/Boys_town.jpg" alt="Boys Town Poster" with="380" height="380">
+            <br>
+            <p id="showBoysTown" style="display:none">When a death row prisoner tells him he wouldn't have led a life of crime if only he had had one friend as a child, Father Edward Flanagan decides to start a home for young boys. 
+            </p>
+            <p id="boysTownInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Norman Taurog <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Spencer Tracy ~<br>
+            ~ Mickey Rooney ~</p>
+            Boys Town
+            <br>
+            <button type="button"onclick="toggleText('showBoysTown')">Synopsis</button>
+            <button type="button"onclick="toggleText('boysTownInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BNWZjOGIwMGUtY2VmOC00MDAzLWJjNWItZGM5ZTg4MjQ0NGQ5XkEyXkFqcGc@._V1_.jpg" alt="The Citadel Poster" with="380" height="380">
+            <br>
+            <p id="showCitadel" style="display:none">An enthusiastic young doctor happily embarks on his career, but it isn't long before he finds out what being a doctor really entails. 
+            </p>
+            <p id="citadelInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> King Vidor <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Robert Donat ~<br>
+            ~ Rosalind Russell ~<br>
+            ~ Ralph Richardson ~<br>
+            ~ Rex Harrison ~</p>
+            The Citadel
+            <br>
+            <button type="button"onclick="toggleText('showCitadel')">Synopsis</button>
+            <button type="button"onclick="toggleText('citadelInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+<table class = "center">
+    <tr>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjE5ZjU4ZTMtNGE4MC00YmM0LWE4MjUtMDI5YjAxMjllZjhiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="4 Daughters Poster" with="380" height="380">
+            <br>
+            <p id="showFourDaughters" style="display:none">A musician is blessed with four musical prodigies, all girls, and cursed when a troubled young composer enters the lives of his daughters. 
+            </p>
+            <p id="fourDaughtersInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Michael Curtiz <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Priscilla Lane ~<br>
+            ~ Rosemary Lane ~<br>
+            ~ Lola Lane ~<br>
+            ~ Gale Page ~</p>
+            Four Daughters
+            <br>
+            <button type="button"onclick="toggleText('showFourDaughters')">Synopsis</button>
+            <button type="button"onclick="toggleText('fourDaughtersInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://s3.amazonaws.com/criterion-production/films/b41a9467bc7a3534c01ba037c019005c/L5fZBJQOnY606k47INf8z9f5ecBFn3_original.jpg" alt="Grand Illusion Poster" with="380" height="380">
+            <br>
+            <p id="showGrandIllusion" style="display:none">During WWI, two French soldiers are captured and imprisoned in a German P.O.W. camp. Several escape attempts follow until they are eventually sent to a seemingly inescapable fortress. 
+            </p>
+            <p id="grandIllusionInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Jean Renoir <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Jean Gabin ~<br>
+            ~ Dita Parlo ~<br>
+            ~ Pierre Fresnay ~<br>
+            ~ Marcel Dalio ~<br>
+            ~ Erich von Stroheim ~</p>
+            Grand Illusion
+            <br>
+            <button type="button"onclick="toggleText('showGrandIllusion')">Synopsis</button>
+            <button type="button"onclick="toggleText('grandIllusionInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/f8/Jezebel_%281938_film_poster%29.jpg" alt="Jezebel Poster" with="380" height="380">
+            <br>
+            <p id="showJezebel" style="display:none">In 1850s Louisiana, a free-spirited Southern belle loses her fiancé due to her stubborn vanity and pride, and vows to win him back. 
+            </p>
+            <p id="jezebelInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> William Wyler <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Bette Davis ~<br>
+            ~ Henry Fonda ~<br>
+            ~ George Brent ~</p>
+            Jezebel
+            <br>
+            <button type="button"onclick="toggleText('showJezebel')">Synopsis</button>
+            <button type="button"onclick="toggleText('jezebelInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BNGYwMGVhMGUtYmRmNC00NWJmLTg2N2ItNWQwMWVmMjZmYjAzXkEyXkFqcGc@._V1_.jpg" alt="Pygmalion Poster" with="380" height="380">
+            <br>
+            <p id="showPyg" style="display:none">A phonetics and diction expert makes a bet that he can teach a cockney flower girl to speak proper English and pass as a lady in high society. 
+            </p>
+            <p id="pygInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Anthony Asquith, Leslie Howard <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Leslie Howard ~<br>
+            ~ Wendy Hiller ~<br>
+            ~ Wilfrid Lawson ~<br>
+            ~ Leueen MacGrath ~</p>
+            Pygmalion
+            <br>
+            <button type="button"onclick="toggleText('showPyg')">Synopsis</button>
+            <button type="button"onclick="toggleText('pygInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMDA5YWU3ZDgtMzZlZC00MTQxLTliYmEtM2Y1Yzg3ODNiZTg2XkEyXkFqcGc@._V1_.jpg" alt="Test Pilot Poster" with="380" height="380">
+            <br>
+            <p id="showPilot" style="display:none">Jim is a test pilot. His wife Ann and best friend Gunner try their best to keep him sober. But the life of a test pilot is anything but safe. 
+            </p>
+            <p id="pilotInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Victor Fleming <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Clark Gable ~<br>
+            ~ Myrna Loy ~<br>
+            ~ Spencer Tracy ~</p>
+            Test Pilot
+            <br>
+            <button type="button"onclick="toggleText('showPilot')">Synopsis</button>
+            <button type="button"onclick="toggleText('pilotInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

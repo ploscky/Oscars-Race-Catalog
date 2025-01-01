@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                        text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>1st Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th style="font-size: 30px">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Wings_%281927%29_poster.jpg/1200px-Wings_%281927%29_poster.jpg" alt="Wings Poster" with="500" height="500">
+            <br>
+            <p id="showWings" style="display:none">Two young men, one rich, one middle class, who are in love
+            with the same woman, become fighter pilots in World War I.</p>
+            <p id="wingsInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> William A. Wellman, Harry d'Abbadie d'Arrast <br><br>
+            <span class="cormorant-upright-bold">Cast: </span><br>
+            ~ Clara Bow ~<br>
+            ~ Charles 'Buddy' Rogers ~<br>
+            ~ Richard Arlen ~</p>
+            Wings
+            <br>
+            <button type="button"onclick="toggleText('showWings')">Synopsis</button>
+            <button type="button"onclick="toggleText('wingsInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon" style="font-size: 30px">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTk5Mzc0MDY2N15BMl5BanBnXkFtZTgwMTg4MjQ3NDE@._V1_.jpg" alt="The Racket Poster" with="500" height="500">
+            <br>
+            <p id="showRacket" style="display:none">An honest police captain vows to bring down a powerful bootlegger who is protected by corrupt politicians and judges.
+            </p>
+            <p id="racketInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Lewis Milestone <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Thomas Meighan ~<br>
+            ~ Marie Prevost ~<br>
+            ~ Louis Wolheim ~</p>
+            The Racket
+            <br>
+            <button type="button"onclick="toggleText('showRacket')">Synopsis</button>
+            <button type="button"onclick="toggleText('racketInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/7th_Heaven_%281927_poster%29.jpg" alt="7th Heaven Poster" with="500" height="500">
+            <br>
+            <p id="showHeaven" style="display:none">A street cleaner saves a young woman's life, and the pair slowly fall in love until war intervenes.
+            </p>
+            <p id="heavenInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Frank Borzage <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Janet Gaynor ~<br>
+            ~ Charles Farrell ~<br>
+            ~ Ben Bard ~</p>
+            7th Heaven
+            <br>
+            <button type="button"onclick="toggleText('showHeaven')">Synopsis</button>
+            <button type="button"onclick="toggleText('heavenInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+
+</table>
+
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>32nd Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Ben_hur_1959_poster.jpg/800px-Ben_hur_1959_poster.jpg" alt="Ben-Hur Poster" with="400" height="400">
+            <br>
+            <p id="showBenHur" style="display:none">A Jewish prince is betrayed and sent into slavery by a Roman friend in 1st-century Jerusalem, but it's not long before he regains his freedom and comes back for revenge.
+            </p>
+            <p id="benHurInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> William Wyler <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Charlton Heston ~<br>
+            ~ Jack Hawkins ~<br>
+            ~ Haya Harareet ~<br>
+            ~ Stephen Boyd ~</p>
+            Ben-Hur
+            <br>
+            <button type="button"onclick="toggleText('showBenHur')">Synopsis</button>
+            <button type="button"onclick="toggleText('benHurInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/AnatomyMurder2.jpg" alt="Anatomy of a Murder Poster" with="400" height="400">
+            <br>
+            <p id="showAnatomyMurder" style="display:none">An upstate Michigan lawyer defends a soldier who claims he killed an innkeeper due to temporary insanity after the victim raped his wife. What is the truth, and will he win his case?
+            </p>
+            <p id="anatomyMurderInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Otto Preminger <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ James Stewart ~<br>
+            ~ Lee Remick ~<br>
+            ~ Ben Gazzara ~<br>
+            ~ Arthur O'Connell ~<br>
+            ~ Eve Arden ~<br>
+            ~ Kathryn Grant ~</p>
+            Anatomy of a Murder
+            <br>
+            <button type="button"onclick="toggleText('showAnatomyMurder')">Synopsis</button>
+            <button type="button"onclick="toggleText('anatomyMurderInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BNjVmYTIzM2UtNDY4Ny00MzJmLWJhODMtMDVmZGQ0NWI3ZDNhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="The Diary of Anne Frank Poster" with="400" height="400">
+            <br>
+            <p id="showAnneFrank" style="display:none">During World War II, a teenage Jewish girl named Anne Frank and her family are forced into hiding in the Nazi-occupied Netherlands.
+            </p>
+            <p id="anneFrankInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> George Stevens <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Millie Perkins ~<br>
+            ~ Joseph Schildkraut ~<br> 
+            ~ Richard Beymer ~<br>
+            ~ Shelley Winters ~<br>
+            ~ Diane Baker ~<br>
+            ~ Ed Wynn ~</p>
+            The Diary of Anne Frank
+            <br>
+            <button type="button"onclick="toggleText('showAnneFrank')">Synopsis</button>
+            <button type="button"onclick="toggleText('anneFrankInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/en/6/6e/Nun_story.jpg" alt="The Nun's Story Poster" with="400" height="400">
+            <br>
+            <p id="showNun" style="display:none">After leaving a wealthy Belgian family to become a nun, Sister Luke struggles with her devotion to her vows during crisis, disappointment, and World War II.
+            </p>
+            <p id="nunInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Fred Zinnemann <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Audrey Hepburn ~<br>
+            ~ Peter Finch ~<br>
+            ~ Edith Evans ~<br>
+            ~ Peggy Ashcroft ~<br>
+            ~ Dean Jagger ~</p>
+            The Nun's Story
+            <br>
+            <button type="button"onclick="toggleText('showNun')">Synopsis</button>
+            <button type="button"onclick="toggleText('nunInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BODRhNWI1ZmEtMTMzZC00NzcwLTljOWUtOTE1MWMzMjQ1ODg3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Room at the Top Poster" with="400" height="400">
+            <br>
+            <p id="showRoomTop" style="display:none">An ambitious young accountant plots to wed a wealthy factory owner's daughter despite falling in love with a married older woman.
+            </p>
+            <p id="roomTopInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Jack Clayton <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Simone Signoret ~<br>
+            ~ Laurence Harvey ~<br>
+            ~ Heather Sears ~<br>
+            ~ Donald Wolfit ~<br>
+            ~ Donald Houston ~<br>
+            ~ Hermione Baddeley ~</p>
+            Room at the Top
+            <br>
+            <button type="button"onclick="toggleText('showRoomTop')">Synopsis</button>
+            <button type="button"onclick="toggleText('roomTopInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>87th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BODAzNDMxMzAxOV5BMl5BanBnXkFtZTgwMDMxMjA4MjE@._V1_.jpg" alt="Birdman Poster" with="400" height="400">
+            <br>
+            <p id="showBirdman" style="display:none">A washed-up superhero actor attempts to revive his fading career by writing, directing, and starring in a Broadway production.
+            </p>
+            Birdman or (The Unexpected Virtue of Ignorance)
+            <br>
+            <button type="button"onclick="toggleText('showBirdman')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTkxNzI3ODI4Nl5BMl5BanBnXkFtZTgwMjkwMjY4MjE@._V1_FMjpg_UX1000_.jpg" alt="American Sniper Poster" with="400" height="400">
+            <br>
+            <p id="showSniper" style="display:none">Navy S.E.A.L. sniper Chris Kyle's pinpoint accuracy saves countless lives on the battlefield and turns him into a legend. Back home with his family after four tours of duty, however, Chris finds that it is the war he can't leave behind.
+            </p>
+            American Sniper
+            <br>
+            <button type="button"onclick="toggleText('showSniper')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTYzNDc2MDc0N15BMl5BanBnXkFtZTgwOTcwMDQ5MTE@._V1_.jpg" alt="Boyhood Poster" with="400" height="400">
+            <br>
+            <p id="showBoyhood" style="display:none">The life of Mason, from early childhood to his arrival at college.
+            </p>
+            Boyhood
+            <br>
+            <button type="button"onclick="toggleText('showBoyhood')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_FMjpg_UX1000_.jpg" alt="The Grand Budapest Hotel Poster" with="400" height="400">
+            <br>
+            <p id="showBudapest" style="display:none">A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy in the hotel's glorious years under an exceptional concierge.
+            </p>
+            The Grand Budapest Hotel
+            <br>
+            <button type="button"onclick="toggleText('showBudapest')">Synopsis</button>
+        </th>
+    </tr>
+</table>
+
+<table class = "center">
+    <tr>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/I/71lgCQu0zQL._AC_UF894,1000_QL80_.jpg" alt="The Imitation Game Poster" with="400" height="400">
+            <br>
+            <p id="showImitation" style="display:none">During World War II, the English mathematical genius Alan Turing tries to crack the German Enigma code with help from fellow mathematicians while attempting to come to terms with his troubled private life.
+            </p>
+            The Imitation Game
+            <br>
+            <button type="button"onclick="toggleText('showImitation')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/I/91cPXkLV5dL._AC_UF1000,1000_QL80_.jpg" alt="Selma Poster" with="400" height="400">
+            <br>
+            <p id="showSelma" style="display:none">A chronicle of Dr. Martin Luther King, Jr.'s campaign to secure equal voting rights via an epic march from Selma to Montgomery, Alabama, in 1965.
+            </p>
+            Selma
+            <br>
+            <button type="button"onclick="toggleText('showSelma')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTAwMTU4MDA3NDNeQTJeQWpwZ15BbWU4MDk4NTMxNTIx._V1_FMjpg_UX1000_.jpg" alt="The Theory of Everything Poster" with="400" height="400">
+            <br>
+            <p id="showTheory" style="display:none">Stephen Hawking gets unprecedented success in the field of physics despite being diagnosed with motor neuron disease at the age of 21. He defeats awful odds as his first wife Jane aids him loyally.
+            </p>
+            The Theory of Everything
+            <br>
+            <button type="button"onclick="toggleText('showTheory')">Synopsis</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/en/0/01/Whiplash_poster.jpg" alt="Whiplash Poster" with="400" height="400">
+            <br>
+            <p id="showWhiplash" style="display:none">A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.
+            </p>
+            Whiplash
+            <br>
+            <button type="button"onclick="toggleText('showWhiplash')">Synopsis</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

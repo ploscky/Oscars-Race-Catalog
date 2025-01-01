@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>77th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BMTkxNzA1NDQxOV5BMl5BanBnXkFtZTcwNTkyMTIzMw@@._V1_FMjpg_UX1000_.jpg" alt="Million Dollar Baby Poster" with="400" height="400">
+            <br>
+            <p id="showMillion" style="display:none">Frankie, an ill-tempered old coach, reluctantly agrees to train aspiring boxer Maggie. Impressed with her determination and talent, he helps her become the best and the two soon form a close bond.
+            </p>
+            <p id="millionInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Clint Eastwood <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																						
+            ~ Clint Eastwood ~<br>
+            ~ Hilary Swank ~<br>
+            ~ Morgan Freeman ~</p>
+            Million Dollar Baby
+            <br>
+            <button type="button"onclick="toggleText('showMillion')">Synopsis</button>
+            <button type="button"onclick="toggleText('millionInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BYTUyYWJlNDgtOTM5Ny00YTQ3LWFmYTgtZjJiNTNkYjJlMmY4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="The Aviator Poster" with="400" height="400">
+            <br>
+            <p id="showAviator" style="display:none">A biopic depicting the early years of legendary director and aviator Howard Hughes' career from the late 1920s to the mid 1940s.
+            </p>
+            <p id="aviatorInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Martin Scorsese <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																							
+            ~ Leonardo DiCaprio ~<br>
+            ~ Cate Blanchett ~<br>
+            ~ Kate Beckinsale ~<br>
+            ~ John C. Reilly ~<br>
+            ~ Alec Baldwin ~<br>
+            ~ Alan Alda ~<br>
+            ~ Jude Law ~</p>
+            The Aviator
+            <br>
+            <button type="button"onclick="toggleText('showAviator')">Synopsis</button>
+            <button type="button"onclick="toggleText('aviatorInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BZWIyODcyYzYtNTNhMy00MThjLTkxZDgtMTBiOWY3ODkxNzQ1XkEyXkFqcGc@._V1_.jpg" alt="Finding Neverland Poster" with="400" height="400">
+            <br>
+            <p id="showNever" style="display:none">The story of Sir J.M. Barrie's friendship with a family who inspired him to create Peter Pan.
+            </p>
+            <p id="neverInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Marc Forster <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																								
+            ~ Johnny Depp ~<br>
+            ~ Kate Winslet ~<br>
+            ~ Julie Christie ~<br>
+            ~ Radha Mitchell ~<br>
+            ~ Dustin Hoffman ~</p>
+            Finding Neverland
+            <br>
+            <button type="button"onclick="toggleText('showNever')">Synopsis</button>
+            <button type="button"onclick="toggleText('neverInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/en/2/2b/Ray_poster.jpg" alt="Ray Poster" with="400" height="400">
+            <br>
+            <p id="showRay" style="display:none">The story of the life and career of the legendary rhythm and blues musician Ray Charles, from his humble beginnings in the South, where he went blind at age seven, to his meteoric rise to stardom during the 1950s and 1960s.
+            </p>
+            <p id="rayInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Taylor Hackford <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																									
+            ~ Jamie Foxx ~<br>
+            ~ Kerry Washington ~<br>
+            ~ Clifton Powell ~<br>
+            ~ Harry Lennix ~<br>
+            ~ Terrence Howard ~<br>
+            ~ Larenz Tate ~<br>
+            ~ Richard Schiff ~<br>
+            ~ Regina King ~</p>
+            Ray
+            <br>
+            <button type="button"onclick="toggleText('showRay')">Synopsis</button>
+            <button type="button"onclick="toggleText('rayInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTU0Mjg3MzkxOV5BMl5BanBnXkFtZTYwNDU1OTY3._V1_FMjpg_UX1000_.jpg" alt="Sideways Poster" with="400" height="400">
+            <br>
+            <p id="showSideways" style="display:none">Two men reaching middle age with not much to show but disappointment embark on a week-long road trip through California's wine country, just as one is about to take a trip down the aisle.
+            </p>
+            <p id="sidewaysInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Alexander Payne <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																										
+            ~ Paul Giamatti ~<br>
+            ~ Thomas Haden Church ~<br>
+            ~ Virginia Madsen ~<br>
+            ~ Sandra Oh ~</p>
+            Sideways
+            <br>
+            <button type="button"onclick="toggleText('showSideways')">Synopsis</button>
+            <button type="button"onclick="toggleText('sidewaysInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>4th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BYWIwYzQ2OGYtZjM3Yy00MTQ4LTk1YzYtNzE3YWVhZmYzMGNiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Cimarron Poster" with="400" height="400">
+            <br>
+            <p id="showCimarron" style="display:none">A newspaper editor settles in an Oklahoma boom town with his reluctant wife at the end of the nineteenth century.
+            </p>
+            <p id="cimarronInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Wesley Ruggles <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Richard Dix ~<br>
+            ~ Irene Dunne ~</p>
+            Cimarron
+            <br>
+            <button type="button"onclick="toggleText('showCimarron')">Synopsis</button>
+            <button type="button"onclick="toggleText('cimarronInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BYTY2NjM3N2EtOTE4Yy00OTg5LWEwODUtZmI0YWNkMWVlNTY1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="East Lynne" with="400" height="400">
+            <br>
+            <p id="showLynne" style="display:none">The refined Lady Isabel Carlisle, after leaving her family and enduring nearly a decade of hardships, learns that her son has fallen ill.
+            </p>
+            <p id="lynneInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Frank Lloyd <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Anne Harding ~<br>
+            ~ Conrad Nagel ~<br>
+            ~ Clive Brook ~<br>
+            ~ Cecilia Loftus ~</p>
+            East Lynne
+            <br>
+            <button type="button"onclick="toggleText('showLynne')">Synopsis</button>
+            <button type="button"onclick="toggleText('lynneInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/The_Front_Page_%281931_film%29_poster.jpg" alt="The Frong Page" with="400" height="400">
+            <br>
+            <p id="showFrontPage" style="display:none">A crusading newspaper editor tricks his retiring star reporter into covering one last case.
+            </p>
+            <p id="frontPageInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Lewis Milestone <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Adolphe Menjou ~<br>
+            ~ Pat O'Brien ~<br>
+            ~ Mary Brian ~<br>
+            ~ Edward Everett Horton ~</p>
+            The Front Page
+            <br>
+            <button type="button"onclick="toggleText('showFrontPage')">Synopsis</button>
+            <button type="button"onclick="toggleText('frontPageInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Skippy_%281931%29_film_poster.jpg/1200px-Skippy_%281931%29_film_poster.jpg" alt="Skippy" with="400" height="400">
+            <br>
+            <p id="showSkippy" style="display:none">Skippy, the mischievous son of a wealthy doctor, meets Sooky in poverty-ridden Shantytown, and together they try to save Sooky's pet from a cruel dogcatcher.
+            </p>
+            <p id="skippyInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Norman Taurog <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Jackie Cooper ~<br>
+            ~ Robert Coogan ~<br>
+            ~ Mitzi Green ~<br>
+            ~ Jackie Searl ~</p>
+            Skippy
+            <br>
+            <button type="button"onclick="toggleText('showSkippy')">Synopsis</button>
+            <button type="button"onclick="toggleText('skippyInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BOTZiZGQ0YjAtYTNlMy00OWI4LTlkNzUtYWY5NTVmYzhhMWRiXkEyXkFqcGc@._V1_.jpg" alt="Trader Horn" with="400" height="400">
+            <br>
+            <p id="showTrader" style="display:none">Two white traders in the darkest Africa of the 1870s find a missionary's daughter, who was captured as a child by a savage tribe and now worshiped as a goddess.
+            </p>
+            <p id="traderInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> W.S. Van Dyke <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Harry Carey ~<br>
+            ~ Edwina Booth ~<br>
+            ~ Duncan Renaldo ~</p>
+            Trader Horn
+            <br>
+            <button type="button"onclick="toggleText('showTrader')">Synopsis</button>
+            <button type="button"onclick="toggleText('traderInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+
+</table>
+
+</body>
+
+</html>

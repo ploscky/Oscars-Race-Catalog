@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>71st Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BYmM3MTllNzYtN2MzNS00NWQwLTk0NTEtNjY1MmMwYjNkNTE5XkEyXkFqcGc@._V1_.jpg" alt="Shakespeare in Love Poster" with="400" height="400">
+            <br>
+            <p id="showShakespeare" style="display:none">The world's greatest ever playwright, William Shakespeare, is young, out of ideas and short of cash, but meets his ideal woman and is inspired to write one of his most famous plays.
+            </p>
+            <p id="shakespeareInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> John Madden <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																															
+            ~ Gwyneth Paltrow ~<br>
+            ~ Joseph Fiennes ~<br>
+            ~ Geoffrey Rush ~<br>
+            ~ Colin Firth ~<br>
+            ~ Ben Affleck ~<br>
+            ~ Judi Dench ~</p>
+            Shakespeare in Love
+            <br>
+            <button type="button"onclick="toggleText('showShakespeare')">Synopsis</button>
+            <button type="button"onclick="toggleText('shakespeareInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREPG9AK0ohwzu3JPp4oc_oBcQOI307kAMC7A&s" alt="Elizabeth Poster" with="400" height="400">
+            <br>
+            <p id="showElizabeth" style="display:none">The early years of the reign of Elizabeth I of England and her difficult task of learning what is necessary to be a monarch.
+            </p>
+            <p id="elizabethInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Shekhar Kapur <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																
+            ~ Cate Blanchett ~<br>
+            ~ Geoffrey Rush ~<br>
+            ~ Christopher Eccleston ~<br>
+            ~ Joseph Fiennes ~<br>
+            ~ John Gielgud ~<br>
+            ~ Richard Attenborough ~</p>
+            Elizabeth
+            <br>
+            <button type="button"onclick="toggleText('showElizabeth')">Synopsis</button>
+            <button type="button"onclick="toggleText('elizabethInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BZTBhOGYzZjQtYzE0Mi00MGIwLWE0MWYtNzMxNTM2OTFkM2NjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Life Is Beautiful Poster" with="400" height="400">
+            <br>
+            <p id="showLife" style="display:none">When an open-minded Jewish waiter and his son become victims of the Holocaust, he uses a perfect mixture of will, humor and imagination to protect his son from the dangers around their camp.
+            </p>
+            <p id="lifeInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Roberto Benigni <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																	
+            ~ Roberto Benigni ~<br>
+            ~ Nicoletta Braschi ~</p>
+            Life Is Beautiful
+            <br>
+            <button type="button"onclick="toggleText('showLife')">Synopsis</button>
+            <button type="button"onclick="toggleText('lifeInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BZGZhZGQ1ZWUtZTZjYS00MDJhLWFkYjctN2ZlYjE5NWYwZDM2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Saving Private Ryan Poster" with="400" height="400">
+            <br>
+            <p id="showRyan" style="display:none">Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.
+            </p>
+            <p id="ryanInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Steven Spielberg <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																		
+            ~ Tom Hanks ~<br>
+            ~ Edward Burns ~<br>
+            ~ Matt Damon ~<br>
+            ~ Tom Sizemore ~</p>
+            Saving Private Ryan
+            <br>
+            <button type="button"onclick="toggleText('showRyan')">Synopsis</button>
+            <button type="button"onclick="toggleText('ryanInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMzQ5NmViMDUtMjI1NC00ZWJkLTkwNzctMmIxZWY2MzQyZDc2XkEyXkFqcGc@._V1_.jpg" alt="The Thin Red Line Poster" with="400" height="400">
+            <br>
+            <p id="showThinRed" style="display:none">Adaptation of James Jones' autobiographical 1962 novel, focusing on the conflict at Guadalcanal during the second World War.
+            </p>
+            <p id="thinRedInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Terrence Malick <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																		
+            ~ Jim Caviezel ~<br>
+            ~ Sean Penn ~<br>
+            ~ Nick Nolte ~</p>
+            The Thin Red Line
+            <br>
+            <button type="button"onclick="toggleText('showThinRed')">Synopsis</button>
+            <button type="button"onclick="toggleText('thinRedInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>
