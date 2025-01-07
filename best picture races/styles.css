@@ -1,0 +1,98 @@
+body{
+    background-color: darkred;
+}
+
+h1 {
+    text-align: center;
+    font-family: "limelight", sans-serif;
+    color: darkgoldenrod;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.myDiv {
+    margin: auto;
+    width: 7%
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td {
+    border: 2px solid darkgoldenrod;
+    border-collapse: collapse;
+    margin-top: 25px;
+    font-family: "cormorant upright", serif;
+    font-style: normal;
+}
+
+th {
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(231, 184, 67);
+}
+
+td {
+    font-size: 25px;
+    font-weight: 500;
+    color: lemonchiffon;
+    text-align: center;
+}
+
+a:link {
+    color: lemonchiffon;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: lemonchiffon;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(231, 184, 67);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(231, 184, 67);
+    background-color: transparent;
+    text-decoration: none;
+}
+
+button {
+    background-color: darkgoldenrod;
+    border: none;
+    color: white;
+    text-align: center;
+    font-family: "cormorant upright", serif;
+    font-size: 22px;
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+p {
+    color: lemonchiffon;
+    font-size: 25px;
+    font-family: "cormorant upright", serif;
+    font-weight: 500;
+}
+
+.cormorant-upright-bold {
+    color:rgb(231, 184, 67);
+    font-family: "Cormorant Upright", serif;
+    font-weight: 700;
+    font-style: normal;
+}

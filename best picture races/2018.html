@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>90th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BOGFlMTM2MTgtZDdlMy00ZDZlLWFjOTUtZDMzMGEwNmNiMWY0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="The Shape of Water Poster" with="400" height="400">
+            <br>
+            <p id="showShape" style="display:none">At a top secret research facility in the 1960s, a lonely janitor forms a unique relationship with an amphibious creature that is being held in captivity.
+            </p>
+            <p id="shapeInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Guillermo del Toro <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																																																																																	
+            ~ Sally Hawkins ~<br>
+            ~ Michael Shannon ~<br>
+            ~ Richard Jenkins ~<br>
+            ~ Doug Jones ~<br>
+            ~ Michael Stuhlbarg ~<br>
+            ~ Octavia Spencer ~</p>
+            The Shape of Water
+            <br>
+            <button type="button"onclick="toggleText('showShape')">Synopsis</button>
+            <button type="button"onclick="toggleText('shapeInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BNDk3NTEwNjc0MV5BMl5BanBnXkFtZTgwNzYxNTMwMzI@._V1_FMjpg_UX1000_.jpg" alt="Call Me by Your Name Poster" with="400" height="400">
+            <br>
+            <p id="showCallMe" style="display:none">It's the summer of 1983, and 17-year-old Elio is spending the days with his family at their villa in Lombardy, Italy. He soon meets Oliver, who's working as an intern for Elio's father. They discover the heady beauty of awakening desire.
+            </p>
+            <p id="callMeInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Luca Guadagnino <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																																																																																		
+            ~ Armie Hammer ~<br>
+            ~ Timothée Chalamet ~<br>
+            ~ Michael Stuhlbarg ~<br>
+            ~ Amira Casar ~<br>
+            ~ Esther Garrel ~<br>
+            ~ Victoire Du Bois ~</p>
+            Call Me by Your Name
+            <br>
+            <button type="button"onclick="toggleText('showCallMe')">Synopsis</button>
+            <button type="button"onclick="toggleText('callMeInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjIyNDkyMTgzMV5BMl5BanBnXkFtZTgwNTQwNjg2MzI@._V1_FMjpg_UX1000_.jpg" alt="Darkest Hour Poster" with="400" height="400">
+            <br>
+            <p id="showDarkest" style="display:none">In May 1940, the fate of World War II hangs on Winston Churchill, who must decide whether to negotiate with Adolf Hitler, or fight on knowing that it could mean the end of the British Empire.
+            </p>
+            <p id="darkestInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Joe Wright <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																																																																																			
+            ~ Gary Oldman ~<br>
+            ~ Kristin Scott Thomas ~<br>
+            ~ Lily James ~<br>
+            ~ Stephen Dillane ~<br>
+            ~ Ronald Pickup ~<br>
+            ~ Ben Mendelsohn ~</p>
+            Darkest Hour
+            <br>
+            <button type="button"onclick="toggleText('showDarkest')">Synopsis</button>
+            <button type="button"onclick="toggleText('darkestInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BZWU5ZjJkNTQtMzQwOS00ZGE4LWJkMWUtMGQ5YjdiM2FhYmRhXkEyXkFqcGc@._V1_.jpg" alt="Dunkirk Poster" with="400" height="400">
+            <br>
+            <p id="showDunkirk" style="display:none">Allied soldiers from Belgium, the British Empire and France are surrounded by the German army and evacuated during a fierce battle in World War II.
+            </p>
+            <p id="dunkirkInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Christopher Nolan <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																																																																																			
+            ~ Fionn Whitehead ~<br>
+            ~ Barry Keoghan ~<br>
+            ~ Mark Rylance ~</p>
+            Dunkirk
+            <br>
+            <button type="button"onclick="toggleText('showDunkirk')">Synopsis</button>
+            <button type="button"onclick="toggleText('dunkirkInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjUxMDQwNjcyNl5BMl5BanBnXkFtZTgwNzcwMzc0MTI@._V1_.jpg" alt="Get Out Poster" with="400" height="400">
+            <br>
+            <p id="showGetOut" style="display:none">A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him eventually reaches a boiling point.
+            </p>
+            <p id="getOutInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Jordan Peele <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																																																																																			
+            ~ Daniel Kaluuya ~<br>
+            ~ Allison Williams ~<br>
+            ~ Bradley Whitford ~<br>
+            ~ Caleb Landry Jones ~<br>
+            ~ Stephen Root ~<br>
+            ~ Catherine Keener ~</p>
+            Get Out
+            <br>
+            <button type="button"onclick="toggleText('showGetOut')">Synopsis</button>
+            <button type="button"onclick="toggleText('getOutInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+<table class = "center">
+    <tr>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BNjk5MzcyOWQtNzE1Mi00NzdmLTlkM2QtOTdjZThhMDc2Y2NjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Lady Bird Poster" with="400" height="400">
+            <br>
+            <p id="showLadyBird" style="display:none">A fiercely independent teenager tries to make her own way in the world while wanting to get out of her hometown of Sacramento, California and to get away from her complicated mother and recently-unemployed father.
+            </p>
+            <p id="ladyBirdInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Greta Gerwig <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																																																																																			
+            ~ Saoirse Ronan ~<br>
+            ~ Laurie Metcalf ~<br>
+            ~ Tracy Letts ~</p>
+            Lady Bird
+            <br>
+            <button type="button"onclick="toggleText('showLadyBird')">Synopsis</button>
+            <button type="button"onclick="toggleText('ladyBirdInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BOTMzNWNhNDctMTM2MC00N2EwLThjYTEtMmQ2ZDAyNDVlNzgyXkEyXkFqcGc@._V1_.jpg" alt="Phantom Thread Poster" with="400" height="400">
+            <br>
+            <p id="showThread" style="display:none">Set in 1950s London, Reynolds Woodcock is a renowned dressmaker whose fastidious life is disrupted by a young, strong-willed woman, Alma, who becomes his muse and lover.
+            </p>
+            <p id="threadInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Paul Thomas Anderson <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																																																																																				
+            ~ Daniel Day-Lewis ~<br>
+            ~ Lesley Manville ~<br>
+            ~ Vicky Krieps ~</p>
+            Phantom Thread
+            <br>
+            <button type="button"onclick="toggleText('showThread')">Synopsis</button>
+            <button type="button"onclick="toggleText('threadInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://www.rogerebert.com/wp-content/uploads/2024/08/The-Post-jpg.webp" alt="The Post Poster" with="400" height="400">
+            <br>
+            <p id="showPost" style="display:none">A cover-up spanning four U.S. Presidents pushes the country's first female newspaper publisher and her editor to join an unprecedented battle between press and government.
+            </p>
+            <p id="postInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Steven Spielberg <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																																																																																					
+            ~ Meryl Streep ~<br>
+            ~ Tom Hanks ~<br>
+            ~ Sarah Paulson ~<br>
+            ~ Bob Odenkirk ~<br>
+            ~ Tracy Letts ~<br>
+            ~ Bradley Whitford ~<br>
+            ~ Bruce Greenwood ~<br>
+            ~ Matthew Rhys ~</p>
+            The Post
+            <br>
+            <button type="button"onclick="toggleText('showPost')">Synopsis</button>
+            <button type="button"onclick="toggleText('postInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjI0ODcxNzM1N15BMl5BanBnXkFtZTgwMzIwMTEwNDI@._V1_.jpg" alt="Three Billboards Poster" with="400" height="400">
+            <br>
+            <p id="showEbbing" style="display:none">A mother personally challenges the local authorities to solve her daughter's murder when they fail to catch the culprit.
+            </p>
+            <p id="ebbingInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Martin McDonagh <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																																																																																						
+            ~ Frances McDormand ~<br>
+            ~ Woody Harrelson ~<br>
+            ~ Sam Rockwell ~<br>
+            ~ Abbie Cornish ~<br>
+            ~ John Hawkes ~<br>
+            ~ Peter Dinklage ~</p>
+            Three Billboards Outside
+            <br>
+            Ebbing, Missouri
+            <br>
+            <button type="button"onclick="toggleText('showEbbing')">Synopsis</button>
+            <button type="button"onclick="toggleText('ebbingInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

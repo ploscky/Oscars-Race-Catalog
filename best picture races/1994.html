@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>66th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BNjM1ZDQxYWUtMzQyZS00MTE1LWJmZGYtNGUyNTdlYjM3ZmVmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Schindler's List Poster" with="400" height="400">
+            <br>
+            <p id="showSchindler" style="display:none">In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.
+            </p>
+            <p id="schindlerInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Steven Spielberg <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																										
+            ~ Liam Neeson ~<br>
+            ~ Ben Kingsley ~<br>
+            ~ Ralph Fiennes ~<br>            
+            ~ Caroline Goodall ~<br>
+            ~ Jonathan Sagall ~<br>
+            ~ Embeth Davidtz ~</p>
+            Schindler's List
+            <br>
+            <button type="button"onclick="toggleText('showSchindler')">Synopsis</button>
+            <button type="button"onclick="toggleText('schindlerInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/I/51f03SDiVlL._AC_UF894,1000_QL80_.jpg" alt="The Fugitive Poster" with="400" height="400">
+            <br>
+            <p id="showFugitive" style="display:none">Dr. Richard Kimble, unjustly accused of murdering his wife, must find the real killer while being the target of a nationwide manhunt led by a seasoned U.S. Marshal.
+            </p>
+            <p id="fugitiveInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Andrew Davis <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																											
+            ~ Harrison Ford ~<br>
+            ~ Tommy Lee Jones ~<br>
+            ~ Sela Ward ~<br>
+            ~ Joe Pantoliano ~<br>
+            ~ Andreas Katsulas ~<br>
+            ~ Jeroen Krabbé ~</p>
+            The Fugitive
+            <br>
+            <button type="button"onclick="toggleText('showFugitive')">Synopsis</button>
+            <button type="button"onclick="toggleText('fugitiveInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMGZiZDVjNzYtZWM4ZC00MzVkLThhNDEtMDJlOTBhYzVjMmNhXkEyXkFqcGc@._V1_.jpg" alt="In the Name of the Father Poster" with="400" height="400">
+            <br>
+            <p id="showFather" style="display:none">An Irish man's coerced confession to an I.R.A. bombing he did not commit results in the imprisonment of his father as well. Meanwhile, a British lawyer fights to clear their names and free them.
+            </p>
+            <p id="fatherInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Jim Sheridan <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																												
+            ~ Daniel Day-Lewis ~<br>
+            ~ Emma Thompson ~<br>
+            ~ Pete Postlethwaite ~</p>
+            In the Name of the Father
+            <br>
+            <button type="button"onclick="toggleText('showFather')">Synopsis</button>
+            <button type="button"onclick="toggleText('fatherInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/en/9/90/The-piano-poster.jpg" alt="The Piano Poster" with="400" height="400">
+            <br>
+            <p id="showPiano" style="display:none">In the mid-19th century a mute woman is sent to New Zealand along with her young daughter and prized piano for an arranged marriage to a farmer, but is soon lusted after by a farm worker.
+            </p>
+            <p id="pianoInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Jane Campion <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																													
+            ~ Holly Hunter ~<br>
+            ~ Harvey Keitel ~<br>
+            ~ Sam Neill ~<br>
+            ~ Anna Paquin ~<br>
+            ~ Kerry Walker ~<br>
+            ~ Genevieve Lemon ~</p>
+            The Piano
+            <br>
+            <button type="button"onclick="toggleText('showPiano')">Synopsis</button>
+            <button type="button"onclick="toggleText('pianoInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BOWY5MTFkMmEtNDE2Zi00NzU4LWE2OWMtZGE4ZWY1NmIzN2I0XkEyXkFqcGc@._V1_.jpg" alt="The Remains of the Day Poster" with="400" height="400">
+            <br>
+            <p id="showRemains" style="display:none">A butler who sacrificed body and soul to service in the years leading up to World War II realizes too late how misguided his loyalty was to his lordly employer.
+            </p>
+            <p id="remainsInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> James Ivory <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																														
+            ~ Anthony Hopkins ~<br>
+            ~ Emma Thompson ~<br>
+            ~ James Fox ~<br>
+            ~ Christopher Reeve ~</p>
+            The Remains of the Day
+            <br>
+            <button type="button"onclick="toggleText('showRemains')">Synopsis</button>
+            <button type="button"onclick="toggleText('remainsInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>54th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BZjkzZjFmZDEtNTliZi00MDcwLThjMTMtNmI5OGVmYjZjZDM1XkEyXkFqcGc@._V1_.jpg" alt="Chariots of Fire Poster" with="400" height="400">
+            <br>
+            <p id="showChariots" style="display:none">Two British track athletes, one a determined Jew and the other a devout Christian, are driven to win in the 1924 Olympics as they wrestle with issues of pride and conscience.
+            </p>
+            <p id="chariotsInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Hugh Hudson <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>											
+            ~ Ben Cross ~<br>
+            ~ Ian Charleson ~<br>
+            ~ Nicholas Farrell ~</p>
+            Chariots of Fire
+            <br>
+            <button type="button"onclick="toggleText('showChariots')">Synopsis</button>
+            <button type="button"onclick="toggleText('chariotsInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMzY3Mzc5YmEtMGYwNS00YjJkLWE2NjQtOWNiM2RlNWFhMTY1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Atlantic City Poster" with="400" height="400">
+            <br>
+            <p id="showAtlantic" style="display:none">In a corrupt city, a small-time gangster and the estranged wife of a pot dealer find themselves thrown together in an escapade of love, money, drugs and danger.
+            </p>
+            <p id="atlanticInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Louis Malle <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>												
+            ~ Burt Lancaster ~<br>
+            ~ Susan Sarandon ~<br>
+            ~ Kate Reid ~<br>
+            ~ Robert Joy ~<br>
+            ~ Hollis McLaren ~<br>
+            ~ Michel Piccoli ~<br>
+            ~ Al Waxman ~</p>
+            Atlantic City
+            <br>
+            <button type="button"onclick="toggleText('showAtlantic')">Synopsis</button>
+            <button type="button"onclick="toggleText('atlanticInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BZmI3OGQ0YjQtZjNkYi00NmEzLWE5NjMtMTdkYjA4YTdiYzBiXkEyXkFqcGc@._V1_.jpg" alt="On Golden Pond Poster" with="400" height="400">
+            <br>
+            <p id="showPond" style="display:none">Curmudgeon Norman is estranged from his daughter Chelsea. Nevertheless, at Golden Pond he and his wife agree to look after Billy, the son of Chelsea's new boyfriend, and a most unexpected relationship blooms.
+            </p>
+            <p id="pondInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Mark Rydell <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>													
+            ~ Katharine Hepburn ~<br>
+            ~ Henry Fonda ~<br>
+            ~ Jane Fonda ~<br>
+            ~ Doug McKeon ~<br>
+            ~ Dabney Coleman ~<br>
+            ~ William Lanteau ~</p>
+            On Golden Pond
+            <br>
+            <button type="button"onclick="toggleText('showPond')">Synopsis</button>
+            <button type="button"onclick="toggleText('pondInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BOGNhMjg2ZjgtYzk4Ni00MTViLTg1MmUtYzM2MDZiYjZlMmU3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Raiders of the Lost Ark Poster" with="400" height="400">
+            <br>
+            <p id="showRaiders" style="display:none">In 1936, archaeologists and adventurers of the U.S. government hired Indiana Jones to find the Ark of the Covenant before the Nazis could obtain its extraordinary powers.
+            </p>
+            <p id="raidersInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Steven Spielberg <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>														
+            ~ Harrison Ford ~<br>
+            ~ Karen Allen ~<br>
+            ~ Paul Freeman ~<br>
+            ~ Ronald Lacey ~<br>
+            ~ John Rhys-Davies ~<br>
+            ~ Denholm Elliott ~</p>
+            Raiders of the Lost Ark
+            <br>
+            <button type="button"onclick="toggleText('showRaiders')">Synopsis</button>
+            <button type="button"onclick="toggleText('raidersInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BNDFjMThlYTMtMjMwMy00MjgxLTlhZjgtZTY2ZTdmYjhmY2U2XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Reds Poster" with="400" height="400">
+            <br>
+            <p id="showReds" style="display:none">A radical American journalist becomes involved with the Communist revolution in Russia, and hopes to bring its spirit and idealism to the United States.
+            </p>
+            <p id="redsInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Warren Beatty <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>															
+            ~ Warren Beatty ~<br>
+            ~ Diane Keaton ~<br>
+            ~ Edward Herrmann ~<br>
+            ~ Jerzy Kosiński ~<br>
+            ~ Jack Nicholson ~<br>
+            ~ Paul Sorvino ~<br>
+            ~ Maureen Stapleton ~</p>
+            Reds
+            <br>
+            <button type="button"onclick="toggleText('showReds')">Synopsis</button>
+            <button type="button"onclick="toggleText('redsInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

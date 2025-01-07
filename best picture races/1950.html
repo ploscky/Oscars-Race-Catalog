@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>22nd Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/All_the_King%27s_Men_%281949_film_poster%29.jpg/1200px-All_the_King%27s_Men_%281949_film_poster%29.jpg" alt="All the King's Men Poster" with="400" height="400">
+            <br>
+            <p id="showKingsMen" style="display:none">The rise and fall of a grass-roots rural politician who eventually becomes mired in the sort of political corruption he vehemently railed against on his way to the governor's mansion.
+            </p>
+            <p id="kingsMenInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Robert Rossen <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Broderick Crawford ~<br>
+            ~ John Ireland ~<br>
+            ~ Mercedes McCambridge ~<br>
+            ~ Joanne Dru ~<br>
+            ~ John Derek ~<br>
+            ~ Shepperd Strudwick ~</p>
+            All the King's Men
+            <br>
+            <button type="button"onclick="toggleText('showKingsMen')">Synopsis</button>
+            <button type="button"onclick="toggleText('kingsMenInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/BattlegroundPoster.jpg/800px-BattlegroundPoster.jpg" alt="Battleground Poster" with="400" height="400">
+            <br>
+            <p id="showBattleground" style="display:none">True tale about a squad of the 101st Airborne Division coping with being trapped by the Germans in the besieged city of Bastogne, Belgium during the Battle of the Bulge in December of 1944.
+            </p>
+            <p id="battlegroundInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> William A. Wellman <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Van Johnson ~<br>
+            ~ John Hodiak ~<br>
+            ~ Ricardo Montalbán ~<br>
+            ~ George Murphy ~</p>
+            Battleground
+            <br>
+            <button type="button"onclick="toggleText('showBattleground')">Synopsis</button>
+            <button type="button"onclick="toggleText('battlegroundInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/The_Heiress_%281949_poster%29.jpg" alt="The Heiress Poster" with="400" height="400">
+            <br>
+            <p id="showHeiress" style="display:none">A naive young woman falls for a handsome young man her emotionally abusive father suspects is only a fortune hunter.
+            </p>
+            <p id="heiressInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> William Wyler <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Olivia de Havilland ~<br>
+            ~ Montgomery Clift ~<br>
+            ~ Ralph Richardson ~</p>
+            The Heiress
+            <br>
+            <button type="button"onclick="toggleText('showHeiress')">Synopsis</button>
+            <button type="button"onclick="toggleText('heiressInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BYWRmNzM5N2MtOWYzYS00NzU1LWIzMTktMjYzNWJjYWY1ZTEyXkEyXkFqcGc@._V1_.jpg" alt="A Letter to Three Wives Poster" with="400" height="400">
+            <br>
+            <p id="showLetterWives" style="display:none">A letter is addressed to three wives from their "best friend" Addie Ross, announcing that she is running away with one of their husbands - but she does not say which one.
+            </p>
+            <p id="letterWivesInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Joseph L. Mankiewicz <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Jeanne Crain ~<br>
+            ~ Linda Darnell ~<br>
+            ~ Ann Sothern ~<br>
+            ~ Kirk Douglas ~<br>
+            ~ Paul Douglas ~<br>
+            ~ Jeffrey Lynn ~</p>
+            A Letter to Three Wives
+            <br>
+            <button type="button"onclick="toggleText('showLetterWives')">Synopsis</button>
+            <button type="button"onclick="toggleText('letterWivesInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Twelve_O%27Clock_High_%281949_poster%29.jpg" alt="Twelve O'Clock High Poster" with="400" height="400">
+            <br>
+            <p id="showTwelveClock" style="display:none">A tough-as-nails general takes over a B-17 bomber unit suffering from low morale and whips them into fighting shape.
+            </p>
+            <p id="twelveClockInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Henry King <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Gregory Peck ~<br>
+            ~ Hugh Marlowe ~<br>
+            ~ Gary Merrill ~</p>
+            Twelve O'Clock High
+            <br>
+            <button type="button"onclick="toggleText('showTwelveClock')">Synopsis</button>
+            <button type="button"onclick="toggleText('twelveClockInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

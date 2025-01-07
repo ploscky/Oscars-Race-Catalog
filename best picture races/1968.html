@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>40th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://upload.wikimedia.org/wikipedia/en/d/d5/In_the_Heat_of_the_Night_%28film%29.jpg" alt="In the Heat of the Night Poster" with="400" height="400">
+            <br>
+            <p id="showHeatNight" style="display:none">A black Philadelphia police detective is mistakenly suspected of a local murder while passing through a racially hostile Mississippi town, and after being cleared is reluctantly asked by the police chief to investigate the case.
+            </p>
+            <p id="heatNightInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Norman Jewison <br><br>
+            <span class="cormorant-upright-bold">Cast:</span> <br>
+            ~ Sidney Poitier ~<br>
+            ~ Rod Steiger ~<br>
+            ~ Warren Oates ~<br>
+            ~ Lee Grant ~</p>
+            In the Heat of the Night
+            <br>
+            <button type="button"onclick="toggleText('showHeatNight')">Synopsis</button>
+            <button type="button"onclick="toggleText('heatNightInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BYWI3ZmM1NmEtMDk4Yi00MzYzLTk0MDctYWJlZjY4MGViNDFiXkEyXkFqcGc@._V1_.jpg" alt="Bonnie and Clyde Poster" with="400" height="400">
+            <br>
+            <p id="showBonnie" style="display:none">Bored waitress Bonnie Parker falls in love with an ex-con named Clyde Barrow and together they start a violent crime spree through the country, stealing cars and robbing banks.
+            </p>
+            <p id="bonnieInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Arthur Penn <br><br>
+            <span class="cormorant-upright-bold">Cast:</span> <br>
+            ~ Warren Beatty ~<br>
+            ~ Faye Dunaway ~<br>
+            ~ Michael J. Pollard ~<br>
+            ~ Gene Hackman ~<br>
+            ~ Estelle Parsons ~</p>
+            Bonnie and Clyde
+            <br>
+            <button type="button"onclick="toggleText('showBonnie')">Synopsis</button>
+            <button type="button"onclick="toggleText('bonnieInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjMxOTM3NzU4M15BMl5BanBnXkFtZTgwNDU0MDUxMDE@._V1_.jpg" alt="Doctor Dolittle Poster" with="400" height="400">
+            <br>
+            <p id="showDoolittle" style="display:none">After the animal communicating veterinarian goes too far for his clientele, he and his friends escape their hometown to the sea in search of the Great Pink Sea Snail.
+            </p>
+            <p id="doolittleInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Richard Fleischer <br><br>
+            <span class="cormorant-upright-bold">Cast:</span> <br>
+            ~ Rex Harrison ~<br>
+            ~ Samantha Eggar ~<br>
+            ~ Anthony Newley ~<br>
+            ~ Richard Attenborough ~</p>
+            Doctor Dolittle
+            <br>
+            <button type="button"onclick="toggleText('showDoolittle')">Synopsis</button>
+            <button type="button"onclick="toggleText('doolittleInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTQ0ODc4MDk4Nl5BMl5BanBnXkFtZTcwMTEzNzgzNA@@._V1_.jpg" alt="The Graduate Poster" with="400" height="400">
+            <br>
+            <p id="showGrad" style="display:none">A disillusioned college graduate finds himself torn between his older lover and her daughter.
+            </p>
+            <p id="gradInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Mike Nichols <br><br>
+            <span class="cormorant-upright-bold">Cast:</span> <br>
+            ~ Anne Bancroft ~<br>
+            ~ Dustin Hoffman ~<br>
+            ~ Katharine Ross ~</p>
+            The Graduate
+            <br>
+            <button type="button"onclick="toggleText('showGrad')">Synopsis</button>
+            <button type="button"onclick="toggleText('gradInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BNmMwNjRiYTUtNjM5Yy00ZDk2LWJiZjEtYjRjMzVmYmM1OGQ5XkEyXkFqcGc@._V1_.jpg" alt="Guess Who's Coming to Dinner Poster" with="400" height="400">
+            <br>
+            <p id="showDinner" style="display:none">A White couple's attitudes are challenged when their daughter introduces them to her Black fiancé.
+            </p>
+            <p id="dinnerInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Stanley Kramer <br><br>
+            <span class="cormorant-upright-bold">Cast:</span> <br>
+            ~ Spencer Tracy ~<br>
+            ~ Sidney Poitier ~<br>
+            ~ Katharine Hepburn ~<br>
+            ~ Katharine Houghton ~</p>
+            Guess Who's Coming to Dinner
+            <br>
+            <button type="button"onclick="toggleText('showDinner')">Synopsis</button>
+            <button type="button"onclick="toggleText('dinnerInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

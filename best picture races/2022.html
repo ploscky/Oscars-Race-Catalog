@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;380;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>94th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/I/51cSUZ1s7pL._AC_UF894,1000_QL80_.jpg" alt="CODA Poster" with="380" height="380">
+            <br>
+            <p id="showCODA" style="display:none">When the family's fishing business is threatened, Ruby finds herself torn between pursuing her musical passion and her fear of abandoning her deaf parents.
+            </p>
+            <p id="codaInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Sian Heder <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																																																																																																											
+            ~ Emilia Jones ~<br>
+            ~ Eugenio Derbez ~<br>
+            ~ Troy Kotsur ~<br>
+            ~ Ferdia Walsh-Peelo ~<br>
+            ~ Daniel Durant ~<br>
+            ~ Marlee Matlin ~</p>
+            CODA
+            <br>
+            <button type="button"onclick="toggleText('showCODA')">Synopsis</button>
+            <button type="button"onclick="toggleText('codaInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMWMwNTU3ZjAtNDlhMy00NjI0LTgwNmItNjRjNmJkMDgzZDYwXkEyXkFqcGc@._V1_.jpg" alt="Belfast Poster" with="380" height="380">
+            <br>
+            <p id="showBelfast" style="display:none">A young boy and his working-class Belfast family experience the tumultuous late 1960s.
+            </p>
+            <p id="belfastInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Kenneth Branagh <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																																																																																																												
+            ~ Caitríona Balfe ~<br>
+            ~ Judi Dench ~<br>
+            ~ Jamie Dornan ~<br>
+            ~ Ciarán Hinds ~<br>
+            ~ Colin Morgan ~<br>
+            ~ Jude Hill ~</p>
+            Belfast
+            <br>
+            <button type="button"onclick="toggleText('showBelfast')">Synopsis</button>
+            <button type="button"onclick="toggleText('belfastInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjhhNWFjNzctYTJjOS00MDc0LThiNjItZmM0ZDVmMWViY2UzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Don't Look Up Poster" with="380" height="380">
+            <br>
+            <p id="showLook" style="display:none">Two low-level astronomers must go on a giant media tour to warn humankind of an approaching comet that will destroy planet Earth.
+            </p>
+            <p id="lookInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Adam McKay <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																																																																																																												
+            ~ Leonardo DiCaprio ~<br>
+            ~ Jennifer Lawrence ~<br>
+            ~ Meryl Streep ~</p>
+            Don't Look Up
+            <br>
+            <button type="button"onclick="toggleText('showLook')">Synopsis</button>
+            <button type="button"onclick="toggleText('lookInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BZTZlYTg1ZjEtY2M0ZS00Y2EzLWE5Y2QtY2JlMTE5NzRhOWNlXkEyXkFqcGc@._V1_.jpg" alt="Drive My Car Poster" with="380" height="380">
+            <br>
+            <p id="showDrive" style="display:none">A renowned stage actor and director learns to cope with a big personal loss when he receives an offer to direct a production of Uncle Vanya in Hiroshima.
+            </p>
+            <p id="driveInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Ryusuke Hamaguchi <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																																																																																																												
+            ~ Hidetoshi Nishijima ~<br>
+            ~ Tōko Miura ~<br>
+            ~ Reika Kirishima ~</p>
+            Drive My Car
+            <br>
+            <button type="button"onclick="toggleText('showDrive')">Synopsis</button>
+            <button type="button"onclick="toggleText('driveInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://imageio.forbes.com/specials-images/imageserve/61116cea2313e8bae55a536a/-Dune-/0x0.jpg?format=jpg&width=960" alt="Dune Poster" with="380" height="380">
+            <br>
+            <p id="showDune" style="display:none">Paul Atreides arrives on Arrakis after his father accepts the stewardship of the dangerous planet. However, chaos ensues after a betrayal as forces clash to control melange, a precious resource.
+            </p>
+            <p id="duneInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Denis Villeneuve <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																																																																																																												
+            ~ Timothée Chalamet ~<br>
+            ~ Rebecca Ferguson ~<br>
+            ~ Oscar Isaac ~</p>
+            Dune
+            <br>
+            <button type="button"onclick="toggleText('showDune')">Synopsis</button>
+            <button type="button"onclick="toggleText('duneInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+<table class = "center">
+    <tr>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjVlZGFjMDctNDIxOS00NjY5LWE1ZTEtMTAxZGE4Y2QxZjMxXkEyXkFqcGc@._V1_.jpg" alt="King Richard Poster" with="380" height="380">
+            <br>
+            <p id="showKing" style="display:none">A look at how tennis superstars Venus and Serena Williams became who they are after the coaching from their father Richard.
+            </p>
+            <p id="kingInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Reinaldo Marcus Green <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																																																																																																													          
+            ~ Will Smith ~<br>
+            ~ Aunjanue Ellis ~<br>
+            ~ Saniyya Sidney ~<br>
+            ~ Demi Singleton ~<br>
+            ~ Tony Goldwyn ~<br>
+            ~ Jon Bernthal ~</p>
+            King Richard
+            <br>
+            <button type="button"onclick="toggleText('showKing')">Synopsis</button>
+            <button type="button"onclick="toggleText('kingInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BYjU5MjRiOWMtNmI0OC00ZTU1LThlNGItYTViNzU2YzAzMWMxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Licorice Pizza Poster" with="380" height="380">
+            <br>
+            <p id="showPizza" style="display:none">The story of Alana Kane and Gary Valentine growing up, running around and going through the treacherous navigation of first love in the San Fernando Valley, 1973.
+            </p>
+            <p id="pizzaInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Paul Thomas Anderson <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																																																																																																													          	
+            ~ Alana Haim ~<br>
+            ~ Cooper Hoffman ~<br>
+            ~ Sean Penn ~<br>
+            ~ Tom Waits ~<br>
+            ~ Bradley Cooper ~<br>
+            ~ Benny Safdie ~</p>
+            Licorice Pizza
+            <br>
+            <button type="button"onclick="toggleText('showPizza')">Synopsis</button>
+            <button type="button"onclick="toggleText('pizzaInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BNThlMDUzMDEtOTY1ZC00MzI3LThlOGItYjI0MTdkZDliNDEzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Nightmare Alley Poster" with="380" height="380">
+            <br>
+            <p id="showNightmare" style="display:none">A grifter working his way up from low-ranking carnival worker to lauded psychic medium matches wits with a psychologist bent on exposing him.
+            </p>
+            <p id="nightmareInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Guillermo del Toro <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																																																																																																													          		
+            ~ Bradley Cooper ~<br>
+            ~ Cate Blanchett ~<br>
+            ~ Toni Collette ~<br>
+            ~ Willem Dafoe ~<br>
+            ~ Richard Jenkins ~<br>
+            ~ Rooney Mara ~</p>
+            Nightmare Alley
+            <br>
+            <button type="button"onclick="toggleText('showNightmare')">Synopsis</button>
+            <button type="button"onclick="toggleText('nightmareInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BNzgyMzA2NDEtZWUxNy00MDNmLTllMDYtNzZmNTU5ZWVmMzhlXkEyXkFqcGc@._V1_.jpg" alt="The Power of the Dog Poster" with="380" height="380">
+            <br>
+            <p id="showPower" style="display:none">Charismatic rancher Phil Burbank inspires fear and awe in those around him. When his brother brings home a new wife and her son, Phil torments them until he finds himself exposed to the possibility of love.
+            </p>
+            <p id="powerInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Jane Campion <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																																																																																																													          			
+            ~ Benedict Cumberbatch ~<br>
+            ~ Kirsten Dunst ~<br>
+            ~ Jesse Plemons ~<br>
+            ~ Kodi Smit-McPhee ~</p>
+            The Power of the Dog
+            <br>
+            <button type="button"onclick="toggleText('showPower')">Synopsis</button>
+            <button type="button"onclick="toggleText('powerInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/en/2/2e/West_Side_Story_2021_Official_Poster.jpg" alt="West Side Story Poster" with="380" height="380">
+            <br>
+            <p id="showWest" style="display:none">An adaptation of the 1957 musical, West Side Story explores forbidden love and the rivalry between the Jets and the Sharks, two teenage street gangs of different ethnic backgrounds.
+            </p>
+            <p id="westInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Steven Spielberg <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																																																																																																													          				
+            ~ Ansel Elgort ~<br>
+            ~ Rachel Zegler ~<br>
+            ~ Ariana DeBose ~<br>
+            ~ David Alvarez ~<br>
+            ~ Mike Faist ~<br>
+            ~ Rita Moreno ~</p>
+            West Side Story
+            <br>
+            <button type="button"onclick="toggleText('showWest')">Synopsis</button>
+            <button type="button"onclick="toggleText('westInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

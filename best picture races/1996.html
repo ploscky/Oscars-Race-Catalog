@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>68th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BNGMxZDBhNGQtYTZlNi00N2UzLWI4NDEtNmUzNWM2NTdmZDA0XkEyXkFqcGc@._V1_.jpg" alt="Braveheart Poster" with="400" height="400">
+            <br>
+            <p id="showBraveheart" style="display:none">Scottish warrior William Wallace leads his countrymen in a rebellion to free his homeland from the tyranny of King Edward I of England. 
+            </p>
+            <p id="braveheartInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Mel Gibson <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																		
+            ~ Mel Gibson ~<br>
+            ~ Sophie Marceau ~<br>
+            ~ Patrick McGoohan ~<br>
+            ~ Catherine McCormack ~</p>
+            Braveheart
+            <br>
+            <button type="button"onclick="toggleText('showBraveheart')">Synopsis</button>
+            <button type="button"onclick="toggleText('braveheartInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMGZmNGY1OTAtNjFkYS00MjcyLWFlZjUtYzEyMDllZGZhMzM3XkEyXkFqcGc@._V1_.jpg" alt="Apollo 13 Poster" with="400" height="400">
+            <br>
+            <p id="showApollo" style="display:none">NASA must devise a strategy to return Apollo 13 to Earth safely after the spacecraft undergoes massive internal damage putting the lives of the three astronauts on board in jeopardy. 
+            </p>
+            <p id="apolloInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Ron Howard <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																			
+            ~ Tom Hanks ~<br>
+            ~ Kevin Bacon ~<br>
+            ~ Bill Paxton ~<br>
+            ~ Gary Sinise ~<br>
+            ~ Ed Harris ~<br>
+            ~ Kathleen Quinlan ~</p>
+            Apollo 13
+            <br>
+            <button type="button"onclick="toggleText('showApollo')">Synopsis</button>
+            <button type="button"onclick="toggleText('apolloInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/en/6/6f/Babe_ver1.jpg" alt="Babe Poster" with="400" height="400">
+            <br>
+            <p id="showBabe" style="display:none">Gentle farmer Arthur Hoggett wins a piglet Babe at a county fair. Narrowly escaping his fate as Christmas dinner, Babe bonds with motherly border collie Fly and discovers that he too can herd sheep. But will the other animals accept him? 
+            </p>
+            <p id="babeInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Chris Noonan <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																				
+            ~ James Cromwell ~<br>
+            ~ Magda Szubanski ~</p>
+            Babe
+            <br>
+            <button type="button"onclick="toggleText('showBabe')">Synopsis</button>
+            <button type="button"onclick="toggleText('babeInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/en/2/28/Il_Postino_poster.jpg" alt="The Postman Poster" with="400" height="400">
+            <br>
+            <p id="showPostman" style="display:none">A simple Italian postman learns to love poetry while delivering mail to a famous poet, and then uses this to woo local beauty Beatrice. 
+            </p>
+            <p id="postmanInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Michael Radford <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																					
+            ~ Massimo Troisi ~<br>
+            ~ Philippe Noiret ~<br>
+            ~ Maria Grazia Cucinotta ~</p>
+            The Postman (Il Postino)
+            <br>
+            <button type="button"onclick="toggleText('showPostman')">Synopsis</button>
+            <button type="button"onclick="toggleText('postmanInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BY2MyZWJhNjktMWQ2My00OTgwLWI1NjEtYjUzM2M2N2M4Mzc4XkEyXkFqcGc@._V1_.jpg" alt="Sense and Sensibility Poster" with="400" height="400">
+            <br>
+            <p id="showSense" style="display:none">Rich Mr. Dashwood dies, leaving his second wife and her three daughters poor by the rules of inheritance. The two eldest daughters are the title opposites. 
+            </p>
+            <p id="senseInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Ang Lee <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																						
+            ~ Emma Thompson ~<br>
+            ~ Alan Rickman ~<br>
+            ~ Kate Winslet ~<br>
+            ~ Hugh Grant ~</p>
+            Sense and Sensibility
+            <br>
+            <button type="button"onclick="toggleText('showSense')">Synopsis</button>
+            <button type="button"onclick="toggleText('senseInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

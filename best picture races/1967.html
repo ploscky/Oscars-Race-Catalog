@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>39th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BNjBmMWM0MDQtY2JlNy00NjVkLWE1MjgtMTFmYmRkOTc1ZmNlXkEyXkFqcGc@._V1_.jpg" alt="A Man for All Seasons Poster" with="400" height="400">
+            <br>
+            <p id="showSeasons" style="display:none">The story of Sir Thomas More, who stood up to King Henry VIII when the King rejected the Roman Catholic Church to obtain a divorce and remarry.
+            </p>
+            <p id="seasonsInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Fred Zinnemann <br><br>
+            <span class="cormorant-upright-bold">Cast:</span> <br>
+            ~ Paul Scofield ~<br>
+            ~ Wendy Hiller ~<br>
+            ~ Leo McKern ~<br>
+            ~ Orson Welles ~<br>
+            ~ Robert Shaw ~<br>
+            ~ Susannah York ~</p>
+            A Man for All Seasons
+            <br>
+            <button type="button"onclick="toggleText('showSeasons')">Synopsis</button>
+            <button type="button"onclick="toggleText('seasonsInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BNjI1NGFmODQtNTUyNS00Yzk5LWE1MmMtOWZhODA3ZTY1YzAxXkEyXkFqcGc@._V1_.jpg" alt="Alfie Poster" with="400" height="400">
+            <br>
+            <p id="showAlfie" style="display:none">Unrepentant ladies' man Alfie Elkins gradually begins to understand the consequences of his lifestyle in 1960s London.
+            </p>
+            <p id="alfieInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Lewis Gilbert <br><br>
+            <span class="cormorant-upright-bold">Cast:</span> <br>
+            ~ Michael Caine ~<br>
+            ~ Shelley Winters ~<br>
+            ~ Millicent Martin ~</p>
+            Alfie
+            <br>
+            <button type="button"onclick="toggleText('showAlfie')">Synopsis</button>
+            <button type="button"onclick="toggleText('alfieInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BYjFjYzViMjctZDI1ZS00ZTAwLWEyYzktMzU3NzQ0ZmFiZjA3XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="The Russians Are Coming The Russians Are Coming Poster" with="400" height="400">
+            <br>
+            <p id="showRussians" style="display:none">Without hostile intent, a Soviet submarine runs aground off New England. Men are sent for a boat, but many villagers go into a tizzy, risking bloodshed.
+            </p>
+            <p id="russiansInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Norman Jewison <br><br>
+            <span class="cormorant-upright-bold">Cast:</span> <br>
+            ~ Carl Reiner ~<br>
+            ~ Eva Marie Saint ~<br>
+            ~ Alan Arkin ~</p>
+            The Russians Are Coming The Russians Are Coming
+            <br>
+            <button type="button"onclick="toggleText('showRussians')">Synopsis</button>
+            <button type="button"onclick="toggleText('russiansInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BNTFiMmNmZTctNGQ5ZC00MDEyLTg4NGQtYTQ5NWI3ZGIxZjdhXkEyXkFqcGc@._V1_.jpg" alt="The Sand Pebbles Poster" with="400" height="400">
+            <br>
+            <p id="showPebbles" style="display:none">In 1926, a U.S. Naval engineer gets assigned to a gunboat on a rescue mission in war-torn China.
+            </p>
+            <p id="pebblesInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Robert Wise <br><br>
+            <span class="cormorant-upright-bold">Cast:</span> <br>
+            ~ Steve McQueen ~<br>
+            ~ Richard Attenborough ~<br>
+            ~ Richard Crenna ~<br>
+            ~ Candice Bergen ~<br>
+            ~ Marayat Andriane ~</p>
+            The Sand Pebbles
+            <br>
+            <button type="button"onclick="toggleText('showPebbles')">Synopsis</button>
+            <button type="button"onclick="toggleText('pebblesInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BOGY5YWJlMjUtNWI4Zi00NTExLWIwMDUtNGJkOTM0MzliNjE4XkEyXkFqcGc@._V1_.jpg" alt="Who's Afraid of Virginia Woolf? Poster" with="400" height="400">
+            <br>
+            <p id="showWoolf" style="display:none">A middle-aged New England associate professor and his wife, with the help of alcohol, use their young guests to fuel anguish and emotional pain towards each other over the course of a distressing night.
+            </p>
+            <p id="woolfInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Mike Nichols <br><br>
+            <span class="cormorant-upright-bold">Cast:</span> <br>
+            ~ Elizabeth Taylor ~<br>
+            ~ Richard Burton ~<br>
+            ~ George Segal ~<br>
+            ~ Sandy Dennis ~</p>
+            Who's Afraid of Virginia Woolf?
+            <br>
+            <button type="button"onclick="toggleText('showWoolf')">Synopsis</button>
+            <button type="button"onclick="toggleText('woolfInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

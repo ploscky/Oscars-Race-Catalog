@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>37th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://cdn11.bigcommerce.com/s-yzgoj/images/stencil/1280x1280/products/299001/3767644/MOV206455__57062.1541669238.jpg?c=2" alt="My Fair Lady Poster" with="400" height="400">
+            <br>
+            <p id="showFairLady" style="display:none">In 1910s London, snobbish phonetics professor Henry Higgins agrees to a wager that he can make a crude flower girl, Eliza Doolittle, presentable in high society.
+            </p>
+            <p id="fairLadyInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> George Cukor <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Audrey Hepburn ~<br>
+            ~ Rex Harrison ~<br>
+            ~ Stanley Holloway ~<br>
+            ~ Wilfrid Hyde-White ~<br>
+            ~ Gladys Cooper ~<br>
+            ~ Jeremy Brett ~<br>
+            ~ Theodore Bikel ~</p>
+            My Fair Lady
+            <br>
+            <button type="button"onclick="toggleText('showFairLady')">Synopsis</button>
+            <button type="button"onclick="toggleText('fairLadyInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BZWIyNGI0MWMtOTkyMi00MzYyLWJkOWQtY2E1ZjgxNjQwNWZjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Becket Poster" with="400" height="400">
+            <br>
+            <p id="showBecket" style="display:none">King Henry II of England comes to terms with his affection for his close friend and confidant Thomas Becket, who finds his true honor by observing God's divine will rather than the King's.
+            </p>
+            <p id="becketInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Peter Glenville <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Richard Burton ~<br>
+            ~ Peter O'Toole ~<br>
+            ~ John Gielgud ~</p>
+            Becket
+            <br>
+            <button type="button"onclick="toggleText('showBecket')">Synopsis</button>
+            <button type="button"onclick="toggleText('becketInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/en/e/e6/Dr._Strangelove_poster.jpg" alt="Dr. Strangelove Poster" with="400" height="400">
+            <br>
+            <p id="showStrangelove" style="display:none">An unhinged American general orders a bombing attack on the Soviet Union, triggering a path to nuclear holocaust that a war room full of politicians and generals frantically tries to stop.
+            </p>
+            <p id="strangeloveInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Stanley Kubrick <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Peter Sellers ~<br>
+            ~ George C. Scott ~<br>
+            ~ Sterling Hayden ~<br>
+            ~ Keenan Wynn ~<br>
+            ~ Slim Pickens ~<br>
+            ~ Tracy Reedm ~</p>
+            Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb
+            <br>
+            <button type="button"onclick="toggleText('showStrangelove')">Synopsis</button>
+            <button type="button"onclick="toggleText('strangeloveInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BNThiNjgzMTYtZjUzMC00YTVlLTg4MDItMmFjMDIwYjg4ZDAwXkEyXkFqcGc@._V1_.jpg" alt="Mary Poppins Poster" with="400" height="400">
+            <br>
+            <p id="showMary" style="display:none">In turn of the century London, a magical nanny employs music and adventure to help two neglected children become closer to their father.
+            </p>
+            <p id="maryInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Robert Stevenson <br><br>
+            <span class="cormorant-upright-bold">Cast:</span> <br>
+            ~ Julie Andrews ~<br>
+            ~ Dick Van Dyke ~<br>
+            ~ David Tomlinson ~<br>
+            ~ Glynis Johns ~</p>
+            Mary Poppins
+            <br>
+            <button type="button"onclick="toggleText('showMary')">Synopsis</button>
+            <button type="button"onclick="toggleText('maryInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BYWFhMGZmZTUtMzI0Yi00MzUwLTkzOWUtMWRmODZmYWY5YWE3XkEyXkFqcGc@._V1_.jpg" alt="Zorba the Greek Poster" with="400" height="400">
+            <br>
+            <p id="showZorba" style="display:none">A reserved English writer travelling to Crete on a matter of business finds his life changed forever when he meets the gregarious Alexis Zorba.
+            </p>
+            <p id="zorbaInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Michael Cacoyannis <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Anthony Quinn ~<br>
+            ~ Alan Bates ~<br>
+            ~ Irene Papas ~<br>
+            ~ Lila Kedrova ~<br>
+            ~ Sotiris Moustakas ~<br>
+            ~ Anna Kyriakou ~</p>
+            Zorba the Greek
+            <br>
+            <button type="button"onclick="toggleText('showZorba')">Synopsis</button>
+            <button type="button"onclick="toggleText('zorbaInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

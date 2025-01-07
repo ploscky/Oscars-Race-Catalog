@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>29th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BYTNmOTdlYzUtMGEyOC00YzBmLWFmYzAtMTBiM2UwOWQwZGJkXkEyXkFqcGc@._V1_.jpg" alt="Around the World in 80 Days Poster" with="400" height="400">
+            <br>
+            <p id="showAroundWorld" style="display:none">A Victorian Englishman bets that with the new steamships and railways he can circumnavigate the globe in eighty days.
+            </p>
+            <p id="aroundWorldInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Michael Anderson <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ David Niven ~<br>
+            ~ Cantinflas ~<br>
+            ~ Robert Newton ~<br>
+            ~ Shirley MacLaine ~</p>
+            Around the World in 80 Days
+            <br>
+            <button type="button"onclick="toggleText('showAroundWorld')">Synopsis</button>
+            <button type="button"onclick="toggleText('aroundWorldInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Poster_-_Friendly_Persuasion_01.jpg" alt="Friendly Persuasion Poster" with="400" height="400">
+            <br>
+            <p id="showFriendly" style="display:none">The pacifist attitude of a Quaker family is tested as a result of the American Civil War.
+            </p>
+            <p id="friendlyInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> William Wyler <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Gary Cooper ~<br>
+            ~ Dorothy McGuire ~<br>
+            ~ Anthony Perkins ~</p>
+            Friendly Persuasion
+            <br>
+            <button type="button"onclick="toggleText('showFriendly')">Synopsis</button>
+            <button type="button"onclick="toggleText('friendlyInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Giant_%281956%29_poster.jpg" alt="Giant Poster" with="400" height="400">
+            <br>
+            <p id="showGiant" style="display:none">Sprawling epic covering the life of a Texas cattle rancher and his family and associates.
+            </p>
+            <p id="giantInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> George Stevens <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Elizabeth Taylor ~<br>
+            ~ Rock Hudson ~<br>
+            ~ James Dean ~</p>
+            Giant
+            <br>
+            <button type="button"onclick="toggleText('showGiant')">Synopsis</button>
+            <button type="button"onclick="toggleText('giantInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BZDA5MTVjZDEtYmE3Ni00MTc5LWFlYWMtNzk1YjM5NTUzNzE1XkEyXkFqcGc@._V1_.jpg" alt="Picnic Poster" with="400" height="400">
+            <br>
+            <p id="showKingI" style="display:none">A widow accepts a job as a live-in governess to the King of Siam's children.
+            </p>
+            <p id="kingIInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Walter Lang <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Deborah Kerr ~<br>
+            ~ Yul Brynner ~<br>
+            ~ Rita Moreno ~<br>
+            ~ Martin Benson ~<br>
+            ~ Rex Thompson ~</p>
+            The King and I
+            <br>
+            <button type="button"onclick="toggleText('showKingI')">Synopsis</button>
+            <button type="button"onclick="toggleText('kingIInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/The_Ten_Commandments_%281956_film_poster%29.jpg/1200px-The_Ten_Commandments_%281956_film_poster%29.jpg" alt="The Ten Commandments Poster" with="400" height="400">
+            <br>
+            <p id="showTenCommand" style="display:none">Moses, raised as a prince of Egypt in the Pharaoh's household, learns of his true heritage as a Hebrew and his divine mission as the deliverer of his people from slavery.
+            </p>
+            <p id="tenCommandInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Cecil B. DeMille <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Charlton Heston ~<br>
+            ~ Yul Brynner ~<br>
+            ~ Anne Baxter ~</p>
+            The Ten Commandments
+            <br>
+            <button type="button"onclick="toggleText('showTenCommand')">Synopsis</button>
+            <button type="button"onclick="toggleText('tenCommandInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

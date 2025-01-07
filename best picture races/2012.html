@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;380;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>84th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BYjEwOGZmM2QtNjY4Mi00NjI0LTkyZjItZDEzZGI1YTEzMDg1XkEyXkFqcGc@._V1_.jpg" alt="The Artist Poster" with="380" height="380">
+            <br>
+            <p id="showArtist" style="display:none">When George, a silent movie superstar, meets Peppy Miller, a dancer, sparks fly between the two. However, after the introduction of talking pictures, their fortunes change, affecting their dynamic.
+            </p>
+            <p id="artistInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Michel Hazanavicius <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																																						
+            ~ Jean Dujardin ~<br>
+            ~ Bérénice Bejo ~<br>
+            ~ John Goodman ~</p>
+            The Artist
+            <br>
+            <button type="button"onclick="toggleText('showArtist')">Synopsis</button>
+            <button type="button"onclick="toggleText('artistInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjAyNTA1MTcyN15BMl5BanBnXkFtZTcwNjEyODczNQ@@._V1_.jpg" alt="The Descendants Poster" with="380" height="380">
+            <br>
+            <p id="showDescendants" style="display:none">A land baron tries to reconnect with his two daughters after his wife is seriously injured in a boating accident.
+            </p>
+            <p id="descendantsInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Alexander Payne <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																																							
+            ~ George Clooney ~<br>
+            ~ Shailene Woodley ~<br>
+            ~ Beau Bridges ~<br>
+            ~ Judy Greer ~</p>
+            The Descendants
+            <br>
+            <button type="button"onclick="toggleText('showDescendants')">Synopsis</button>
+            <button type="button"onclick="toggleText('descendantsInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTUxNzYwMTE3NV5BMl5BanBnXkFtZTcwMDY2NzU4Ng@@._V1_FMjpg_UX1000_.jpg" alt="Extremely Loud & Incredibly Close Poster" with="380" height="380">
+            <br>
+            <p id="showLoud" style="display:none">A nine-year-old amateur inventor, Francophile, and pacifist searches New York City for the lock that matches a mysterious key left behind by his father, who died in the World Trade Center on September 11, 2001.
+            </p>
+            <p id="loudInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Stephen Daldry <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																																								
+            ~ Tom Hanks ~<br>
+            ~ Sandra Bullock ~<br>
+            ~ Thomas Horn ~<br>
+            ~ Max von Sydow ~<br>
+            ~ Viola Davis ~<br>
+            ~ John Goodman ~<br>
+            ~ Jeffrey Wright ~</p>
+            Extremely Loud & Incredibly Close
+            <br>
+            <button type="button"onclick="toggleText('showLoud')">Synopsis</button>
+            <button type="button"onclick="toggleText('loudInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTM5OTMyMjIxOV5BMl5BanBnXkFtZTcwNzU4MjIwNQ@@._V1_.jpg" alt="The Help Poster" with="380" height="380">
+            <br>
+            <p id="showHelp" style="display:none">An aspiring author during the civil rights movement of the 1960s decides to write a book detailing the African American maids' point of view on the white families for which they work, and the hardships they go through on a daily basis.
+            </p>
+            <p id="helpInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Tate Taylor <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																																									
+            ~ Jessica Chastain ~<br>
+            ~ Viola Davis ~<br>
+            ~ Bryce Dallas Howard ~<br>
+            ~ Allison Janney ~<br>
+            ~ Octavia Spencer ~<br>
+            ~ Emma Stone ~</p>
+            The Help
+            <br>
+            <button type="button"onclick="toggleText('showHelp')">Synopsis</button>
+            <button type="button"onclick="toggleText('helpInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjAzNzk5MzgyNF5BMl5BanBnXkFtZTcwOTE4NDU5Ng@@._V1_.jpg" alt="Hugo Poster" with="380" height="380">
+            <br>
+            <p id="showHugo" style="display:none">In 1931 Paris, an orphan living in the walls of a train station gets wrapped up in a mystery involving his late father and an automaton.
+            </p>
+            <p id="hugoInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Martin Scorsese <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																																										
+            ~ Ben Kingsley ~<br>
+            ~ Sacha Baron Cohen ~<br>
+            ~ Asa Butterfield ~<br>
+            ~ Chloë Grace Moretz ~<br>
+            ~ Ray Winstone ~<br>
+            ~ Emily Mortimer ~<br>
+            ~ Jude Law ~</p>
+            Hugo
+            <br>
+            <button type="button"onclick="toggleText('showHugo')">Synopsis</button>
+            <button type="button"onclick="toggleText('hugoInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+<table class = "center">
+    <tr>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th style="color: lemonchiffon">
+            <img src="https://musicart.xboxlive.com/7/46361100-0000-0000-0000-000000000002/504/image.jpg?w=1920&h=1080" alt="Midnight in Paris Poster" with="380" height="380">
+            <br>
+            <p id="showMidnightParis" style="display:none">While on a trip to Paris with his fiancée's family, a nostalgic screenwriter finds himself mysteriously going back to the 1920s every day at midnight.
+            </p>
+            <p id="midnightParisInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Woody Allen <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																																											
+            ~ Kathy Bates ~<br>
+            ~ Adrien Brody ~<br>
+            ~ Carla Bruni ~<br>
+            ~ Marion Cotillard ~<br>
+            ~ Rachel McAdams ~<br>
+            ~ Lea Seydoux ~<br>
+            ~ Michael Sheen ~<br>
+            ~ Owen Wilson ~</p>
+            Midnight in Paris
+            <br>
+            <button type="button"onclick="toggleText('showMidnightParis')">Synopsis</button>
+            <button type="button"onclick="toggleText('midnightParisInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjAxOTU3Mzc1M15BMl5BanBnXkFtZTcwMzk1ODUzNg@@._V1_.jpg" alt="Moneyball Poster" with="380" height="380">
+            <br>
+            <p id="showMoneyball" style="display:none">Oakland A's general manager Billy Beane's successful attempt to assemble a baseball team on a lean budget by employing computer-generated analysis to acquire new players.
+            </p>
+            <p id="moneyballInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Bennett Miller <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																																												
+            ~ Brad Pitt ~<br>
+            ~ Jonah Hill ~<br>
+            ~ Philip Seymour Hoffman ~</p>
+            Moneyball
+            <br>
+            <button type="button"onclick="toggleText('showMoneyball')">Synopsis</button>
+            <button type="button"onclick="toggleText('moneyballInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTMwNjQ0NjMzN15BMl5BanBnXkFtZTcwNjMxMTkyNA@@._V1_.jpg" alt="The Tree of Life Poster" with="380" height="380">
+            <br>
+            <p id="showTree" style="display:none">The story of a family in Waco, Texas in 1956. The eldest son witnesses the loss of innocence and struggles with his parents' conflicting teachings.
+            </p>
+            <p id="treeInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Terrence Malick <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																																													
+            ~ Brad Pitt ~<br>
+            ~ Sean Penn ~<br>
+            ~ Jessica Chastain ~</p>
+            The Tree of Life
+            <br>
+            <button type="button"onclick="toggleText('showTree')">Synopsis</button>
+            <button type="button"onclick="toggleText('treeInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjExNzkxOTYyNl5BMl5BanBnXkFtZTcwODA0MjU4Ng@@._V1_.jpg" alt="War Horse Poster" with="380" height="380">
+            <br>
+            <p id="showWar" style="display:none">A young farm boy enlists to serve in World War I after his beloved horse is sold to the cavalry. His hopeful journey takes him out of England and onto the front lines as the war rages on.
+            </p>
+            <p id="warInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Steven Spielberg <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																																													
+            ~ Emily Watson ~<br>
+            ~ David Thewlis ~<br>
+            ~ Peter Mullan ~<br>
+            ~ Niels Arestrup ~<br>
+            ~ Jeremy Irvine ~</p>
+            War Horse
+            <br>
+            <button type="button"onclick="toggleText('showWar')">Synopsis</button>
+            <button type="button"onclick="toggleText('warInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>36th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://cdn.posteritati.com/posters/000/000/065/022/tom-jones-md-web.jpg" alt="Tom Jones Poster" with="400" height="400">
+            <br>
+            <p id="showTom" style="display:none">The romantic and chivalrous adventures of adopted bastard Tom Jones in 18th-century England.
+            </p>
+            <p id="tomInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Tony Richardson <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Albert Finney ~<br>
+            ~ Susannah York ~<br>
+            ~ George Devine ~</p>
+            Tom Jones
+            <br>
+            <button type="button"onclick="toggleText('showTom')">Synopsis</button>
+            <button type="button"onclick="toggleText('tomInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMGM5MjQ1ZDEtNTk1YS00YjBjLWEwMWEtNWNmMDlkZjUxZWUzXkEyXkFqcGc@._V1_.jpg" alt="America America Poster" with="400" height="400">
+            <br>
+            <p id="showAmerica" style="display:none">A young Greek stops at nothing to secure a passage to America.
+            </p>
+            <p id="americaInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Elia Kazan <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Stathis Giallelis ~<br>
+            ~ Frank Wolff ~<br>
+            ~ Elena Karam ~</p>
+            America America
+            <br>
+            <button type="button"onclick="toggleText('showAmerica')">Synopsis</button>
+            <button type="button"onclick="toggleText('americaInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Cleopatra_poster.jpg" alt="Cleopatra Poster" with="400" height="400">
+            <br>
+            <p id="showCleopatra" style="display:none">The story of Queen Cleopatra VII of Egypt who wants to stabilize her power by using the tensions in the Roman Empire.
+            </p>
+            <p id="cleopatraInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Joseph L. Mankiewicz <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Elizabeth Taylor ~<br>
+            ~ Richard Burton ~<br>
+            ~ Rex Harrison ~</p>
+            Cleopatra
+            <br>
+            <button type="button"onclick="toggleText('showCleopatra')">Synopsis</button>
+            <button type="button"onclick="toggleText('cleopatraInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Poster_-_How_the_West_Was_Won.jpg/1200px-Poster_-_How_the_West_Was_Won.jpg" alt="How the West Was Won Poster" with="400" height="400">
+            <br>
+            <p id="showWestWon" style="display:none">Setting off on a journey to the west in the 1830s, the Prescott family run into a man named Linus who helps them fight off a pack of thieves.
+            </p>
+            <p id="westWonInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Henry Hathaway, John Ford, George Marshall <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ James Stewart ~<br>
+            ~ John Wayne ~<br>
+            ~ Gregory Peck ~</p>
+            How the West Was Won
+            <br>
+            <button type="button"onclick="toggleText('showWestWon')">Synopsis</button>
+            <button type="button"onclick="toggleText('westWonInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e9/Lilies_of_the_Field_%281963_film_poster%29.jpg" alt="Lilies of the Field Poster" with="400" height="400">
+            <br>
+            <p id="showLillies" style="display:none">A travelling handyman becomes the answer to the prayers of nuns who wish to build a chapel in the desert.
+            </p>
+            <p id="lilliesInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Ralph Nelson <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Sidney Poitier ~<br>
+            ~ Lilia Skala ~<br>
+            ~ Stanley Adams ~</p>
+            Lilies of the Field
+            <br>
+            <button type="button"onclick="toggleText('showLillies')">Synopsis</button>
+            <button type="button"onclick="toggleText('lilliesInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

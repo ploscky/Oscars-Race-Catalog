@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>51st Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BZGI4YmVhMzMtMWExMS00MGZiLTg2MmItM2I2MWZjODAyM2U5XkEyXkFqcGc@._V1_.jpg" alt="The Deer Hunter Poster" with="400" height="400">
+            <br>
+            <p id="showDeer" style="display:none">An in-depth examination of the ways in which the Vietnam War impacts and disrupts the lives of several friends in a small steel mill town in Pennsylvania.
+            </p>
+            <p id="deerInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Michael Cimino <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>					
+            ~ Robert De Niro ~<br>
+            ~ John Cazale ~<br>
+            ~ John Savage ~<br>
+            ~ Meryl Streep ~<br>
+            ~ Christopher Walken ~</p>
+            The Deer Hunter
+            <br>
+            <button type="button"onclick="toggleText('showDeer')">Synopsis</button>
+            <button type="button"onclick="toggleText('deerInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/en/4/4a/Coming_Home_film_poster.jpg" alt="Coming Home Poster" with="400" height="400">
+            <br>
+            <p id="showComing" style="display:none">In 1968 California, a woman whose husband is a Marine officer fighting in Vietnam falls in love with a former high school classmate who suffered a paralyzing combat injury in the war.
+            </p>
+            <p id="comingInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Hal Ashby <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>					
+            ~ Jane Fonda ~<br>
+            ~ Jon Voight ~<br>
+            ~ Bruce Dern ~</p>
+            Coming Home
+            <br>
+            <button type="button"onclick="toggleText('showComing')">Synopsis</button>
+            <button type="button"onclick="toggleText('comingInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BM2U3OTJmYjItZDAxYy00ZDlmLThlMDItNThjYThhZDgwN2NlXkEyXkFqcGc@._V1_.jpg" alt="Heaven Can Wait Poster" with="400" height="400">
+            <br>
+            <p id="showHeaven" style="display:none">A Los Angeles Rams quarterback, accidentally taken away from his body by an overanxious angel before he was meant to die, returns to life in the body of a recently murdered millionaire.
+            </p>
+            <p id="heavenInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Warren Beatty, Buck Henry <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>						
+            ~ Warren Beatty ~<br>
+            ~ Julie Christie ~<br>
+            ~ James Mason ~</p>
+            Heaven Can Wait
+            <br>
+            <button type="button"onclick="toggleText('showHeaven')">Synopsis</button>
+            <button type="button"onclick="toggleText('heavenInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BZTRiOGMxYzctMTk3Ny00ODBkLWIyNTMtOGZhMWY0MjZiYzAxXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Midnight Express Poster" with="400" height="400">
+            <br>
+            <p id="showMidnightExpress" style="display:none">Billy Hayes, an American college student, is caught smuggling drugs out of Turkey and thrown into prison.
+            </p>
+            <p id="midnightExpressInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Alan Parker <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>							
+            ~ Brad Davis ~<br>
+            ~ Irene Miracle ~<br>
+            ~ Bo Hopkins ~<br>
+            ~ Randy Quaid ~<br>
+            ~ John Hurt ~<br>
+            ~ Paul L. Smith ~</p>
+            Midnight Express
+            <br>
+            <button type="button"onclick="toggleText('showMidnightExpress')">Synopsis</button>
+            <button type="button"onclick="toggleText('midnightExpressInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BOTQ4OWU1MzgtYTllNC00YzQwLWIzNzUtYjNlNmYzYzZjOWEwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="An Unmarried Woman Poster" with="400" height="400">
+            <br>
+            <p id="showUnmarried" style="display:none">A Manhattan woman struggles with her identity as she tries to move on from a painful divorce.
+            </p>
+            <p id="unmarriedInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Paul Mazursky <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>								
+            ~ Jill Clayburgh ~<br>
+            ~ Alan Bates ~<br>
+            ~ Michael Murphy ~<br>
+            ~ Cliff Gorman ~</p>
+            An Unmarried Woman
+            <br>
+            <button type="button"onclick="toggleText('showUnmarried')">Synopsis</button>
+            <button type="button"onclick="toggleText('unmarriedInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

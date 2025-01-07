@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>2nd Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Broadway_Melody_poster.jpg/1200px-Broadway_Melody_poster.jpg" alt="The Broadway Melody Poster" with="400" height="400">
+            <br>
+            <p id="showBroadwayMelody" style="display:none">A pair of sisters from the vaudeville circuit try to make it big time on Broadway, but matters of the heart complicate the attempt.
+            </p>
+            <p id="broadwayMelodyInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Harry Beaumont <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Bessie Love ~<br>
+            ~ Anita Page ~<br>
+            ~ Charles King ~</p>
+            The Broadway Melody
+            <br>
+            <button type="button"onclick="toggleText('showBroadwayMelody')">Synopsis</button>
+            <button type="button"onclick="toggleText('broadwayMelodyInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BZDZiYTMyOTQtYjMwYS00NGZjLWIxYWQtNDAzMTQyMzY4NTQ5XkEyXkFqcGc@._V1_.jpg" alt="Alibi Poster" with="400" height="400">
+            <br>
+            <p id="showAlibi" style="display:none">A prohibition gangster rejoins his mob soon after being released from prison. When a policeman is murdered during a robbery, he falls under suspicion.
+            </p>
+            <p id="alibiInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Roland West <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Chester Morris ~<br>
+            ~ Harry Stubbs ~<br>
+            ~ Mae Busch ~</p>
+            Alibi
+            <br>
+            <button type="button"onclick="toggleText('showAlibi')">Synopsis</button>
+            <button type="button"onclick="toggleText('alibiInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/33/In_Old_Arizona_1928_poster.jpg" alt="In Old Arizona Poster" with="400" height="400">
+            <br>
+            <p id="showArizona" style="display:none">A charming, happy-go-lucky bandit in old Arizona plays cat-and-mouse with the sheriff trying to catch him while he romances a local beauty.
+            </p>
+            <p id="arizonaInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Irving Cummings, Raoul Walsh <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Warner Baxter ~<br>
+            ~ Edmund Lowe ~<br>
+            ~ Dorothy Burgess ~</p>
+            In Old Arizona
+            <br>
+            <button type="button"onclick="toggleText('showArizona')">Synopsis</button>
+            <button type="button"onclick="toggleText('arizonaInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMDc2MTRiMjUtNzVlMC00OGVjLWE2ZDQtMDk5ZWUyNjA4MTUzXkEyXkFqcGc@._V1_.jpg" alt="Hollywood Revue Poster" with="400" height="400">
+            <br>
+            <p id="showRevue" style="display:none">An all-star revue featuring MGM contract players.
+            </p>
+            <p id="revueInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Charles Reisner <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Conrad Nagel ~<br>
+            ~ Jack Benny ~<br>
+            ~ John Gilbert ~<br>
+            ~ Norma Shearer ~</p>
+            Hollywood Revue
+            <br>
+            <button type="button"onclick="toggleText('showRevue')">Synopsis</button>
+            <button type="button"onclick="toggleText('revueInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/The_Patriot_%281928%29_Poster.jpg" alt="The Patriot Poster" with="400" height="400">
+            <br>
+            <p id="showPatriot" style="display:none">Paul I, the Emperor of All Russia, becomes the target of a deadly conspiracy.
+            </p>
+            <p id="patriotInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Ernst Lubitsch <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Emil Jannings ~<br>
+            ~ Florence Vidor ~<br>
+            ~ Lewis Stone ~<br>
+            ~ Neil Hamilton ~</p>
+            The Patriot
+            <br>
+            <button type="button"onclick="toggleText('showPatriot')">Synopsis</button>
+            <button type="button"onclick="toggleText('patriotInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+
+</table>
+
+</body>
+
+</html>

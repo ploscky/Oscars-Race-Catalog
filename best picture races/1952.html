@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>24th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/An_American_in_Paris_%281951_film_poster%29.jpg" alt="An American in Paris Poster" with="400" height="400">
+            <br>
+            <p id="showAmericanParis" style="display:none">Three friends struggle to find work in Paris. Things become more complicated when two of them fall in love with the same woman.
+            </p>
+            <p id="americanParisInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Vincente Minnelli <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Gene Kelly ~<br>
+            ~ Leslie Caron ~<br>
+            ~ Oscar Levant ~<br>
+            ~ Georges Guétary ~<br>
+            ~ Nina Foch ~</p>
+            An American in Paris
+            <br>
+            <button type="button"onclick="toggleText('showAmericanParis')">Synopsis</button>
+            <button type="button"onclick="toggleText('americanParisInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTU5MzI3Njg4MF5BMl5BanBnXkFtZTgwOTM1NzIwMjE@._V1_FMjpg_UX1000_.jpg" alt="Decision Before Dawn Poster" with="400" height="400">
+            <br>
+            <p id="showDecisionDawn" style="display:none">As the US Army approaches Nazi Germany, they recruit German prisoners of war to spy behind German lines.
+            </p>
+            <p id="decisionDawnInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Anatole Litvak <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Richard Basehart ~<br>
+            ~ Gary Merrill ~<br>
+            ~ Oskar Werner ~<br>
+            ~ Hildegard Knef ~</p>
+            Decision Before Dawn
+            <br>
+            <button type="button"onclick="toggleText('showDecisionDawn')">Synopsis</button>
+            <button type="button"onclick="toggleText('decisionDawnInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/66/A_Place_in_the_Sun_%281951_poster%29.jpg" alt="A Place in the Sun Poster" with="400" height="400">
+            <br>
+            <p id="showPlaceSun" style="display:none">A poor boy gets a job working for his rich uncle and ends up falling in love with two women.
+            </p>
+            <p id="placeSunInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> George Stevens <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Montgomery Clift ~<br>
+            ~ Elizabeth Taylor ~<br>
+            ~ Shelley Winters ~</p>
+            A Place in the Sun
+            <br>
+            <button type="button"onclick="toggleText('showPlaceSun')">Synopsis</button>
+            <button type="button"onclick="toggleText('placeSunInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Poster_-_Quo_Vadis_%281951%29_01.jpg/1200px-Poster_-_Quo_Vadis_%281951%29_01.jpg" alt="Quo Vadis Poster" with="400" height="400">
+            <br>
+            <p id="showVadis" style="display:none">After fierce Roman commander Marcus Vinicius becomes infatuated with beautiful Christian hostage Lygia, he begins to question the tyrannical leadership of the despotic emperor Nero.
+            </p>
+            <p id="vadisInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Mervyn LeRoy <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Robert Taylor ~<br>
+            ~ Deborah Kerr ~<br>
+            ~ Leo Genn ~<br>
+            ~ Peter Ustinov ~</p>
+            Quo Vadis
+            <br>
+            <button type="button"onclick="toggleText('showVadis')">Synopsis</button>
+            <button type="button"onclick="toggleText('vadisInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BNTdmZDY1ODQtNzFjYy00MGM4LWJmNDItN2MxMmQ2OTgxZGNmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="A Streetcar Named Desire Poster" with="400" height="400">
+            <br>
+            <p id="showStreetcar" style="display:none">Disturbed Blanche DuBois moves in with her sister in New Orleans and is tormented by her brutish brother-in-law while her reality crumbles around her.
+            </p>
+            <p id="streetcarInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Elia Kazan <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Vivien Leigh ~<br>
+            ~ Marlon Brando ~<br>
+            ~ Kim Hunter ~<br>
+            ~ Karl Malden ~</p>
+            A Streetcar Named Desire
+            <br>
+            <button type="button"onclick="toggleText('showStreetcar')">Synopsis</button>
+            <button type="button"onclick="toggleText('streetcarInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;380;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>14th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/How_Green_Was_My_Valley_%281941_poster_-_Style_A%29.jpg" alt="How Green Was My Valley Poster" with="380" height="380">
+            <br>
+            <p id="showGreenValley" style="display:none">At the turn of the century in a Welsh mining village, the Morgans, he stern, she gentle, raise coal-mining sons and hope their youngest will find a better life. 
+            </p>
+            <p id="greenValleyInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> John Ford <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Walter Pidgeon ~<br>
+            ~ Maureen O'Hara ~<br>
+            ~ Donald Crisp ~<br>
+            ~ Anna Lee ~<br>
+            ~ Roddy McDowall ~</p>
+            How Green Was My Valley
+            <br>
+            <button type="button"onclick="toggleText('showGreenValley')">Synopsis</button>
+            <button type="button"onclick="toggleText('greenValleyInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjEyNGQzODItMjIxNy00YmNmLWEwYzUtNjU0YjBhMzBhYjdiXkEyXkFqcGc@._V1_.jpg" alt="Blossoms in the Dust Poster" with="380" height="380">
+            <br>
+            <p id="showBlossoms" style="display:none">After losing her young son, Edna Gladney opposes the unfair laws discriminating against children whose parents are unknown, and opens an orphanage for those children. 
+            </p>
+            <p id="blossomsInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Mervyn LeRoy <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Greer Garson ~<br>
+            ~ Walter Pidgeon ~<br>
+            ~ Felix Bressart ~</p>
+            Blossoms in the Dust
+            <br>
+            <button type="button"onclick="toggleText('showBlossoms')">Synopsis</button>
+            <button type="button"onclick="toggleText('blossomsInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Citizen_Kane_poster%2C_1941_%28Style_B%2C_unrestored%29.jpg/640px-Citizen_Kane_poster%2C_1941_%28Style_B%2C_unrestored%29.jpg" alt="Citizen Kane Poster" with="380" height="380">
+            <br>
+            <p id="showKane" style="display:none">Following the death of publishing tycoon Charles Foster Kane, reporters scramble to uncover the meaning of his final utterance: 'Rosebud.' 
+            </p>
+            <p id="kaneInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Orson Welles <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Orson Welles ~<br>
+            ~ Joseph Cotten ~<br>
+            ~ Dorothy Comingore ~</p>
+            Citizen Kane
+            <br>
+            <button type="button"onclick="toggleText('showKane')">Synopsis</button>
+            <button type="button"onclick="toggleText('kaneInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BYjUzMjI4OWMtZTY4Ny00MjljLWEzNWMtZGMwY2VjYjIyYWMyXkEyXkFqcGc@._V1_.jpg" alt="Here Comes Mr. Jordan Poster" with="380" height="380">
+            <br>
+            <p id="showJordan" style="display:none">Boxer Joe Pendleton dies 50 years too soon due to a heavenly mistake, and is given a new life as a millionaire playboy.
+            </p>
+            <p id="jordanInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Alexander Hall <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Robert Montgomery ~<br>
+            ~ Claude Rains ~<br>
+            ~ Evelyn Keyes ~</p>
+            Here Comes Mr. Jordan
+            <br>
+            <button type="button"onclick="toggleText('showJordan')">Synopsis</button>
+            <button type="button"onclick="toggleText('jordanInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Hold_Back_The_Dawn_-_1941_-_poster.png" alt="Hold Back the Dawn Poster" with="380" height="380">
+            <br>
+            <p id="showDawn" style="display:none">Stopped in Mexico by U.S. Immigration, Georges Iscovescu hopes to get into the country by marrying a citizen.
+            </p>
+            <p id="dawnInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Mitchell Leisen <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Charles Boyer ~<br>
+            ~ Olivia de Havilland ~<br>
+            ~ Paulette Goddard ~</p>
+            Hold Back the Dawn
+            <br>
+            <button type="button"onclick="toggleText('showDawn')">Synopsis</button>
+            <button type="button"onclick="toggleText('dawnInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+<table class = "center">
+    <tr>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/The_Little_Foxes_%281941_poster%29.jpg" alt="The Little Foxes Poster" with="380" height="380">
+            <br>
+            <p id="showFoxes" style="display:none">The ruthless, moneyed Hubbard clan lives in, and poisons, their part of the Deep South at the turn of the twentieth century.
+            </p>
+            <p id="foxesInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> William Wyler <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Bette Davis ~<br>
+            ~ Herbert Marshall ~<br>
+            ~ Teresa Wright ~</p>
+            The Little Foxes
+            <br>
+            <button type="button"onclick="toggleText('showFoxes')">Synopsis</button>
+            <button type="button"onclick="toggleText('foxesInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BZjJhOTcwNGYtZGM3ZS00ZTYzLWJlZDYtMzllYmRkMDI4MjBkXkEyXkFqcGc@._V1_.jpg" alt="The Maltese Falcon Poster" with="380" height="380">
+            <br>
+            <p id="showFalcon" style="display:none">San Francisco private detective Sam Spade takes on a case that involves him with three eccentric criminals, a gorgeous liar, and their quest for a priceless statuette, with the stakes rising after his partner is murdered.
+            </p>
+            <p id="falconInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> John Huston <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Humphrey Bogart ~<br>
+            ~ Mary Astor ~<br>
+            ~ Gladys George ~</p>
+            The Maltese Falcon
+            <br>
+            <button type="button"onclick="toggleText('showFalcon')">Synopsis</button>
+            <button type="button"onclick="toggleText('falconInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BOTAwYTJhMmUtZDVkMi00Mjk2LTkzMTctZjYyYzkwMjAzYjFlXkEyXkFqcGc@._V1_.jpg" alt="One Foot in Heaven Poster" with="380" height="380">
+            <br>
+            <p id="showFootHeaven" style="display:none">Episodic look at the life of a minister and his family as they move from one parish to another.
+            </p>
+            <p id="footHeavenInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Irving Rapper <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Fredric March ~<br>
+            ~ Martha Scott ~<br>
+            ~ Beulah Bondi ~<br>
+            ~ Gene Lockhart ~</p>
+            One Foot in Heaven
+            <br>
+            <button type="button"onclick="toggleText('showFootHeaven')">Synopsis</button>
+            <button type="button"onclick="toggleText('footHeavenInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Sergeant_York_%281941_poster%29.jpg/800px-Sergeant_York_%281941_poster%29.jpg" alt="Sergeant York Poster" with="380" height="380">
+            <br>
+            <p id="showYork" style="display:none">A Tennessee farmer and marksman is drafted in World War I, and struggles with his pacifist inclinations before becoming one of the most celebrated war heroes.
+            </p>
+            <p id="yorkInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Howard Hawks <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Gary Cooper ~<br>
+            ~ Walter Brennan ~<br>
+            ~ Joan Leslie ~</p>
+            Sergeant York
+            <br>
+            <button type="button"onclick="toggleText('showYork')">Synopsis</button>
+            <button type="button"onclick="toggleText('yorkInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/88/Suspicion_%281941_poster%29.jpg" alt="Suspicion Poster" with="380" height="380">
+            <br>
+            <p id="showSus" style="display:none">A shy young heiress marries a charming gentleman, and soon begins to suspect he is planning to murder her.
+            </p>
+            <p id="susInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Alfred Hitchcock <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>
+            ~ Cary Grant ~<br>
+            ~ Joan Fontaine ~<br>
+            ~ Sir Cedric Hardwicke ~<br>
+            ~ Nigel Bruce ~<br>
+            ~ Dame May Whitty ~</p>
+            Suspicion
+            <br>
+            <button type="button"onclick="toggleText('showSus')">Synopsis</button>
+            <button type="button"onclick="toggleText('susInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>49th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/I/610W-GQy4mL._AC_UF894,1000_QL80_.jpg" alt="Rocky Poster" with="400" height="400">
+            <br>
+            <p id="showRocky" style="display:none">A small-time Philadelphia boxer gets a supremely rare chance to fight the world heavyweight champion in a bout in which he strives to go the distance for his self-respect.
+            </p>
+            <p id="rockyInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> John G. Avildsen <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>		
+            ~ Sylvester Stallone ~<br>
+            ~ Talia Shire ~<br>
+            ~ Burt Young ~<br>
+            ~ Carl Weathers ~<br>
+            ~ Burgess Meredith ~</p>
+            Rocky
+            <br>
+            <button type="button"onclick="toggleText('showRocky')">Synopsis</button>
+            <button type="button"onclick="toggleText('rockyInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BZGQzMzcwMDYtMmNjNS00YzZlLTg2MjUtNTE0MThlNTFjMDQ0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="All the President's Men Poster" with="400" height="400">
+            <br>
+            <p id="showPresidents" style="display:none">"The Washington Post" reporters Bob Woodward and Carl Bernstein uncover the details of the Watergate scandal that leads to President Richard Nixon's resignation.
+            </p>
+            <p id="presidentsInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Alan J. Pakula <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>		
+            ~ Robert Redford ~<br>
+            ~ Dustin Hoffman ~<br>
+            ~ Jack Warden ~<br>
+            ~ Martin Balsam ~<br>
+            ~ Hal Holbrook ~<br>
+            ~ Jason Robards ~</p>
+            All the President's Men
+            <br>
+            <button type="button"onclick="toggleText('showPresidents')">Synopsis</button>
+            <button type="button"onclick="toggleText('presidentsInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BOWZlNDMyN2YtZTJlYi00OGMyLTg0NDEtYTZlZmRmN2U0NDZmXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Bound for Glory Poster" with="400" height="400">
+            <br>
+            <p id="showGlory" style="display:none">The early life of Woody Guthrie as a vagabond folk singer.
+            </p>
+            <p id="gloryInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Hal Ashby <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>		
+            ~ David Carradine ~<br>
+            ~ Ronny Cox ~<br>
+            ~ Melinda Dillon ~<br>
+            ~ Gail Strickland ~<br>
+            ~ Randy Quaid ~</p>
+            Bound for Glory
+            <br>
+            <button type="button"onclick="toggleText('showGlory')">Synopsis</button>
+            <button type="button"onclick="toggleText('gloryInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BY2E4ZGJiNTMtZTAxZC00MmVlLWI1NjYtMGVhMjhkOGEwZDhjXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Network Poster" with="400" height="400">
+            <br>
+            <p id="showNetwork" style="display:none">A television network cynically exploits a deranged former anchor's ravings and revelations about mass media for its own profit.
+            </p>
+            <p id="networkInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Sidney Lumet <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>		
+            ~ Faye Dunaway ~<br>
+            ~ William Holden ~<br>
+            ~ Peter Finch ~<br>
+            ~ Robert Duvall ~</p>
+            Network
+            <br>
+            <button type="button"onclick="toggleText('showNetwork')">Synopsis</button>
+            <button type="button"onclick="toggleText('networkInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BZDNhMGYwM2UtMTdlZS00MGQ1LWI2YzAtODY5YWI1MjYyNzRmXkEyXkFqcGc@._V1_.jpg" alt="Taxi Driver Poster" with="400" height="400">
+            <br>
+            <p id="showTaxi" style="display:none">A mentally unstable veteran works as a nighttime taxi driver in New York City, where the perceived decadence and sleaze fuels his urge for violent action.
+            </p>
+            <p id="taxiInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Martin Scorsese <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>		
+            ~ Robert De Niro ~<br>
+            ~ Jodie Foster ~<br>
+            ~ Albert Brooks ~<br>
+            ~ Harvey Keitel ~<br>
+            ~ Leonard Harris ~<br>
+            ~ Peter Boyle ~<br>
+            ~ Cybill Shepherd ~</p>
+            Taxi Driver
+            <br>
+            <button type="button"onclick="toggleText('showTaxi')">Synopsis</button>
+            <button type="button"onclick="toggleText('taxiInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

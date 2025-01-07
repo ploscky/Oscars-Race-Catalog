@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>80th Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_FMjpg_UX1000_.jpg" alt="No Country for Old Men Poster" with="400" height="400">
+            <br>
+            <p id="showCountry" style="display:none">Violence and mayhem ensue after a hunter stumbles upon the aftermath of a drug deal gone wrong and over two million dollars in cash near the Rio Grande.
+            </p>
+            <p id="countryInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Joel Coen, Ethan Coen <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																		
+            ~ Tommy Lee Jones ~<br> 
+            ~ Javier Bardem ~<br>
+            ~ Josh Brolin ~</p>
+            No Country for Old Men
+            <br>
+            <button type="button"onclick="toggleText('showCountry')">Synopsis</button>
+            <button type="button"onclick="toggleText('countryInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BZmQ5ZjZlMzMtODA1ZS00NTNiLWIzOTYtOTQyYjQ2YWQxMTA1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="Atonement Poster" with="400" height="400">
+            <br>
+            <p id="showAtonement" style="display:none">Thirteen-year-old fledgling writer Briony Tallis irrevocably changes the course of several lives when she accuses her older sister's lover of a crime he did not commit.
+            </p>
+            <p id="atonementInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Joe Wright <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																			
+            ~ James McAvoy ~<br>
+            ~ Keira Knightley ~<br>
+            ~ Saoirse Ronan ~<br>
+            ~ Romola Garai ~<br>
+            ~ Vanessa Redgrave ~</p>
+            Atonement
+            <br>
+            <button type="button"onclick="toggleText('showAtonement')">Synopsis</button>
+            <button type="button"onclick="toggleText('atonementInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/en/3/36/Junoposter2007.png" alt="Juno Poster" with="400" height="400">
+            <br>
+            <p id="showJuno" style="display:none">Faced with an unplanned pregnancy, an offbeat young woman makes a selfless decision regarding the unborn child.
+            </p>
+            <p id="junoInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Jason Reitman <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																				
+            ~ Elliot Page ~<br>
+            ~ Michael Cera ~<br>
+            ~ Jennifer Garner ~<br>
+            ~ Jason Bateman ~<br>
+            ~ Allison Janney ~<br>
+            ~ J. K. Simmons ~</p>
+            Juno
+            <br>
+            <button type="button"onclick="toggleText('showJuno')">Synopsis</button>
+            <button type="button"onclick="toggleText('junoInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/I/5132dTNNmVL._AC_UF894,1000_QL80_.jpg" alt="Michael Clayton Poster" with="400" height="400">
+            <br>
+            <p id="showClayton" style="display:none">A law firm brings in its "fixer" to remedy the situation after a lawyer has a breakdown while representing a chemical company that he knows is guilty in a multibillion-dollar class action suit.
+            </p>
+            <p id="claytonInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Tony Gilroy <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																					
+            ~ George Clooney ~<br>
+            ~ Tom Wilkinson ~<br>
+            ~ Tilda Swinton ~<br>
+            ~ Sydney Pollack ~</p>
+            Michael Clayton
+            <br>
+            <button type="button"onclick="toggleText('showClayton')">Synopsis</button>
+            <button type="button"onclick="toggleText('claytonInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMjAxODQ4MDU5NV5BMl5BanBnXkFtZTcwMDU4MjU1MQ@@._V1_.jpg" alt="There Will Be Blood Poster" with="400" height="400">
+            <br>
+            <p id="showBlood" style="display:none">A story of family, religion, hatred, oil and madness, focusing on a turn-of-the-century prospector in the early days of the business.
+            </p>
+            <p id="bloodInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Paul Thomas Anderson <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																																																						
+            ~ Daniel Day-Lewis ~<br>
+            ~ Paul Dano ~<br>
+            ~ Kevin J. O'Connor ~<br>
+            ~ Ciarán Hinds ~<br>
+            ~ Dillon Freasier ~</p>
+            There Will Be Blood
+            <br>
+            <button type="button"onclick="toggleText('showBlood')">Synopsis</button>
+            <button type="button"onclick="toggleText('bloodInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

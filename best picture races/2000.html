@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>72nd Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BMDI1MDE0OTMtMmI2MS00Yjc2LTg2MTItMWExYTg5NzA1OGUzXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="American Beauty Poster" with="400" height="400">
+            <br>
+            <p id="showBeauty" style="display:none">A sexually frustrated suburban father has a mid-life crisis after becoming infatuated with his daughter's best friend.
+            </p>
+            <p id="beautyInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Sam Mendes <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																			
+            ~ Kevin Spacey ~<br>
+            ~ Annette Bening ~<br>
+            ~ Thora Birch ~<br>
+            ~ Allison Janney ~<br>
+            ~ Peter Gallagher ~<br>
+            ~ Mena Suvari ~<br>
+            ~ Wes Bentley ~<br>
+            ~ Chris Cooper ~</p>
+            American Beauty
+            <br>
+            <button type="button"onclick="toggleText('showBeauty')">Synopsis</button>
+            <button type="button"onclick="toggleText('beautyInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BYWZlYzMyNzMtNjhlMy00ZTAzLWEwMTMtY2YwNzAxMDk1ZTViXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="The Cider House Rules Poster" with="400" height="400">
+            <br>
+            <p id="showCider" style="display:none">During World War II, an orphan grows up under the tutelage of a doctor who runs an orphanage. However, he yearns for freedom and soon decides to leave in order to make a life for himself.
+            </p>
+            <p id="ciderInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Lasse Hallström <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																				
+            ~ Tobey Maguire ~<br>
+            ~ Charlize Theron ~<br>
+            ~ Delroy Lindo ~<br>
+            ~ Paul Rudd ~<br>
+            ~ Michael Caine ~</p>
+            The Cider House Rules
+            <br>
+            <button type="button"onclick="toggleText('showCider')">Synopsis</button>
+            <button type="button"onclick="toggleText('ciderInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTUxMzQyNjA5MF5BMl5BanBnXkFtZTYwOTU2NTY3._V1_FMjpg_UX1000_.jpg" alt="The Green Mile Poster" with="400" height="400">
+            <br>
+            <p id="showGreen" style="display:none">Paul Edgecomb, the head guard of a prison, meets an inmate, John Coffey, a black man who is accused of murdering two girls. His life changes drastically when he discovers that John has a special gift.
+            </p>
+            <p id="greenInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Frank Darabont <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																				
+            ~ Tom Hanks ~<br>
+            ~ Michael Clarke Duncan ~<br>
+            ~ David Morse ~</p>
+            The Green Mile
+            <br>
+            <button type="button"onclick="toggleText('showGreen')">Synopsis</button>
+            <button type="button"onclick="toggleText('greenInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BZGY3ZjEyODAtNjAwMC00ZTEwLTg3NDctYzMzYTZkMjBmZDQwXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="The Insider Poster" with="400" height="400">
+            <br>
+            <p id="showInsider" style="display:none">A research chemist comes under personal and professional attack when he decides to appear in a 60 Minutes exposé on Big Tobacco.
+            </p>
+            <p id="insiderInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Michael Mann <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																					
+            ~ Al Pacino ~<br>
+            ~ Russell Crowe ~<br>
+            ~ Christopher Plummer ~<br>
+            ~ Diane Venora ~<br>
+            ~ Philip Baker Hall ~<br>
+            ~ Lindsay Crouse ~<br>
+            ~ Debi Mazar ~</p>
+            The Insider
+            <br>
+            <button type="button"onclick="toggleText('showInsider')">Synopsis</button>
+            <button type="button"onclick="toggleText('insiderInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BZWQ2OTY0M2UtMTQxNC00MmIzLTllNDQtNDQ0MTQyYzI2M2ZiXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="The Sixth Sense Poster" with="400" height="400">
+            <br>
+            <p id="showSixth" style="display:none">A child psychologist starts treating a young boy with a disturbing secret.
+            </p>
+            <p id="sixthInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> M. Night Shyamalan <br><br>
+            <span class="cormorant-upright-bold">Cast:</span><br>																																																																																						
+            ~ Bruce Willis ~<br>
+            ~ Toni Collette ~<br>
+            ~ Olivia Williams ~<br>
+            ~ Haley Joel Osment ~</p>
+            The Sixth Sense
+            <br>
+            <button type="button"onclick="toggleText('showSixth')">Synopsis</button>
+            <button type="button"onclick="toggleText('sixthInfo')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>

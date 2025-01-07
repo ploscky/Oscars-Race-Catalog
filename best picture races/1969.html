@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet2" href="styles2.css">
+    <style>
+         @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+    </style>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Limelight&display=swap');
+    </style>
+    <script>
+        function toggleText(name) {
+            var text = document.getElementById(name);
+            if (text.style.display == "none") {
+                    text.style.display = "block";
+            }
+            else {
+                text.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+
+<h1>41st Academy Awards Best Picture Race</h1>
+<table class = "center">
+    <tr>
+        <th style="font-size: 40px">Winner!</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+        <th style="color: lemonchiffon">Nominee</th>
+    </tr>
+    <tr>
+        <th>
+            <img src="https://m.media-amazon.com/images/M/MV5BNjRhYmVlZGItYzgxMS00MzI3LTgzZjctNTcxMGRiN2E5ZGYwXkEyXkFqcGc@._V1_.jpg" alt="Oliver! Poster" with="400" height="400">
+            <br>
+            <p id="showOliver" style="display:none">After being sold to a mortician, young orphan Oliver Twist runs away and meets a group of boys trained to be pickpockets by an elderly mentor.
+            </p>
+            <p id="oliverInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Carol Reed <br><br>
+            <span class="cormorant-upright-bold">Cast:</span> <br>
+            ~ Ron Moody ~<br>
+            ~ Oliver Reed ~<br>
+            ~ Harry Secombe ~<br>
+            ~ Shani Wallis ~<br>
+            ~ Mark Lester ~<br>
+            ~ Jack Wild ~</p>
+            Oliver!
+            <br>
+            <button type="button"onclick="toggleText('showOliver')">Synopsis</button>
+            <button type="button"onclick="toggleText('oliverInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BZjg4NTA3MTktNDRkMy00MjlhLTlmYTgtNWExY2ViN2QxMWJhXkEyXkFqcGc@._V1_.jpg" alt="Funny Girl Poster" with="400" height="400">
+            <br>
+            <p id="showFunnyGirl" style="display:none">The life of Fanny Brice, famed comedienne and entertainer of the early 1900s. We see her rise to fame as a Ziegfeld girl, subsequent career, and her personal life, particularly her relationship with Nick Arnstein.
+            </p>
+            <p id="funnyGirlInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> William Wyler <br><br>
+            <span class="cormorant-upright-bold">Cast:</span> <br>
+            ~ Barbra Streisand ~<br>
+            ~ Omar Sharif ~<br>
+            ~ Kay Medford ~<br>
+            ~ Anne Francis ~<br>
+            ~ Walter Pidgeon ~</p>
+            Funny Girl
+            <br>
+            <button type="button"onclick="toggleText('showFunnyGirl')">Synopsis</button>
+            <button type="button"onclick="toggleText('funnyGirlInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMTkzNzYyMzA5N15BMl5BanBnXkFtZTgwODcwODQ3MDI@._V1_.jpg" alt="The Lion in Winter Poster" with="400" height="400">
+            <br>
+            <p id="showLionWinter" style="display:none">1183 A.D.: King Henry II's three sons all want to inherit the throne, but he won't commit to a choice. When he allows his imprisoned wife Eleanor of Aquitaine out for a Christmas visit, they all variously plot to force him into a decision.
+            </p>
+            <p id="lionWinterInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Anthony Harvey <br><br>
+            <span class="cormorant-upright-bold">Cast:</span> <br>
+            ~ Peter O'Toole ~<br>
+            ~ Katharine Hepburn ~<br>
+            ~ Anthony Hopkins ~</p>
+            The Lion in Winter
+            <br>
+            <button type="button"onclick="toggleText('showLionWinter')">Synopsis</button>
+            <button type="button"onclick="toggleText('lionWinterInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://upload.wikimedia.org/wikipedia/en/2/2f/Rachel%2C_Rachel_%281968%29_poster.jpg" alt="Rachel, Rachel Poster" with="400" height="400">
+            <br>
+            <p id="showRachel" style="display:none">Rachel is a lonely school teacher who lives with her mother. When a man from the big city asks her out, she starts thinking about where she wants her life to go.
+            </p>
+            <p id="rachelInfo" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Paul Newman <br><br>
+            <span class="cormorant-upright-bold">Cast:</span> <br>
+            ~ Joanne Woodward ~<br>
+            ~ James Olson ~<br>
+            ~ Estelle Parsons ~<br>
+            ~ Geraldine Fitzgerald ~</p>
+            Rachel, Rachel
+            <br>
+            <button type="button"onclick="toggleText('showRachel')">Synopsis</button>
+            <button type="button"onclick="toggleText('rachelInfo')">Cast & Crew</button>
+        </th>
+        <th style="color: lemonchiffon">
+            <img src="https://m.media-amazon.com/images/M/MV5BMDAxNjRiZmEtOWUxYy00YjVmLWFlMDItZmQxOWI3MjI2Y2NmXkEyXkFqcGc@._V1_.jpg" alt="Romeo and Juliet Poster" with="400" height="400">
+            <br>
+            <p id="showRomeo1969" style="display:none">When two young members of feuding families meet, forbidden love ensues.
+            </p>
+            <p id="romeo1969Info" style="display:none"><span class="cormorant-upright-bold">Director(s):</span> Franco Zeffirelli <br><br>
+            <span class="cormorant-upright-bold">Cast:</span> <br>
+            ~ Leonard Whiting ~<br>
+            ~ Olivia Hussey ~<br>
+            ~ John McEnery ~</p>
+            Romeo and Juliet
+            <br>
+            <button type="button"onclick="toggleText('showRomeo1969')">Synopsis</button>
+            <button type="button"onclick="toggleText('romeo1969Info')">Cast & Crew</button>
+        </th>
+    </tr>
+</table>
+
+</body>
+
+</html>
